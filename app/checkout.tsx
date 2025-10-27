@@ -5,7 +5,7 @@ import { CreditCard } from "lucide-react";
 import { useEffect, useState } from "react";
 import { FAQList } from "./faq";
 
-export const PRICE = 107;
+export const PRICE = 47;
 
 export const ProgressBar = () => {
   const [spotCount, setSpotCount] = useState<number>(44);

@@ -58,7 +58,7 @@ export default async function LessonPage({
           </BreadcrumbItem>
         </BreadcrumbList>
       </Breadcrumb>
-      <h1 className="font-serif italic text-4xl lg:text-6xl mb-8 text-[#8B4566]">
+      <h1 className="font-serif italic text-4xl lg:text-5xl pb-2 text-[#8B4566]">
         {l?.title}
       </h1>
       <Markdown>{l?.content || ""}</Markdown>

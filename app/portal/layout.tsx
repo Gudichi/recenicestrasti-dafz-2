@@ -14,7 +14,7 @@ export default async function PortalLayout({
   }
 
   return (
-    <div className="flex min-h-screen flex-col bg-gradient-to-b from-[#FFF5EE] to-[#F5E5E0]">
+    <div className="flex min-h-screen flex-col bg-gradient-to-b from-[#FFF5EE] to-[#FFEFEA]">
       <div className="w-full bg-white py-3 text-center text-white shadow-sm">
         <div className="container max-w-6xl mx-auto px-4">
           <div className="flex justify-between items-center">

@@ -77,21 +77,7 @@ const moduleDefinitions = [
     lessons: [
       {
         slug: "lekcija-1",
-        title: "2.1 Osnovni Principi Komunikacije",
-        content: `# 2.1 Osnovni Principi Komunikacije
-
-Komunikacija je temelj svake zdrave veze, posebno kada je riječ o intimnosti.
-
-## Zlatna pravila komunikacije
-
-1. **Budi jasan i direktan** - izbjegavaj nejasnoće
-2. **Slušaj aktivno** - pokaži da razumiješ
-3. **Poštuj granice** - svoje i partnerove
-4. **Budi strpljiv** - promjene trebaju vrijeme
-
-## Vježba
-
-Zamislite da trebate reći partneru nešto važno o svojim željama. Kako biste to napravili?`,
+        title: "Osnovni Principi Komunikacije",
         module: "modul-2",
       },
     ],

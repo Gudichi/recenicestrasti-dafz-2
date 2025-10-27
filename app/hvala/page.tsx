@@ -149,9 +149,9 @@ export default async function CompletionPage({
 
             <a
               href="/prijava"
-              className="bg-[#EF798A] hover:bg-[#e06b7a] text-white px-6 py-2 rounded-lg font-medium transition-colors"
+              className="bg-[#EF798A] hover:bg-[#e06b7a] text-white px-6 py-3 rounded-lg font-medium transition-colors"
             >
-              Idi na web aplikaciju
+              Prijava u web aplikaciju →
             </a>
           </div>
         </div>
