@@ -12,31 +12,16 @@ export interface Module {
   lessons: Lesson[];
 }
 
-// Function to read markdown content (server-side only)
-async function readMarkdownContent(
+// Function to read markdown content
+export async function readMarkdownContent(
   moduleSlug: string,
   lessonSlug: string
 ): Promise<string> {
-  if (typeof window !== "undefined") {
-    // Client-side fallback
-    return `# ${lessonSlug}\n\nSadržaj se učitava...`;
-  }
-
   try {
-    const fs = await import("fs");
-    const path = await import("path");
-    const contentPath = path.join(
-      process.cwd(),
-      "content",
-      moduleSlug,
-      `${lessonSlug}.md`
-    );
-    return fs.readFileSync(contentPath, "utf8");
+    const mod = await import(`@/content/${moduleSlug}/${lessonSlug}.md`);
+    return mod.default;
   } catch (error) {
-    console.error(
-      `Error reading content for ${moduleSlug}/${lessonSlug}:`,
-      error
-    );
+    console.error(`Error fetching ${moduleSlug}/${lessonSlug}:`, error);
     return `# ${lessonSlug}\n\nSadržaj nije dostupan.`;
   }
 }
