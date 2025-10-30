@@ -58,12 +58,12 @@ export const versions = {
     videoId: "gw1rkto4gj",
     checkoutVersion: 2,
   },
-  f: {
+  e: {
     atfIndex: 0,
     videoId: "ly5xs7ib89",
     checkoutVersion: 1,
   },
-  g: {
+  f: {
     atfIndex: 0,
     videoId: "j41pujrcf2",
     checkoutVersion: 1,
