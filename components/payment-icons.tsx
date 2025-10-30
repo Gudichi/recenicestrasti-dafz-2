@@ -10,7 +10,7 @@ export default function PaymentIcons() {
       />
       <img src="/GooglePay.png" alt="Google Pay" className="h-8 w-auto" />
       <img src="/Applepay.png" alt="Apple Pay" className="h-8 w-auto" />
-      <img src="/PayPall.png" alt="PayPal" className="h-8 w-auto" />
+      <img src="/PayPal.png" alt="PayPal" className="h-8 w-auto" />
       <img src="/RevolutPay.png" alt="Revolut Pay" className="h-8 w-auto" />
       <img src="/stripe.png" alt="Stripe" className="h-8 w-auto" />
     </div>

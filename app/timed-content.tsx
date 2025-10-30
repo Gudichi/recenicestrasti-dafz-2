@@ -2,15 +2,15 @@
 import React, { useCallback, useState } from "react";
 
 import scrollDown from "@/app/anim/scroll-down.json";
+import PaymentIcons from "@/components/payment-icons";
 import { ProgressBar } from "@/components/progress-bar";
 import { useEffectOnce } from "@/hooks/use-effect-once";
 import { event } from "@/lib/pixel";
 import Lottie from "lottie-react";
-import { Check, Heart, Lock, Mail, TriangleAlert } from "lucide-react";
+import { Check, Lock, Mail, TriangleAlert } from "lucide-react";
 import { Checkout, PRICE } from "./checkout";
-import { FAQList } from "./faq";
-import PaymentIcons from "@/components/payment-icons";
 import { Checkout2 } from "./checkout2";
+import { FAQList } from "./faq";
 
 export const TimedContent = ({
   checkoutVersion,
@@ -51,6 +51,27 @@ export const TimedContent = ({
           animationData={scrollDown}
         />
       </div>
+
+      <div
+        id="pre-testimonial-section"
+        className="max-w-4xl mx-auto px-4 py-8 md:py-16"
+      >
+        <h3 className="text-2xl text-accent text-center mb-6 md:mb-10 font-bold leading-relaxed">
+          Prije nego odustaneš i pomisliš: “ovo nije za mene”, pogledaj što su
+          postigle žene koje su bile u ISTOJ situaciji kao ti...
+        </h3>
+
+        <div className="grid grid-cols-1 gap-6 md:gap-8 w-full mb-12">
+          {[...Array(3)].map((_, index) => (
+            <img
+              key={index}
+              src={`testem-pre-${index + 1}-min.png`}
+              alt={`Žena ${index + 1}`}
+            />
+          ))}
+        </div>
+      </div>
+
       <div id="offer-section" className="max-w-4xl mx-auto px-4 py-8 md:py-16">
         <div className="bg-white rounded-2xl md:shadow-lg md:border border-gray-100 p-0 md:p-8">
           <div className="text-center">
@@ -79,7 +100,7 @@ export const TimedContent = ({
             <div className="mb-12 flex justify-center">
               <div className="max-w-md w-full">
                 <img
-                  src="/PRODUCT.png"
+                  src="/product-min.png"
                   alt="Program Rečenice Strasti - Product Mockup"
                   className="w-full h-auto"
                 />
@@ -193,13 +214,12 @@ export const TimedContent = ({
             <div className="mb-12">
               <div className="flex flex-col justify-center items-center mb-6">
                 <img
-                  src="/Garancija-60d_2.png"
+                  src="/Garancija-60d-eu.png"
                   alt="60-dnevna garancija - 100% povrat novca"
                   className="w-80 h-auto"
                 />
-                <p className="text-center text-base font-medium text-accent mt-4 max-w-2xl mx-auto text-pretty leading-relaxed">
-                  <span className="fi fi-ch"></span> "SIGURNIJE OD ŠVICARSKE
-                  BANKE" GARANCIJA
+                <p className="text-center text-base font-semibold text-accent mt-4 max-w-2xl mx-auto text-pretty leading-relaxed">
+                  TROSTRUKA GARANCIJA
                 </p>
               </div>
               <p className="text-center text-base text-accent mt-4 max-w-2xl mx-auto text-pretty leading-relaxed">
@@ -375,7 +395,7 @@ export const TimedContent = ({
           {/* Social Proof */}
           <div className="text-center py-4">
             <img
-              src="/SocialProof.png"
+              src="/SocialProof-min.png"
               alt="Social Proof - 1800+ zadovoljnih kupaca"
               className="w-full max-w-sm mx-auto h-auto rounded-lg"
             />
@@ -392,8 +412,8 @@ export const TimedContent = ({
             Strasti:
           </h2>
 
-          <div className="grid grid-cols-1 gap-4 md:gap-8 w-full mb-12">
-            {[...Array(9)].map((_, index) => (
+          <div className="grid grid-cols-1 gap-6 md:gap-8 w-full mb-12">
+            {[...Array(6)].map((_, index) => (
               <img
                 key={index}
                 src={`testem-${index + 1}-min.png`}
@@ -441,7 +461,7 @@ export const TimedContent = ({
           {/* Social Proof Image */}
           <div className="my-8 flex justify-center">
             <img
-              src="/SocialProof.png"
+              src="/SocialProof-min.png"
               alt="Rečenice strasti - Social proof"
               className="w-full max-w-xl md:max-w-lg h-auto"
             />
@@ -510,7 +530,7 @@ export const TimedContent = ({
                     alt="Mastercard"
                     className="h-6 w-auto"
                   />
-                  <img src="/PayPall.png" alt="PayPal" className="h-6 w-auto" />
+                  <img src="/PayPal.png" alt="PayPal" className="h-6 w-auto" />
                   <img src="/stripe.png" alt="Stripe" className="h-6 w-auto" />
                 </div>
               </div>

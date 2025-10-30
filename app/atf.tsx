@@ -10,7 +10,7 @@ export default function AboveTheFold({ version }: { version: Version }) {
   const { atf, videoId } = version;
 
   const [isUnlocked, setIsUnlocked] = useState(false);
-  const unlockAfter = 6 * 60 + 30; // 6 minutes and 30 seconds
+  const unlockAfter = 8 * 60; // 8 minutes
 
   useEffectOnce(() => {
     // @ts-ignore
@@ -80,11 +80,6 @@ export default function AboveTheFold({ version }: { version: Version }) {
 
             <h3 className="text-base md:text-lg text-primary text-center mb-12 font-medium">
               ⏱️ Video traje samo 11 minuta
-            </h3>
-
-            <h3 className="text-2xl text-accent text-center mb-6 md:mb-10 font-bold leading-relaxed">
-              Prije nego odustaneš i pomisliš: “ovo nije za mene”, pogledaj što
-              su postigle žene koje su bile u ISTOJ situaciji kao ti...
             </h3>
 
             <div className="grid grid-cols-1 gap-4 md:gap-8 w-full mb-12">
