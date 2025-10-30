@@ -131,7 +131,7 @@ export default function PaymentForm() {
           <span className="text-center">
             {isLoading
               ? "Plaćanje u tijeku..."
-              : "Želim Pristupiti Programu Rečenice Strasti!"}
+              : "Plati SAD, i pristupi programu ODMAH"}
           </span>
         </button>
         {message && <div id="payment-message">{message}</div>}

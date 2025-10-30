@@ -1,10 +1,11 @@
 "use client";
 
 import PaymentElements from "@/components/payment-elements";
+import { RefreshCcw, ShieldCheck } from "lucide-react";
 
 export const PRICE = 47;
 
-export const Checkout = () => {
+export const Checkout2 = () => {
   return (
     <div id="checkout-section" className="max-w-7xl mx-auto py-8">
       <div className="bg-white rounded-2xl shadow-lg border border-gray-100 py-6 p-4 md:p-8">
@@ -50,45 +51,41 @@ export const Checkout = () => {
           <h2 className="font-serif italic text-primary text-xl font-medium text-pretty">
             Zadnji Korak Do Novog Ljubavnog Života
           </h2>
-          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-accent leading-relaxed mb-4">
-            ZADNJI KORAK - ŠTO SE DOGAĐA NAKON PLAĆANJA:
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-accent leading-normal mb-4">
+            ZADNJI KORAK - PLAĆANJE
           </h2>
+          <p className="text-lg text-accent">Instant pristup u 10 sekundi</p>
         </div>
-
-        <ul className="list-none list-inside max-w-3xl mx-auto mb-6 space-y-4">
-          {[
-            [
-              "✅",
-              "Automatski pristup aplikaciji (10 sekundi) - program + svi bonusi dostupni odmah",
-            ],
-            [
-              "🔒",
-              "Stripe sigurnost - Tvoji podaci su 100% sigurni i zaštićeni (ja NE vidim tvoje bankovne podatke)",
-            ],
-            ["📧", "Welcome email od mene sa pristupnim detaljima"],
-            [
-              "🔄",
-              "60-dana povrat novca - bez pitanja ako program ne ispuni očekivanja",
-            ],
-          ].map(([icon, point], index) => (
-            <li
-              key={index}
-              className="font-sans text-base md:text-lg text-gray-700 leading-relaxed"
-            >
-              <div className="flex gap-2">
-                <div>{icon}</div>
-                <div className="text-left flex-1">{point}</div>
-              </div>
-            </li>
-          ))}
-        </ul>
 
         {/* Checkout Form */}
         <div className="max-w-6xl mx-auto">
           <div className="space-y-6">
             {/* Payment Box */}
-            <div className="border-2 border-gray-200 rounded-lg p-4 sm:p-6 bg-gray-50 shadow-sm">
-              <PaymentElements price={PRICE} />
+            <div className="border-2 border-gray-200 rounded-lg bg-gray-50 shadow-sm overflow-hidden">
+              <div className="flex items-center justify-center py-2 bg-gray-100 border-b-2 border-gray-200 px-4 sm:px-6">
+                <ShieldCheck className="mr-2 w-6 h-6 text-green-600 flex-shrink-0" />
+                <div className="text-sm">
+                  Stripe <strong>sigurno</strong> plaćanje
+                </div>
+              </div>
+              <div className="p-4 sm:p-6">
+                <PaymentElements price={PRICE} />
+              </div>
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 max-w-md mx-auto">
+              <div className="flex flex-1 items-center justify-center">
+                <ShieldCheck className="mr-2 w-6 h-6 text-green-600 flex-shrink-0" />
+                <div className="text-xs md:text-sm text-left">
+                  100% <strong>sigurno</strong> plaćanje
+                </div>
+              </div>
+              <div className="flex flex-1 items-center justify-center">
+                <RefreshCcw className="mr-2 w-6 h-6 text-primary flex-shrink-0" />
+                <div className="text-xs md:text-sm text-left">
+                  <strong>60-dana</strong> garancija
+                </div>
+              </div>
             </div>
           </div>
         </div>

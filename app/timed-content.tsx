@@ -2,15 +2,21 @@
 import React, { useCallback, useState } from "react";
 
 import scrollDown from "@/app/anim/scroll-down.json";
-import { CountdownTimer } from "@/components/countdown-timer";
+import { ProgressBar } from "@/components/progress-bar";
 import { useEffectOnce } from "@/hooks/use-effect-once";
 import { event } from "@/lib/pixel";
 import Lottie from "lottie-react";
-import { Heart, Lock, Mail } from "lucide-react";
-import { Checkout, PRICE, ProgressBar } from "./checkout";
+import { Check, Heart, Lock, Mail, TriangleAlert } from "lucide-react";
+import { Checkout, PRICE } from "./checkout";
 import { FAQList } from "./faq";
+import PaymentIcons from "@/components/payment-icons";
+import { Checkout2 } from "./checkout2";
 
-export const TimedContent = () => {
+export const TimedContent = ({
+  checkoutVersion,
+}: {
+  checkoutVersion: number;
+}) => {
   const [checkoutExpanded, setCheckoutExpanded] = useState(false);
 
   const scrollToSection = useCallback((sectionId: string) => {
@@ -45,7 +51,7 @@ export const TimedContent = () => {
           animationData={scrollDown}
         />
       </div>
-      <div id="offer-section" className="max-w-4xl mx-auto px-4 py-16">
+      <div id="offer-section" className="max-w-4xl mx-auto px-4 py-8 md:py-16">
         <div className="bg-white rounded-2xl md:shadow-lg md:border border-gray-100 p-0 md:p-8">
           <div className="text-center">
             {/* Main Title - Combination of fonts */}
@@ -81,7 +87,7 @@ export const TimedContent = () => {
             </div>
 
             {/* Value Stack - Main Program Items */}
-            <div className="text-left max-w-3xl mx-auto mb-12">
+            <div className="text-left max-w-3xl mx-auto mb-6">
               <div className="space-y-4">
                 <div className="flex items-start">
                   <div className="w-6 h-6 bg-[#1C7C7D] rounded-full flex items-center justify-center mr-4 mt-1 flex-shrink-0">
@@ -128,91 +134,174 @@ export const TimedContent = () => {
                   </p>
                 </div>
 
-                <div className="flex items-start mt-8">
-                  <div className="w-6 h-6 bg-[#1C7C7D] rounded-full flex items-center justify-center mr-4 mt-1 flex-shrink-0">
-                    <span className="text-white text-sm font-bold">✓</span>
+                <div className="flex items-start">
+                  <div className="w-6 h-6 bg-primary rounded-full flex items-center justify-center mr-4 mt-1 flex-shrink-0">
+                    <span className="text-white text-sm font-bold">🎁</span>
                   </div>
-                  <p className="font-sans text-accent text-lg leading-relaxed">
-                    <strong>3 EKSKLUZIVNA BONUSA</strong> – svaki bonus sam
-                    dodao da ti ukloni sve prepreke između tebe i savršene veze:
-                  </p>
+                  <div className="flex flex-col font-sans text-accent text-lg leading-relaxed">
+                    <strong>
+                      BONUS 1: "Znakovi strasti" trening (Vrijednost 53€) →
+                      BESPLATNO DANAS
+                    </strong>
+                    <p>
+                      Kako prepoznati je li STVARNO zaljubljen ili se samo igra
+                      s tobom? Naučit ćeš čitati 7 nesvjesnih znakova koji
+                      otkrivaju njegovu pravu namjeru (prestani pogađati - ZNAT
+                      ĆEŠ sa sigurnošću)
+                    </p>
+                  </div>
                 </div>
 
-                <div className="flex items-start ml-8">
-                  <div className="w-6 h-6 bg-[#1C7C7D] rounded-full flex items-center justify-center mr-4 mt-1 flex-shrink-0">
-                    <span className="text-white text-sm font-bold">✓</span>
+                <div className="flex items-start">
+                  <div className="w-6 h-6 bg-primary rounded-full flex items-center justify-center mr-4 mt-1 flex-shrink-0">
+                    <span className="text-white text-sm font-bold">🎁</span>
                   </div>
-                  <p className="font-sans text-accent text-lg leading-relaxed">
+                  <div className="flex flex-col font-sans text-accent text-lg leading-relaxed">
                     <strong>
-                      BONUS 1: "Znakovi strasti" trening (vrijednost 53€)
-                    </strong>{" "}
-                    – kako prepoznati je li stvarno zaljubljen ili se samo igra
-                    s tobom
-                  </p>
+                      BONUS 2: Knjiga "Razotkrivanje muškog uma" (Vrijednost
+                      73€) → BESPLATNO DANAS
+                    </strong>
+                    <p>
+                      Moj bestseller koji otkriva SVE tajne kako muškarci
+                      razmišljaju, donose odluke i zašto rade ono što rade.
+                      (1,200+ primjeraka prodano - sada tvoj BESPLATNO)
+                    </p>
+                  </div>
                 </div>
 
-                <div className="flex items-start ml-8">
-                  <div className="w-6 h-6 bg-[#1C7C7D] rounded-full flex items-center justify-center mr-4 mt-1 flex-shrink-0">
-                    <span className="text-white text-sm font-bold">✓</span>
+                <div className="flex items-start">
+                  <div className="w-6 h-6 bg-primary rounded-full flex items-center justify-center mr-4 mt-1 flex-shrink-0">
+                    <span className="text-white text-sm font-bold">🎁</span>
                   </div>
-                  <p className="font-sans text-accent text-lg leading-relaxed">
+                  <div className="flex flex-col font-sans text-accent text-lg leading-relaxed">
                     <strong>
-                      BONUS 2: Knjiga "Razotkrivanje muškog uma" (vrijednost
-                      73€)
-                    </strong>{" "}
-                    – bestseller koji objašnjava sve tajne muškaraca
-                  </p>
-                </div>
-
-                <div className="flex items-start ml-8">
-                  <div className="w-6 h-6 bg-[#1C7C7D] rounded-full flex items-center justify-center mr-4 mt-1 flex-shrink-0">
-                    <span className="text-white text-sm font-bold">✓</span>
+                      BONUS 3: "Seksualna opsjednutost" Program (Vrijednost
+                      107€) → BESPLATNO DANAS
+                    </strong>
+                    <p>
+                      Kako da postaneš JEDINA žena o kojoj fantazira - čak i ako
+                      je prije gledao druge žene. Naučit češ tehnike koje ga
+                      čine seksualno opsjednutim SAMO tobom (bez manipulacije -
+                      samo čista psihologija privlačnosti).
+                    </p>
                   </div>
-                  <p className="font-sans text-accent text-lg leading-relaxed">
-                    <strong>
-                      BONUS 3: "Seksualna opsjednutost" program (vrijednost
-                      107€)
-                    </strong>{" "}
-                    – kako da bude seksualno opsjednut samo tobom
-                  </p>
                 </div>
               </div>
             </div>
 
             {/* Guarantee */}
             <div className="mb-12">
-              <div className="flex justify-center">
+              <div className="flex flex-col justify-center items-center mb-6">
                 <img
-                  src="/Garancija-60d.png"
+                  src="/Garancija-60d_2.png"
                   alt="60-dnevna garancija - 100% povrat novca"
                   className="w-80 h-auto"
                 />
+                <p className="text-center text-base font-medium text-accent mt-4 max-w-2xl mx-auto text-pretty leading-relaxed">
+                  <span className="fi fi-ch"></span> "SIGURNIJE OD ŠVICARSKE
+                  BANKE" GARANCIJA
+                </p>
               </div>
-              <p className="text-center text-sm text-gray-600 mt-4 max-w-2xl mx-auto">
-                Zakon o zaštiti potrošača garantira ti 7 dana. Ali pošto je 1847
-                žena već dobilo rezultate uz Rečenice strasti, ja ti dajem punu
-                60-dnevnu garanciju.
-                <br />
-                <br />
-                Toliko sam siguran da će program raditi da produžavam garanciju
-                8 puta.
-                <br />
-                <br />
-                Primijeni tehnike, ako ne vidiš promjenu u njegovom ponašanju -
-                vraćam ti 100% novca i zadržavaš pristup programu. Sve je na
-                meni. Ništa na tebi.
+              <p className="text-center text-base text-accent mt-4 max-w-2xl mx-auto text-pretty leading-relaxed">
+                EU Zakon o zaštiti potrošača garantira ti 7 dana. Ali pošto je
+                1,800+ žena već dobilo rezultate uz program, ja sam toliko
+                siguran da radi da sam PROŠIRIO garanciju na 60 dana (8x duže od
+                zakonskog).
+              </p>
+
+              <ul className="list-none list-inside mt-6 max-w-xl mx-auto text-left text-base text-accent space-y-4">
+                <li>
+                  <div className="flex gap-4">
+                    <div className="w-6 h-6 bg-primary rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                      <span className="text-white text-sm">1</span>
+                    </div>
+                    <div className="text-left leading-relaxed">
+                      <strong>60-dnevni povrat novca</strong> - Nisi zadovoljna?
+                      Napišeš "REFUND" na recenicestrasti@gmail.com i vraćam ti
+                      100% novca.
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div className="flex gap-4">
+                    <div className="w-6 h-6 bg-primary rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                      <span className="text-white text-sm">2</span>
+                    </div>
+                    <div className="text-left leading-relaxed">
+                      <strong>Rezultat ili coaching</strong> - Primijenila si
+                      tehnike i nema rezultata? Dobijaš besplatnu 1-na-1
+                      coaching sesiju direktno sa mnom (197€ vrijednosti).
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div className="flex gap-4">
+                    <div className="w-6 h-6 bg-primary rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                      <span className="text-white text-sm">3</span>
+                    </div>
+                    <div className="text-left leading-relaxed">
+                      <strong>Zadržavaš pristup</strong> čak i ako tražiš
+                      refund, zadržavaš program + sve bonuse te moju ispriku što
+                      nije bilo za tebe.
+                    </div>
+                  </div>
+                </li>
+              </ul>
+
+              <p className="font-serif italic text-center font-bold text-xl text-primary mt-8 max-w-2xl mx-auto text-pretty">
+                Shvaćaš što ovo znači?
+              </p>
+
+              <p className="text-center text-base text-accent mt-4 max-w-2xl mx-auto text-pretty">
+                NAJBOLJI scenarij → Program radi, muškarac postane opsjednut
+                tobom
+              </p>
+              <p className="text-center text-base text-accent mt-4 max-w-2xl mx-auto text-pretty">
+                NAJGORI scenarij → Vraćam ti novac, zadržavaš pristup programu i
+                bonusima, dobiješ besplatni coaching
+              </p>
+
+              <p className="text-center text-base text-accent mt-4 max-w-2xl mx-auto text-pretty">
+                Sav rizik je na <strong>meni</strong>. Ništa na tebi.
               </p>
             </div>
 
             {/* Pricing */}
             <div className="mb-8">
-              {/* Original Value */}
-              <p className="text-red-500 text-lg mb-2">
-                <span className="line-through">UKUPNA VRIJEDNOST: 283€</span>
+              <p className="font-sans text-xl font-bold text-accent mb-4">
+                UKUPNA VRIJEDNOST PAKETA (Sve Što Dobivaš):
               </p>
 
+              <div className="flex flex-col mb-8 space-y-4">
+                <ul className="list-none list-inside max-w-2xl mx-auto space-y-3">
+                  {[
+                    "Program Rečenice Strasti = Vrijednost 147€",
+                    "BONUS 1: Znakovi Strasti = Vrijednost 53€",
+                    "BONUS 2: Knjiga Muški Um = Vrijednost 73€",
+                    "BONUS 3: Seksualna Opsj. = Vrijednost 107€",
+                  ].map((value, index) => (
+                    <li key={index} className="text-accent leading-relaxed">
+                      <div className="flex gap-3 items-center">
+                        <div className="flex justify-center items-center bg-teal-600 w-6 h-6 flex-shrink-0 rounded-full">
+                          <Check className="text-white w-4 h-4" />
+                        </div>
+                        <div
+                          className="text-sm md:text-base text-left"
+                          dangerouslySetInnerHTML={{ __html: value }}
+                        ></div>
+                      </div>
+                    </li>
+                  ))}
+                </ul>
+
+                {/* Original Value */}
+                <p className="text-red-500 text-base">
+                  <span className="line-through">UKUPNA VRIJEDNOST: 380€</span>
+                </p>
+              </div>
+
               {/* Crossed out price */}
-              <p className="font-sans text-xl font-bold text-accent mb-4">
+              <p className="font-sans text-2xl font-bold text-accent mb-4">
                 TVOJA CIJENA DANAS:
               </p>
 
@@ -228,59 +317,74 @@ export const TimedContent = () => {
               className="bg-[#1C7C7D] hover:bg-[#165a5c] text-white font-sans font-bold text-lg px-8 py-6 rounded-lg shadow-lg transition-all duration-300 transform hover:scale-105 w-full max-w-3xl mx-auto mb-6"
             >
               Želim pristupiti programu Rečenice Strasti i osigurati svoje
-              mjesto prije nego što ponuda istekne
+              mjesto prije nego što ponuda istekne - {PRICE} EUR
             </button>
 
-            {checkoutExpanded && <Checkout />}
+            {checkoutExpanded ? (
+              checkoutVersion == 1 ? (
+                <Checkout />
+              ) : (
+                <Checkout2 />
+              )
+            ) : null}
 
             {/* Payment Icons */}
-            <div className="mb-6">
-              <div className="grid grid-cols-4 md:grid-cols-8 gap-2">
-                <img src="/Visa.png" alt="Visa" className="h-8 w-auto" />
-                <img
-                  src="/MasterCard.png"
-                  alt="Mastercard"
-                  className="h-8 w-auto"
-                />
-                <img
-                  src="/AmericanExpress.png"
-                  alt="American Express"
-                  className="h-8 w-auto"
-                />
-                <img
-                  src="/GooglePay.png"
-                  alt="Google Pay"
-                  className="h-8 w-auto"
-                />
-                <img
-                  src="/Applepay.png"
-                  alt="Apple Pay"
-                  className="h-8 w-auto"
-                />
-                <img src="/PayPall.png" alt="PayPal" className="h-8 w-auto" />
-                <img
-                  src="/RevolutPay.png"
-                  alt="Revolut Pay"
-                  className="h-8 w-auto"
-                />
-                <img src="/stripe.png" alt="Stripe" className="h-8 w-auto" />
-              </div>
+            <div className="mb-12">
+              <PaymentIcons />
             </div>
 
-            {/* Social Proof */}
-            <div className="text-center">
-              <img
-                src="/SocialProof.png"
-                alt="Social Proof - 1800+ zadovoljnih kupaca"
-                className="w-full max-w-sm mx-auto h-auto rounded-lg"
-              />
+            {/* Trust Elements */}
+            <div
+              id="counter-section"
+              className="space-y-4 py-4 leading-relaxed text-gray-600"
+            >
+              <p className="text-center text-xl font-bold text-primary mb-2">
+                <TriangleAlert className="inline-block mb-1 mr-1" /> NIKAD VIŠE
+                PO OVOJ CIJENI
+              </p>
+              <p>
+                Nakon 50. pristupa, cijena raste na <strong>97€</strong>!
+              </p>
+
+              <p>
+                Mogu podržati maksimalno <strong>50 novih korisnica</strong>{" "}
+                mjesečno zbog personalizirane e-mail podrške.
+              </p>
+
+              <p>
+                Nažalost, nakon što popunimo ovaj ciklus,{" "}
+                <strong>zbog velikog broja upita svakog mjeseca</strong>{" "}
+                proširit ćemo broj mjesta, ali ćemo morati i{" "}
+                <strong>povećati cijenu</strong> zbog većih troškova. U
+                sljedećem ciklusu, koji počinje u prosincu, cijena će iznositi{" "}
+                <strong>97€</strong>, a besplatni bonusi postat će plaćeni
+                dodaci po stvarnoj vrijednosti navedenoj iznad.
+              </p>
+
+              <p>
+                Ispod se nalazi brojač koji u stvarnom vremenu prikazuje{" "}
+                <strong>broj preostalih mjesta</strong>.
+              </p>
+
+              <div className="py-4 max-w-sm mx-auto">
+                <ProgressBar />
+              </div>
             </div>
+          </div>
+
+          {/* Social Proof */}
+          <div className="text-center py-4">
+            <img
+              src="/SocialProof.png"
+              alt="Social Proof - 1800+ zadovoljnih kupaca"
+              className="w-full max-w-sm mx-auto h-auto rounded-lg"
+            />
           </div>
         </div>
       </div>
 
       {/* Testimonial Section */}
-      <div className="bg-white py-16">
+      <div className="bg-white py-8 md:py-16">
         <div className="max-w-4xl mx-auto px-4">
           {/* Section Title */}
           <h2 className="font-sans text-2xl md:text-3xl font-bold text-[#64113F] text-center mb-12">
@@ -288,83 +392,18 @@ export const TimedContent = () => {
             Strasti:
           </h2>
 
-          {/* Heart Pattern Background */}
-          <div className="relative">
-            <div className="absolute inset-0 opacity-10">
-              <div className="grid grid-cols-8 gap-4 h-full">
-                {Array.from({ length: 32 }).map((_, i) => (
-                  <Heart key={i} className="w-4 h-4 text-[#F7A9A8]" />
-                ))}
-              </div>
-            </div>
-
-            {/* Testimonials Grid */}
-            <div className="relative z-10 grid grid-cols-1 md:grid-cols-2 gap-12 mb-12">
-              {/* Testimonial 1 */}
-              <div>
-                <img
-                  src="/Testm1 copy.png"
-                  alt="Testimonial Tea Mandić - Facebook post i WhatsApp poruke"
-                  className="w-full h-auto"
-                />
-              </div>
-
-              {/* Testimonial 2 */}
-              <div>
-                <img
-                  src="/testm2 copy.png"
-                  alt="Testimonial Emanuela Radan i Milena Jukic - WhatsApp razgovori"
-                  className="w-full h-auto"
-                />
-              </div>
-
-              {/* Testimonial 3 */}
-              <div>
-                <img
-                  src="/testm3 copy.png"
-                  alt="Testimonial Silvija Kovač i Tihana Zagar - Facebook post i WhatsApp"
-                  className="w-full h-auto"
-                />
-              </div>
-
-              {/* Testimonial 4 */}
-              <div>
-                <img
-                  src="/testm4 copy.png"
-                  alt="Testimonial Dora Mamut i Luna Vukanović - WhatsApp i Facebook"
-                  className="w-full h-auto"
-                />
-              </div>
-            </div>
-          </div>
-
-          {/* Trust Elements */}
-          <div id="counter-section" className="text-center mb-8">
-            <p className="font-sans text-lg font-bold text-[#64113F] mb-2">
-              ⚠️ SAMO 50 MJESTA MJESEČNO DOSTUPNO
-            </p>
-            <p className="text-gray-600 mb-4">
-              Razlog: Osobno odgovaram na sva pitanja
-            </p>
-
-            {/* Progress Bar */}
-            <div className="max-w-2xl mx-auto">
-              <ProgressBar />
-            </div>
-          </div>
-
-          {/* Guarantee */}
-          <div className="text-center mb-8">
-            <div className="border border-gray-300 rounded-lg p-4 max-w-2xl mx-auto">
-              <p className="font-sans text-lg font-semibold text-accent">
-                🔒 60-DNEVNA GARANCIJA – Ako ne vidiš rezultate → 100% povrat
-                novca
-              </p>
-            </div>
+          <div className="grid grid-cols-1 gap-4 md:gap-8 w-full mb-12">
+            {[...Array(9)].map((_, index) => (
+              <img
+                key={index}
+                src={`testem-${index + 1}-min.png`}
+                alt={`Žena ${index + 1}`}
+              />
+            ))}
           </div>
 
           {/* CTA Button */}
-          <div className="text-center mb-6">
+          <div className="text-center mb-4">
             <button
               onClick={expandCheckout}
               className="bg-[#1C7C7D] hover:bg-[#165a5c] text-white font-sans font-bold text-xl px-12 py-6 rounded-lg shadow-lg transition-all duration-300 transform hover:scale-105 w-full max-w-2xl mx-auto"
@@ -372,51 +411,18 @@ export const TimedContent = () => {
               OSIGURAJ SVOJE MJESTO – {PRICE}€
             </button>
           </div>
-
-          {/* Payment Icons */}
-          <div className="mb-8">
-            <div className="grid grid-cols-4 md:grid-cols-8 max-w-2xl mx-auto gap-2">
-              <img src="/Visa.png" alt="Visa" className="h-8 w-auto" />
-              <img
-                src="/MasterCard.png"
-                alt="Mastercard"
-                className="h-8 w-auto"
-              />
-              <img
-                src="/AmericanExpress.png"
-                alt="American Express"
-                className="h-8 w-auto"
-              />
-              <img
-                src="/GooglePay.png"
-                alt="Google Pay"
-                className="h-8 w-auto"
-              />
-              <img src="/Applepay.png" alt="Apple Pay" className="h-8 w-auto" />
-              <img src="/PayPall.png" alt="PayPal" className="h-8 w-auto" />
-              <img
-                src="/RevolutPay.png"
-                alt="Revolut Pay"
-                className="h-8 w-auto"
-              />
-              <img src="/stripe.png" alt="Stripe" className="h-8 w-auto" />
-            </div>
-          </div>
-
-          {/* Countdown Timer */}
-          <CountdownTimer />
         </div>
       </div>
 
       {/* FAQ Section */}
-      <div className="bg-gray-50 py-16">
+      <div className="bg-gray-50 py-8 md:py-16">
         <div className="max-w-4xl mx-auto px-4">
           <FAQList />
         </div>
       </div>
 
       {/* Final CTA Section */}
-      <div className="bg-white py-16">
+      <div className="bg-white py-8 md:py-16">
         <div className="max-w-4xl mx-auto px-4 text-center">
           <h2 className="font-sans text-2xl md:text-3xl font-bold text-accent mb-8">
             Spremna za transformaciju svog ljubavnog života?
@@ -433,7 +439,7 @@ export const TimedContent = () => {
           </button>
 
           {/* Social Proof Image */}
-          <div className="mt-10 flex justify-center">
+          <div className="my-8 flex justify-center">
             <img
               src="/SocialProof.png"
               alt="Rečenice strasti - Social proof"

@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import Script from "next/script";
 import { NuqsAdapter } from "nuqs/adapters/next/app";
 import "./globals.css";
+import "flag-icons/css/flag-icons.min.css";
 import { PostHogProvider } from "./providers";
 
 const title = "Formula od 6 Riječi | Transformirajte svoj odnos večeras";
