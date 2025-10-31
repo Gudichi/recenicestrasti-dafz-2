@@ -1,5 +1,3 @@
-# KATEGORIJA 4: NOSTALGIČNA SJEMENA
-
 *"Nostalgija je jedina droga koja nas može vratiti u prošlost." - Nepoznati autor*
 
 ## Psihologija iza Nostalgičnih Sjemena

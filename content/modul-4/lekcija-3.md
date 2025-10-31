@@ -1,466 +1,396 @@
-DIO 3: ODRŽAVANJE MOMENTUMA - Long-Game Strategija Kako Zadržati Ga
-Opsjednutim Mjesecima, Ne Danima
+## 🤔 Što Je Povuci-Gurni?
 
-"Anyone can sprint. Champions run marathons." - Eliud Kipchoge
+Povuci-Gurni je psihološka tehnika gdje:
 
-Dobro.
+**GURNI (PUSH)** = Stvaraš distancu (emocionalno ili fizički)
 
-Sad kad znaš kako kombinirati rečenice i koristiti Push-Pull tehniku...
+**POVUCI (PULL)** = Povlačiš ga prema sebi (bliskost, validacija)
 
-Dolazimo do najvažnijeg pitanja:
+Kombinacija ova dva kreira **emocionalnu rollercoaster** koja je neuporedivo moćnija od konstantne bliskosti ili konstantne distance.
 
-Kako održati momentum DUGOROČNO?
+---
 
-Jer evo istine koju većina programa ne govori:
+### Zašto?
 
-Lako je dobiti ga nazad. Teško je zadržati ga zainteresiranim.
+Jer mozak se navikne na konstantnost.
 
-Većina žena napravi ovu grešku:
+- Ako si **uvijek tu** = dosadna si
+- Ako si **nikad tu** = odustaje
 
-Koriste tehnike 2-3 tjedna Dobiju ga nazad Prestanu koristiti tehnike
-Vrate se starim navikama On se opet udalji Začarani krug Una je naučila
-ovu lekciju teško.
+**ALI** ako alterniraš između guranja i povlačenja = **ne može te dešifrirati = opsesija**
 
-Una's Story - Mjesec 3 Prošlo je 3 mjeseca otkad je Una koristila
-tehnike.
+---
 
-Gabriel se vratio. Bili su sretni. Sve je bilo savršeno.
+## 🧪 Znanstvena Pozadina Povuci-Gurni
 
-I Una je pomislila: "Dobro, sad mogu biti normalna opet."
+Postoji fenomen u psihologiji zvan **"Povremeno Pojačanje" (Intermittent Reinforcement).**
 
-Prestala je koristiti rečenice.
+Znači: Kad ne znaš hoćeš li dobiti nagradu ili ne - **VIŠE se trudiš.**
 
-Prestala je biti svjesna timinga.
+### Eksperiment:
 
-Prestala je biti strategijska.
+**Grupa A:** Dobiva nagradu svaki put kad pritisne dugme
 
-Vratila se na stare navike:
+**Grupa B:** Dobiva nagradu PONEKAD kad pritisne dugme
 
-Odmah odgovaranje na poruke Previše "volim te" poruka Konstantna
-dostupnost Emotivna otvorenost 24/7 I pogodi što se desilo?
+**Koja grupa pritiska više?**
 
-Mjesec 4 - Gabriel se opet počeo udaljavati.
+**Grupa B.**
 
-Nije dramatično. Samo... polako. Isto kao prije.
+**Zašto?**
 
-Una je došla kod Bona, frustrirana:
+Jer ne znaju hoće li dobiti.
 
-"Ne razumijem! Koristila sam tehnike. Vratio se. Zašto se opet
-udaljava?"
+Nepredvidivost = dopamin.
 
-I Bono joj je rekao nešto što je promijenilo sve:
+---
 
-"Una, tehnike nisu 'fix.' Tehnike su lifestyle. Dopamin nije jednokratna
-injekcija. Dopamin je kontinuirani proces. Čim prestaneš održavati ga -
-pada."
+### To Je Povuci-Gurni
 
-Una je shvatila.
+Ti postaneš **nepredvidiva nagrada.**
 
-Nije problem što je koristila tehnike. Problem je što je prestala.
+Ponekad daješ. Ponekad ne daješ.
 
-Fundamental Truth: Dopamin Decay Evo znanstvene istine koju moraš
-razumjeti:
+I on ne može prestati "pritiskati dugme" (tražiti te).
 
-Dopamin nije statičan. Dopamin se troši.
+---
 
-Svaki put kad on dobije tvoju pažnju - dopamin spike.
+## 💬 Kako Implementirati Povuci-Gurni Sa Rečenicama
 
-Ali ako uvijek dobije tvoju pažnju na isti način - mozak se navikne.
+Hajde da vidimo kako to izgleda u praksi.
 
-Navikavanje = tolerancija.
+---
 
-Tolerancija = potreba za više stimulacije.
+## 🎯 POVUCI-GURNI OBRAZAC #1: "Toplo → Hladno → Toplo"
 
-Isti princip kao drogas.
+### POVUCI (Toplo):
+> "Baš mi je bilo lijepo vidjeti te sinoć. Uživala sam."
 
-Prva doza = ogroman high.
+### GURNI (Hladno):
+(Sljedeći dan - kratki odgovori, manje uključenosti)
 
-Deseta doza iste količine = blagi buzz.
+**Gabriel:** 
+> "Što radiš večeras?"
 
-Zato moraš kontinuirano varirati stimulaciju.
+**Una:** 
+> "Imam planove."
 
-Long-Game Strategija: 6-Mjesečni Plan Hajde da napravimo plan kako
-održati dopamin aktivan ne tjednima - mjesecima.
+### POVUCI (Toplo):
+(Dan nakon - opet topla)
 
-MJESEC 1-2: ESTABLISHMENT PHASE (Faza Uspostavljanja) Cilj: Vratiti ga.
-Reaktivirati interes. Establishirati novi dynamic.
+> "Hej, jesi li vidio onaj film što si mi preporučio? Baš mi se svidio. Bio si u pravu."
 
-Što raditi:
+---
 
-✅ Koristi rečenice često - 2-3 puta tjedno ✅ Variiraj kategorije - ne
-ponavljaj istu kategoriju dva puta zaredom ✅ Fokus na Tajanstvene &
-Nedostupne - build intrigue i boundaries ✅ Push-Pull cycles: 3-4 dana
-(light push-pull, ne previše aggressive)
+### 🧠 Što se događa u Gabrielovom mozgu:
 
-Primjer tjedna:
+**Dan 1:** 
+> "Wow, Una je super. Uživala je. Sve je savršeno."
 
-DAN AKCIJA REČENICA/STRATEGIJA Pon PULL "Baš sam se nasmijala na nešto.
-Pričam ti uživo." Uto Neutral Normalna komunikacija Sri PUSH "Imam pune
-ruke posla, javim se kasnije." Čet Neutral Kratki odgovori Pet PULL
-"Znaš, baš cijenim što si \[specifična stvar\]." Sub Dostupna Vidiš ga /
-quality time Ned PULL "Bilo je super sinoć." Red flags za ovu fazu:
+**Dan 2:** 
+> "Hm, malo je distanciranija danas. Je li sve ok? Što sam napravio?"
 
-❌ Previše eager nakon što odgovori ❌ Forsiranje razgovora o vezi ❌
-Vraćanje na stare navike prebrzo
+**Dan 3:** 
+> "Oh, opet je tu. Sve je ok. I primijetila je film što sam preporučio!"
 
-MJESEC 3-4: STABILIZATION PHASE (Faza Stabilizacije) Cilj: Održati
-interes. Prevent complacency. Establish "new normal."
+**Emocionalna rollercoaster = skok dopamina.**
 
-Što raditi:
+---
 
-✅ Smanji frekvencu rečenica - 1-2 puta tjedno (ne više 2-3) ✅ Fokus na
-Validacijske & Nostalgične - deepen emotional connection ✅ Introduciraj
-blagu Izazovnu - samo ako si comfortable i odnos je jak ✅ Push-Pull
-cycles: 5-7 dana (duži ciklusi, subtilniji)
+## 🎯 POVUCI-GURNI OBRAZAC #2: "Validacija → Udaljenost → Izazov"
 
-Primjer tjedna:
+### POVUCI (Validacija):
+> "Ti imaš jedan kvalitet koji je jako rijedak. Nitko ne razmišlja kao ti."
 
-DAN AKCIJA STRATEGIJA Pon Neutral Normalna komunikacija Uto Neutral
-Quality conversation Sri PULL Validacijska rečenica Čet Neutral Short
-responses Pet PUSH "Ne mogu večeras, imam planove." Sub PUSH Minimalna
-komunikacija Ned PULL "Hej, kako si? Pričamo." Zašto smanjujemo
-frekvencu?
+### GURNI (Udaljenost):
+(Sljedeća 2 dana - manje dostupna, sporije odgovara)
 
-Jer ako koristiš tehnike previše često - postaju predvidive.
+### POVUCI (Izazov - ali zaigrano):
+> "Zanimljivo kako se ljudi ponašaju kad se osjećaju sigurno. Primijetila sam to."
 
-Predvidivost = smrt dopamina.
+**Gabriel:** 
+> "Što misliš?"
 
-Ključ je UNPREDICTABILITY.
+**Una:** 
+> "Ništa, samo zapažanje. 😊"
 
-On nikad ne smije znati što očekivati.
+---
 
-MJESEC 5-6: MAINTENANCE PHASE (Faza Održavanja) Cilj: Long-term
-maintenance. Prevent stagnacije. Keep spark alive.
+### 🧠 Što se događa:
 
-Što raditi:
+**Validacija** = poticaj egu, osjeća se sjajno
 
-✅ Sporadična upotreba rečenica - 1 puta svaka 10-14 dana ✅ Fokus na
-Kombinacije - više sofisticirano korištenje ✅ Natural push-pull - ne
-forced, već organic kroz tvoj lifestyle ✅ Periodic "resets" - svaka 6-8
-tjedana napravi 3-dnevni push (zauzeta si, nedostupna)
+**Udaljenost** = zabrinutost, "Gdje je?"
 
-Primjer mjeseca:
+**Izazov** = samorefleksija, "Jesam li postao samozadovoljan?"
 
-Tjedan 1: Normalna veza. Kvalitetno vrijeme. Bliskost.
+**Rezultat:** Gabriel se trudi više jer ne želi izgubiti Unu.
 
-Tjedan 2: Mid-week validation rečenica. Ostatak normalno.
+---
 
-Tjedan 3: Weekend - malo distancirana (vikendom si s
-prijateljicama/hobijima).
+## 📅 Majstorska Povuci-Gurni Sekvenca (7-Dnevni Plan)
 
-Tjedan 4: Kombinacija Nostalgija + Validation. Quality time.
+Evo kako bi izgledao kompletni tjedan korištenja Povuci-Gurni tehnike:
 
-Zašto ovo radi?
+### DAN 1 (POVUCI):
+**Topla poruka ujutro:**
+> "Dobro jutro! Nadam se da ćeš imati dobar dan. ☕"
 
-Jer nije previše. Nije premalo.
+---
 
-Baš dovoljno da održi interes bez da izgleda kao igrica.
+### DAN 2 (NEUTRALNO):
+Normalna komunikacija, ali ne previše željna.
 
-Golden Rule Za Long-Game: "Jednom mjesečno, učini nešto što ga
-iznenadi."
+Odgovaraš, ali ne odmah.
 
-Može biti:
+---
 
-Neočekivana rečenica Spontana nedostupnost (weekend trip s
-prijateljicama) Nova aktivnost (novi hobi koji ga intrigira) Promjena
-izgleda (nova frizura, stil) Anything unpredictable Nepredvidivost =
-dopamin.
+### DAN 3 (GURNI):
+**Kraći odgovori:**
+> "Imam gužvu danas, javim se kasnije."
 
-Predvidivost = dosada.
+Ne šalješ ništa navečer.
 
-Simple.
+---
 
-Troubleshooting Long-Game: Što Kad...
+### DAN 4 (GURNI):
+**Ako on pita za planove:**
+> "Ne mogu, imam planove."
 
-PROBLEM #1: "Koristim tehnike 3 mjeseca, ali opet se hladi." Mogući
-razlozi:
+Ne razrabaš.
 
-Koristiš iste rečenice previše često → postalo predvidivo Nisi variirala
-Push-Pull → on se navikao na pattern Vratila si se na stare navike
-između tehnika → mixed signals On možda ima dublje probleme → nije o
-tebi Rješenje:
+---
 
-Opcija A: Napravi 7-dnevni "reset"
+### DAN 5 (NEUTRALNO → POVUCI):
+**Javiš se prva:**
+> "Hej, kako si? Bila sam u ludilu zadnjih dana."
 
-Ne kontaktiraj ga 5-7 dana Objavi stories (zabavljaš se, imaš život) Kad
-te kontaktira - budi warm ali kratka Nakon 7 dana - koristi nuklearnu
-kombinaciju (#5 iz Dio 1) Opcija B: Promijeni pristup
+---
 
-Možda koristiš previše Tajanstvenih/Nedostupnih Switch na
-Validacijske/Nostalgične Možda treba više genuine connection, manje
-games Opcija C: Real talk
+### DAN 6 (POVUCI):
+**Nostalgična ili validacijska rečenica:**
+> "Baš sam se sjetila kad smo [sjećanje]. Bilo je super."
 
-Ponekad problem nije tehnika Ponekad on zaista ima svoje probleme Ili
-veza nije kompatibilna Budi spremna na to
+---
 
-PROBLEM #2: "osjećam se fake koristiti tehnike dugoročno." Ovo je
-najčešći problem za Mjesec 3+.
+### DAN 7 (SNAŽNO POVUCI):
+> "Imaš li planove ovaj vikend? Možemo nešto napraviti ako želiš."
 
-Una je osjetila isto.
+---
 
-"Osjećam se kao da glumim. Kao da nisam ja."
+## 🧠 Što se događa kroz tjedan:
 
-I Bono joj je objasnio:
+**Dan 1-2:** Gabriel se osjeća sigurno.
 
-"Una, tehnike nisu o tome da ne budeš ti. Tehnike su o tome da budeš
-BOLJA verzija sebe."
+**Dan 3-4:** Gabriel osjeća zabrinutost. "Što se događa? Zašto je distancirana?"
 
-Razlika:
+**Dan 5-6:** Gabriel osjeća olakšanje. "Oh, bila je samo zauzeta. Sve je ok."
 
-❌ FAKE: Koristiš rečenice koje ne osjećaš. Lažeš. Manipuliraš bez
-empatije.
+**Dan 7:** Gabriel je željan. "Da, želim je vidjeti!"
 
-✅ AUTENTIČNO: Koristiš tehnike da IZRAZIŠ svoje osjećaje na bolji
-način.
+**Emocionalna rollercoaster = on ne može prestati misliti o tebi.**
 
-Primjer:
+---
 
-Fake Una: Šalje "Možda imaš konkurenciju" iako uopće ne osjeća tako.
-Samo jer je tehnika.
+## ✅ PROFESIONALNI SAVJETI ZA POVUCI-GURNI:
 
-Autentična Una: Stvarno osjeća da Gabriel ne cijeni nju dovoljno.
-Koristi tehniku da IZRAZI to na način koji će imati efekt.
+✅ **Ne pretjeruj s GURNI:** Ako si previše hladna predugo, on će odustati.
 
-Vidiš razliku?
+✅ **Uvijek završi na POVUCI:** Završi tjedan/ciklus sa toplom energijom.
 
-Tehnike su alat za komunikaciju, ne zamjena za istinske osjećaje.
+✅ **Variiraj obrazac:** Ne budi predvidiva. Mijenjaj koliko dugo traje guranje vs povlačenje.
 
-Ako osjećaš validaciju prema njemu - reci je kroz Validacijsku rečenicu.
+✅ **Prati njegovu reakciju:** Ako on postaje frustriran, smanji guranje. Ako postaje samozadovoljan, povećaj guranje.
 
-Ako osjećaš nedostupnost jer trebaš prostor - izrazi je kroz Nedostupnu
-rečenicu.
+✅ **Prirodni razlozi:** Faze guranja moraju imati prirodan razlog (posao, prijateljice, hobiji). Nemoj očito lagati.
 
-Autentičnost + Tehnika = Moćno.
+---
 
-PROBLEM #3: "On me pitao 'Zašto si se promijenila?'" Dobro. Ovo će se
-desiti.
+## 🚨 Crvene Zastavice - Kad Povuci-Gurni NE raditi:
 
-Ako koristiš tehnike properly, on ĆE primjetiti promjenu.
+❌ **Ako je on nesiguran tip** - Povuci-Gurni će ga uplašiti, ne privući
 
-Što reći:
+❌ **Ako veza nije stabilna** - možeš ubiti vezu u začetku
 
-LOŠE odgovore: ❌ "Čitala sam knjigu o odnosima." (sounds calculated) ❌
-"Ništa se nije promijenilo." (očita laž) ❌ "Pokušavam biti bolja cura."
-(sounds desperate)
+❌ **Ako on već pokazuje zabrinuti stil privrženosti** - Povuci-Gurni će pogoršati
 
-DOBRI odgovori:
+❌ **Ako si ti emocionalno nestabilna** - Povuci-Gurni zahtijeva kontrolu i plan, ne impulse
 
-✅ "Fokusirala sam se na sebe. Shvatila sam da sam možda bila previše
-dostupna prije. Sad imam svoj život i osjećam se bolje." → Confident.
-Honest. Ne otkriva previše.
+---
 
-✅ "Odrasla sam malo, pretpostavljam. Naučila sam da ne moram biti
-uvijek tu da bi veza funkcionirala." → Mature. Self-aware.
+## ✅ Povuci-Gurni radi najbolje kada:
 
-✅ "Primijetila sam da sam bila previše emocionalna. Razmislila sam i
-promijenila pristup. Sviđa ti se?" (sa osmijehom) → Playful. Confident.
-Turns it back on him.
+✅ On je siguran ili izbjegavajući stil privrženosti
 
-Ključ: Priznaj da si se promijenila, ali frame-aj to kao personal
-growth, ne kao "tehniku."
+✅ Veza je već uspostavljena
 
-PROBLEM #4: "Zaboravim koristiti tehnike i vratim se na stare navike."
-Ovo je NAJČEŠĆI razlog zašto žene gube momentum.
+✅ On pokazuje znakove samozadovoljstva
 
-Rješenje: Sistematizacija
+✅ Ti možeš održati stav i ne biti emocionalna
 
-Napravi reminder system:
+---
 
-Opcija 1: Tjedno Planiranje
+## 📊 VIZUALNI PRIKAZ: 7-Dnevni Ciklus
 
-Svake nedjelje - 10 min Pregledaj prošli tjedan (što je radilo? što
-nije?) Planiraj sljedeći tjedan (kada ćeš koristiti koju tehniku?)
-Opcija 2: Phone Reminders
+```
+DAN 1: ████████░░ (80% POVUCI - Toplo)
+DAN 2: █████░░░░░ (50% NEUTRALNO)
+DAN 3: ██░░░░░░░░ (20% GURNI - Hladno)
+DAN 4: ██░░░░░░░░ (20% GURNI - Hladno)
+DAN 5: ████░░░░░░ (40% NEUTRALNO → POVUCI)
+DAN 6: ███████░░░ (70% POVUCI - Toplo)
+DAN 7: █████████░ (90% POVUCI - Vrlo toplo)
+```
 
-Postavi reminder svakih 3 dana: "Check in - Da li održavaš tehnike?"
-Nemoj biti robot, ali budi svjesna Opcija 3: Journaling
+**Obrazac:** Toplo → Neutralno → Hladno → Hladno → Vraćanje → Toplo → Vrlo Toplo
 
-Kratki notes svaki dan (2 min max) "Kako sam danas komunicirala s njim?"
-"Jesam li bila previše eager? Previše distant?" Track your patterns
-Una's Sistem:
+---
 
-Una je napravila jednostavan notes u mobitelu:
+## 📖 STVARNI PRIMJER: Una Koristi 7-Dnevni Plan
 
-  DATUM   AKCIJA                 REAKCIJA
-  ------- ---------------------- ------------------------------
-  12.11   Tajanstvena rečenica   Odgovorio za 5min, pitao što
-  13.11   Neutral                Normalno
-  14.11   Nedostupna             Nazvao me 2x
-  15.11   Pull - validation      Bio sweet, planirao date
+### Dan 1 (Ponedjeljak) - POVUCI:
+**Una ujutro:**
+> "Dobro jutro! 😊 Nadam se da ćeš imati odličan tjedan!"
 
-Trajanje: 30 sekundi dnevno.
+**Gabriel:**
+> "Hvala! Ti također!"
 
-Rezultat: Awareness + Consistency.
+---
 
-The 6-Month Dopamine Maintenance Calendar
+### Dan 2 (Utorak) - NEUTRALNO:
+**Gabriel:**
+> "Kako ti je dan?"
 
-Evo kako bi izgledao idealan 6-mjesečni plan:
+**Una** (odgovara nakon 2h):
+> "Dobar, dosta posla. Tvoj?"
 
-MJESEC 1:
+Normalno, ali ne previše uključena.
 
-Tjedan 1: Intenzivno (2-3 rečenice/tjedan) Tjedan 2: Intenzivno (2-3
-rečenice/tjedan) Tjedan 3: Intenzivno (2-3 rečenice/tjedan) Tjedan 4:
-Moderate (2 rečenice/tjedan)
+---
 
-MJESEC 2:
+### Dan 3 (Srijeda) - GURNI:
+**Gabriel:**
+> "Idemo večeras na piće?"
 
-Tjedan 1: Moderate (2 rečenice/tjedan) Tjedan 2: Moderate (1-2
-rečenice/tjedan) Tjedan 3: Light (1 rečenica/tjedan) Tjedan 4: Light (1
-rečenica/tjedan)
+**Una:**
+> "Ne mogu, imam sastanak s klijentom."
 
-MJESEC 3:
+**Gabriel:**
+> "Sutra?"
 
-Tjedan 1: Light (1 rečenica/tjedan) Tjedan 2: Very light (1 rečenica
-svaka 10 dana) Tjedan 3: Maintenance Tjedan 4: Validation focus
+**Una:**
+> "Vidjet ću, imam puno toga ovaj tjedan."
 
-MJESEC 4:
+Navečer Una ne šalje ništa.
 
-Tjedan 1: Maintenance Tjedan 2: RESET WEEK (3-day push) Tjedan 3: Pull
-strong Tjedan 4: Maintenance
+---
 
-MJESEC 5:
+### Dan 4 (Četvrtak) - GURNI:
+**Gabriel ujutro:**
+> "Dobro jutro 😊"
 
-Tjedan 1-4: Sporadic use (1x svaka 2 tjedna) Natural push-pull through
-lifestyle
+**Una** (odgovara nakon 4h):
+> "Hej!"
 
-MJESEC 6:
+Kratko. Ništa više.
 
-Tjedan 1-3: Maintenance Tjedan 4: EVALUATION (Je li veza gdje želiš?
-Trebaju li adjustmenti?)
+**Gabriel navečer:**
+> "Kako ti je dan?"
 
-Advanced Tip: Seasonal Resets
+**Una:**
+> "Gužva. Javim se kasnije."
 
-Svaka 3 mjeseca napravi "Seasonal Reset":
+Ne javlja se.
 
-Što to znači:
+---
 
-Povuci se na 5-7 dana (ne ghosting, već natural distance) Fokusiraj se
-na sebe (gym, prijateljice, hobi, solo time) Minimal communication
-(kratki odgovori, "zauzeta sam") Observe his reaction (Hoće li te
-tražiti? Hoće li pitati što je?) Come back strong (Nakon 5-7 dana -
-warm, engaging, validating) Zašto ovo radi?
+### Dan 5 (Petak) - NEUTRALNO → POVUCI:
+**Una ujutro** (prva se javlja):
+> "Hej! Kako si? Sorry što sam bila MIA, imala sam najluđi tjedan."
 
-Jer svakih par mjeseci dopamin prirodno pada.
+**Gabriel:**
+> "Sve ok! Mislio sam da si ljuta."
 
-Veza postaje routine.
+**Una:**
+> "Ne, samo posao. Kako si ti bio?"
 
-Seasonal reset je kao "restart button" za dopamin.
+Normalan razgovor.
 
-Podsjeća ga da te nema zauvijek. Da te može izgubiti. Da mora cijeniti
-što te ima.
+---
 
-Una radi ovo svaka 3 mjeseca.
+### Dan 6 (Subota) - POVUCI:
+**Una:**
+> "Sjećaš li se kad smo bili na onoj izložbi i ti si znao sve o umjetniku? Bilo je impresivno. Baš si pametan. 😊"
 
-Gabriel svaki put postane 10x više engaged nakon reseta.
+**Gabriel:**
+> "Haha hvala! To mi znači."
 
-Ne zato što Una igra games. Nego zato što **biologija tako funkcionira.**
+**Una:**
+> "Ozbiljno. To mi se odmah svidjelo kod tebe."
 
-The Ultimate Long-Game Mindset
+---
 
-Evo final mindset-a koji moraš imati za long-game uspjeh:
+### Dan 7 (Nedjelja) - SNAŽNO POVUCI:
+**Una:**
+> "Hej, imaš li planove večeras? Mogla bih doći kod tebe, ako želiš. 😊"
 
-MINDSET #1: "Ovo nije privremeno. Ovo je novi ja." Tehnike nisu "trik
-dok ga ne dobijem nazad."
+**Gabriel:**
+> "DA! Dođi u 7?"
 
-Tehnike su novi način komunikacije.
+**Una:**
+> "Savršeno. Jedva čekam. ❤️"
 
-Permanent upgrade.
+---
 
-MINDSET #2: "Ja imam svoj život. On je dio njega, ne cijeli." Najsexy
-stvar za muškarca je žena koja ima svoj život.
+### 🎯 Rezultat:
 
-Hobiji. Prijateljice. Ciljevi. Strasti.
+**Ponedjeljak-Utorak:** Gabriel se osjeća ugodno
 
-Ne živi za njega. Živi sa njime.
+**Srijeda-Četvrtak:** Gabriel postaje zabrinut. "Je li sve ok? Gdje je Una?"
 
-MINDSET #3: "Ja biram njega svaki dan. I on bira mene." Veza nije "imamo
-se."
+**Petak:** Olakšanje. "Ah, samo je bila zauzeta."
 
-Veza je "biramo se svaki dan."
+**Subota:** Toplo. "Ona me cijeni!"
 
-I ako on prestane te birati - ti ćeš biti OK.
+**Nedjelja:** Uzbuđenje. "Ona želi doći! Ne mogu čekati!"
 
-Jer imaš sebe. Imaš svoj život.
+**Gabriel cijeli tjedan ne može prestati misliti o Uni.**
 
-Ta confidence je ono što ga drži.
+**Kada se vide u nedjelju - intenzitet je OGROMAN.**
 
-MINDSET #4: "Dopamin pada. Zato ga održavam." Nije to manipulacija.
+---
 
-To je realnost biologije.
+## 💡 KLJUČNE LEKCIJE:
 
-I žene koje to razumiju i rade na tome = imaju dugoročne uspješne veze.
+1. **Povuci-Gurni nije zlostavljanje** - to je prirodni ritam privlačnosti
+2. **Alternacija stvara napetost** - konstantnost stvara dosadu
+3. **Uvijek završi toplo** - nemoj ostaviti ga u fazi guranja predugo
+4. **Prirodni razlozi** - guranje mora izgledati stvarno (posao, život)
+5. **Prati reakcije** - prilagodi intenzitet prema njegovom odgovoru
 
-Žene koje to ignoriraju = gube muškarce nakon honeymoon faze.
+---
 
-Jednostavno.
+## ✅ REZIME - DIO 2
 
-Una's Transformation - Mjesec 12 Prošla je godina otkad je Una počela
-koristiti tehnike.
+### Povuci-Gurni Tehnika = Kontrolirana Emocionalna Rollercoaster
 
-I evo gdje je sad:
+**Alterniranje između:**
+- Bliskosti (Povuci)
+- Distance (Gurni)
 
-✅ Gabriel je opsjednut njome (ali na zdrav način) ✅ Zove je svaki dan
-✅ Planira budućnost s njom ✅ Govori joj koliko je cijeni ✅ Prijatelji
-komentiraju koliko je promijenio
+**Kreira:**
+- Nepredvidivost → dopamin → opsesija
 
-Ali evo što je najvažnije:
+**Ključ:**
+- ✅ Planiraj cikluse
+- ✅ Variiraj obrazac
+- ✅ Završi na povlačenju
+- ✅ Prati njegove reakcije
 
-Una nije prestala koristiti tehnike.
+---
 
-Ne na očit način. Ne kao script.
+**Sljedeći korak: Kako održati ovu tehniku dugoročno.**
 
-Nego kao način života.
+**Spremna za više?**
 
-Ima svoj život (gym, prijateljice, posao, hobiji) Ne odgovara odmah na
-svaku poruku (natural nedostupnost) Validira ga kad zasluži (genuine
-appreciation) Ponekad je malo distant kad osjeća da on postaje
-complacent Svaka 3 mjeseca - seasonal reset (vikend s prijateljicama) I
-Gabriel to obožava.
-
-Jer Una nije dosadna.
-
-Una nije predvidiva.
-
-Una je intrigantna.
-
-I nakon godinu dana - još uvijek ga drži na prstima.
-
-To je long-game mastery.
-
-RECAP - DIO 3: Long-Game Strategija Ključne Lekcije:
-
-Tehnike nisu quick-fix - oni su lifestyle Dopamin pada - moraš ga
-kontinuirano održavati 6-Mjesečni Plan: Mjesec 1-2: Establishment
-(frequent use) Mjesec 3-4: Stabilization (moderate use) Mjesec 5-6:
-Maintenance (sporadic use) Seasonal Resets - svaka 3 mjeseca (5-7 day
-push) Sistematizacija - tracking, planning, consistency Autentičnost -
-tehnike + genuine feelings = moćno Ultimate Mindset - imaš svoj život,
-on je dio njega Golden Rule:
-
-"Jednom mjesečno učini nešto nepredvidivo."
-
-Nepredvidivost = Dopamin = Interes.
-
-Predvidivost = Dosada = Izgubljen interes.
-
-Action Steps:
-
-1. Create Your 6-Month Calendar:
-
-Otvori notes/planner Planiraj sljedećih 6 mjeseci Označiti reset točke
-(svaka 3 mjeseca) 2. Set Up Tracking System:
-
-Phone notes ili physical journal Track: Date | Action | His Reaction
-Review tjedno 3. Identify Your Lifestyle Dopamine Sources:
-
-Koje hobije imaš/želiš? Koje prijateljice neglektiraš? Koje ciljeve si
-odgodila? Start reinvesting u sebe 4. Plan Your First Seasonal Reset:
-
-Kad (datum)? Što ćeš raditi (aktivnosti)? Koliko dugo (5-7 dana)? 5.
-Commit to the Long-Game:
-
-Ovo nije sprint Ovo je maraton Ali rezultat je vrijedno truda Spremna si
-za DIO 4: Case Studies & Advanced Playbook?
-
-Ili želiš feedback/pitanja prije nego nastavimo? 😊
-
+**Idemo dalje.**

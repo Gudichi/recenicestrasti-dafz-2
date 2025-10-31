@@ -1,5 +1,3 @@
-# 🔥 MODUL 2: 21 SJEMENA DOPAMINA
-
 ## The Core Content - Srce Programa
 
 *"Riječi su, naravno, najmoćnija droga koju koristi čovječanstvo." - Rudyard Kipling*

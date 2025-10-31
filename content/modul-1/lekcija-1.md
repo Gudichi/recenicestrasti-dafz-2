@@ -1,7 +1,3 @@
-# MODUL 1: UVOD & TEMELJI PRIVLAČNOSTI
-
-## Poglavlje 1.1: Una & Gabriel
-
 *"Srce ima razloge koje razum ne poznaje." - Blaise Pascal*
 
 **Listopad 2020. Zagreb.**
@@ -175,7 +171,3 @@ Ali to dolazi kasnije.
 Za sad, Una samo sjedi. I čeka. I pita se.
 
 *Zašto se on udaljava?*
-
----
-
-[ILUSTRACIJA: Split screen - lijeva strana prikazuje Unu kako sjedi sama na kauču, mobitel u ruci, tužan izraz lica. Desna strana prikazuje Gabriela kako se smije sa prijateljima u kafiću, mobitel okrenut naopako na stolu. Simple line drawing, kontrast između dvoje ljudi u istom trenutku.]

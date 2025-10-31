@@ -1,5 +1,3 @@
-# Zašto Se Muškarci Udaljavaju (Istina Koju Nitko Ne Govori)
-
 *"Muškarci su jednostavni. Žene ih kompliciraju." - Nepoznati autor*
 
 Dobro.

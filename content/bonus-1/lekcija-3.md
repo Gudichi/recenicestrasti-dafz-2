@@ -1,204 +1,634 @@
-Kako Dekodirati Njegove Poruke (I Pročitati Što Stvarno Misli)
+*"Tijelo nikad ne laže." - Martha Graham*
 
-"Read between the lines." - Američka poslovica
+---
 
-Dobro došla u najpraktičniji dio Bonus Modula 1. Jer hajde da budemo
-iskreni: Većinu vremena komunikacija se dešava preko teksta. I
-tekstualne poruke su minsko polje. "Što znači kad napiše 'haha' umjesto
-'hahaha'?" "Zašto je stavio tačku na kraju rečenice?" "Da li emoji znači
-nešto ili ne?" Dobra vijest: Tekstualni signali SU čitljivi - ako znaš
-što tražiti. I nakon ovog poglavlja? Znat ćeš TOČNO što svaka poruka
-znači. Nema više over-analiziranja sa prijateljicama. Nema više "poslala
-sam screenshot 5 ljudi da vidim što misle." Samo jasni, dekodabilni
-signali. Idemo.
+## Dobro Došla u Najmoćniji Dio Bonus Modula 1
 
-KATEGORIJA 1: RESPONSE TIME (Brzina Odgovora)
+Jer evo istine:
 
-SIGNAL #1: Odgovara brzo (< 15 min) - Constantly Što znači: Ne jednom.
-Ne samo kad mu odgovara. Nego konstantno - odgovara brzo. Zašto je ovo
-znak: Čovjek koji odgovara brzo = razmišlja o tebi = mobitel je blizu =
-čeka tvoje poruke. Red flag suprotno: Odgovara nakon 3-5 sati konstantno
-= možda nije prioritet. NAPOMENA: Ovo vrijedi ako nije na poslu gdje ne
-može biti na mobitelu. Context matters.
+Muškarci mogu lagati riječima.
 
-SIGNAL #2: "Typing..." indicator pojavljuje se često Što znači: Vidiš da
-"piše..." (typing indicator). Stane. Opet "piše..." Stane. Na kraju
-pošalje poruku. Zašto je ovo znak: Razmišlja kako će formulirati poruku.
-Brine kako će zvučati. Caring kako zvuči = caring što misliš = interes.
-Površna veza: "ok" (ne razmišlja) Zaljubljen: "Sounds great! Looking
-forward to it 😊" (razmišljao kako formulirati)
+Ali tijelo **NIKAD** ne laže.
 
-SIGNAL #3: Odgovara čak i kad je "zauzet" Što znači: Kaže "Imam
-meeting" - ali odgovori između. Kaže "Na poslu sam" - ali šalje brze
-poruke. Zašto je ovo znak: Ne može NE odgovoriti. Čak i kad je zauzet -
-čini prostor za tebe. To je prioritet.
+Može reći "volim te" - ali govor tijela pokazuje suprotno.
 
-KATEGORIJA 2: DUŽINA & TRUD (Length & Effort)
+Može **NE** reći "volim te" - ali tijelo viče ljubav.
 
-SIGNAL #4: Poruke postaju duže s vremenom Što znači: Početak: Una: "Kako
-je bilo danas?" Gabriel: "Dobro." Sad: Una: "Kako je bilo danas?"
-Gabriel: "Bilo je ludilo! Imao sam tri meetinga, jedan je bio totalno
-nepotreban haha. Ali dobio sam povratnu informaciju od šefa na
-projektu - rekao je da je odličan! Kako je kod tebe?" Evolucija = rast
-interesa.
+I žene koje znaju čitati govor tijela?
 
-SIGNAL #5: Koristi complete sentences (Ne skraćenice) Što znači: Ne
-piše: "k", "ye", "mb" Piše: "Okay, sounds good!", "Yes, definitely",
-"Maybe tomorrow?" Zašto je ovo znak: Trud u pisanju = trud u
-komunikaciji = caring. Lazy tekstanje = low investment. Pun tekstanje =
-high investment.
+**Imaju supermoć.**
 
-SIGNAL #6: Double/Triple tekstovi (Ne čeka tvoj odgovor) Što znači:
-Pošalje jednu poruku. Onda drugu. Onda treću. Prije nego ti odgovoriš.
-Primjer: Gabriel: "Hej, kako si?" Gabriel: "Zaboravio sam ti reći, vidio
-sam onaj film što si preporučila" Gabriel: "Bio je dobar! Bila si u
-pravu." Zašto je ovo znak: Excited je. Ne može čekati. Ima toliko toga
-za reći. Excitement = interes. Red flag suprotno: Nikad ne šalje više od
-jedne poruke dok ti ne odgovoriš = low investment.
+Znaju **TOČNO** što on osjeća - prije nego on sam to shvati.
 
-KATEGORIJA 3: EMOJI & TON (Emotional Indicators)
+---
 
-SIGNAL #7: Koristi emoji s tobom (Čak i ako nije "emoji guy") Što znači:
-Nikad ne koristi emoji sa drugima. Ali sa tobom: 😊 😄 ❤️ 😂 Zašto je
-ovo znak: Emoji = emotivna ekspresija. Muškarci koriste emoji samo kad
-žele pokazati emociju. Ako koristi sa tobom = osjeća emociju prema tebi.
+## UVOD: Zašto Govor Tijela Govori Više Od Riječi
 
-SIGNAL #8: "Hahaha" vs "haha" vs "Haha" Dekodiranje smijeha: "haha" =
-courtesy laugh (ne baš smiješno, ali acknowledge-uje) "hahaha" = stvarno
-se nasmijao (genuine) "Hahaha" = stvarno smiješno + engaged "HAHAHA" /
-"😂😂" = jako smiješno, excited Što tražiti: Ako ti šalješ nešto što je
-meh smiješno, a on odgovori sa "hahaha" ili više = on ŽELI da znaš da
-cijeni tvoj humor. Trying to make you feel good = caring.
+Postoji razlog zašto je govor tijela pouzdaniji od verbalnog:
 
-SIGNAL #9: Exclamation marks!!! (Excitement punctuation) Što znači:
-Koristi "!" često u porukama s tobom. "Sounds great!" "Can't wait!"
-"That's awesome!" Zašto je ovo znak: Exclamation marks = pokazuje
-excitement/enthusiasm. Muškarci obično pišu flat: "sounds good." "ok."
-"cool." Ako dodaje "!" = stvarno je excited. Excitement za komunikaciju
-s tobom = interes.
+**Govor tijela je NESVJESTAN.**
 
-SIGNAL #10: Završava poruke sa pitanjima (Nastavlja konverzaciju)
-Razlika: ❌ Završava konverzaciju: Una: "Bio je težak dan." Gabriel:
-"Ah, šteta." [end] ✅ Nastavlja konverzaciju: Una: "Bio je težak dan."
-Gabriel: "Oh ne! Što se desilo?" Pitanja = želi nastaviti pričati = želi
-provesti vrijeme s tobom (čak i virtualno).
+On ne kontrolira gdje gleda.
 
-KATEGORIJA 4: SADRŽAJ & INTIMNOST (Content & Depth)
+Ne kontrolira kako stoji.
 
-SIGNAL #11: Dijeli detalje iz svog dana (Unasked) Što znači: Ne samo
-odgovara na tvoja pitanja. Nego spontano dijeli: "Baš sam imao smiješan
-moment na poslu danas..." "Vidio sam nešto što me podsjetilo na tebe..."
-"Random thought: ..." Zašto je ovo znak: Želi te uključiti u svoj život.
-Ne čeka da pitaš - aktivno dijeli. Inclusion = intimacy.
+Ne kontrolira mikroekspresije na licu.
 
-SIGNAL #12: "Dobro jutro" i "Laku noć" postaju ritual Što znači: Svako
-jutro: "Dobro jutro ☀️" Svaku noć: "Laku noć 😊" Ne propušta. Zašti je
-ovo znak: Ti si prva stvar na koju misli ujutro. Ti si zadnja stvar na
-koju misli prije spavanja. To je ljubav.
+To dolazi direktno iz limbičkog sistema - dio mozga koji upravlja emocijama.
 
-SIGNAL #13: Spominje prošle razgovore Što znači: "Kao što si rekla
-prije..." "Sjećam se kad si spomenula..." "Onaj restoran što si htjela
-probati - idemo ovaj vikend?" Zašto je ovo znak: Sluša te. Pamti.
-Caring. Većina ljudi ne pamti detalje iz Površna razgovora. Ako on pamti
-= ti si važna.
+I kad muškarac osjeća ljubav, privlačnost, interes...
 
-SIGNAL #14: Šalje slike/videe iz svog dana Što znači: "Look at this
-sunset" "My coffee this morning" [slika] "Random video od nečeg
-smiješnog" Zašto je ovo znak: Želi podijeliti momente s tobom. Želi da
-budeš dio njegovog dana - čak i kad nisi fizički tu. Digital inclusion =
-emotional closeness.
+**Tijelo automatski reagira.**
 
-SIGNAL #15: Voice notes ponekad (Želi da čuješ njegov glas) Što znači:
-Umjesto da piše dugu poruku - pošalje voice note. Zašto je ovo znak:
-Voice notes = more intimate nego tekstanje. Čuješ ton. Emociju.
-Infleksiju. Biranje voice note = želja za deeper connection.
+Čak i kad on to pokušava sakriti.
 
-KATEGORIJA 5: RED FLAGS (Negativni Signali)
+---
 
-RED FLAG #1: "K" ili jednoslovni odgovori - Constantly Ako svaki odgovor
-je "k", "ye", "ok" - low investment. Jedan jednoslovni odgovor = možda
-je zauzet. Svaki odgovor = nije zainteresiran.
+## KATEGORIJA 1: POGLED (Oči Nikad Ne Lažu)
 
-RED FLAG #2: Ne pita nikad ništa (Zero questions) Komunikacija ide samo
-jednim smjerom - ti pitaš, on odgovara. On nikad ne pita tebe. Zero
-questions = zero interest.
+### SIGNAL #1: "Pogled Trokuta"
 
-RED FLAG #3: Nestane te između, onda se vrati kao ništa nije bilo
-Nestane na 3 dana. Onda se vrati: "Hej, što ima?" Bez objašnjenja.
-Pattern ghosting-a = not serious.
+**Što to znači:**
 
-RED FLAG #4: Nikad ne inicira konverzaciju TI UVIJEK šalješ prvu poruku.
-On nikad. Ako ti moraš uvijek inicirati = ti si više investirana.
+Kad razgovarate, njegov pogled ide:
+- Oči → Usta → Oči → Usta
 
-RED FLAG #5: Odgovara samo kad mu nešto treba Ignorira tvoje poruke. Ali
-kad njemu nešto treba: "Hej, možeš mi pomoći sa...?" Using you, not
-dating you.
+Kreira trokut između tvojih očiju i usta.
 
-RED FLAG #6: Emoji sa drugim curama na social media, ali ne sa tobom
-Komentira na druge cure: "😍", "🔥" Ali sa tobom: flat tekstanje. Public
-vs private behavior shows priority.
+**Zašto je ovo znak:**
 
-TEKSTUALNI PATTERN RECOGNITION Evo master key za dekodiranje tekstova:
+Ovo je **KLASIČAN** znak privlačnosti i želje. Podsvjesno gleda u tvoje usta jer razmišlja o ljubljenju.
 
-PATTERN #1: Consistency (Konstantnost) Good sign: Odgovara
-consistently - isti nivo truda svaki dan. Red flag: Neki dani super
-engaged, neki dani ghost. Consistency = reliability = serious.
+**Primjer:**
 
-PATTERN #2: Evolution (Evolucija) Good sign: Tekstanje se poboljšava s
-vremenom (duže poruke, više truda, više emoji). Red flag: Tekstanje se
-pogoršava s vremenom (kraće poruke, manje truda). Evolution = growing
-interest.
+Una je primijetila da Gabriel, dok priča s njom, konstantno gleda između njezinih očiju i usta.
 
-PATTERN #3: Initiation Ratio (Omjer iniciranja) Healthy: 50/50 - ponekad
-ti, ponekad on. Red flag: 90/10 - skoro uvijek ti. Balanced initiation =
-balanced interest.
+Nije bio jeziv. Bio je... intenzivan.
 
-PATTERN #4: Response to YOUR messages (Kako reagira na tvoje poruke)
-Good sign: Odgovara na sve (čak i na "Površna" poruke) Pokazuje
-enthusiasm Postavlja follow-up pitanja Red flag: Ignorira neke poruke
-Jednoslovni odgovori Ne pokazuje interes u tvojim temama
+Kad je pitala Bona o tome:
 
-Una's Tekstualni analizu (Mjesec 3) Una je odlučila napraviti analizu
-tekstualne komunikacije sa Gabrielom. Pregledala je zadnjih 2 tjedna
-poruka. Što je otkrila: ✅ Gabriel odgovara prosječno za 12 minuta
-(brzo) ✅ Često šalje 2-3 poruke zaredom (double/triple tekstovi) ✅
-Koristi emoji sad (prije nije) ✅ "Hahaha" ili više za njene šale
-(genuine laugh) ✅ Exclamation marks u porukama ("Sounds great!") ✅
-Svako jutro "Dobro jutro ☀️", svaku noć "Laku noć 😊" ✅ Dijeli random
-stvari iz dana (unprompted) ✅ Spominje prošle razgovore ("Kao što si
-spomenula...") ✅ Šalje slike ponekad (coffee, sunset, random funny
-stuff) ✅ Inicira 40% konverzacija (balanced) ✅ Postavlja pitanja -
-UVIJEK nastavlja konverzaciju RED FLAGS: 0 Una je zaključila: Tekstualni
-signali = definitivno zaljubljen.
+*"To je ljubav. Ili barem jaka privlačnost. Tijelo ne može sakriti želju."*
 
-MASTER CHECKLIST: Tekstualni Signali Brza provjera - Koliko od ovih
-pokazuje? POSITIVE SIGNALS: □ Odgovara brzo (< 15 min) većinom □
-"Typing..." indicator često (razmišlja) □ Odgovara čak i kad zauzet □
-Poruke duže s vremenom □ Complete sentences (ne skraćenice) □
-Double/triple tekstovi □ Koristi emoji (čak i ako nije "emoji guy") □
-"Hahaha" ili više (genuine laugh) □ Exclamation marks (excitement) □
-Završava sa pitanjima (nastavlja konverzaciju) □ Dijeli detalje spontano
-□ "Dobro jutro" / "Laku noć" ritual □ Spominje prošle razgovore □ Šalje
-slike/videe iz dana □ Voice notes ponekad RED FLAGS: □ "K" ili
-jednoslovni odgovori constantly □ Nikad ne pita ništa (zero questions) □
-Nestane pa se vrati □ Nikad ne inicira □ Odgovara samo kad mu nešto
-treba □ Emoji sa drugim curama ali ne sa tobom
+---
 
-SCORING: Positive signals: 10-15 znakova: ✅✅ Definitivno
-zainteresiran/zaljubljen 6-9 znakova: ✅ Growing interest 0-5 znakova:
-⚠️ Low interest Red flags: 0 red flags: ✅ Safe 1-2 red flags: ⚠️ Watch
-closely 3+ red flags: 🚩 Problem
+### SIGNAL #2: Zjenice Se Šire
 
-BONUS TIP: Screenshot Test Ako nisi sigurna da li tekstualna
-komunikacija je "dobra" ili ne: Screenshot test: Screenshot random dan
-poruka Zamišljaj da je to prijateljičina komunikacija sa njenim dečkom
-Što bi joj rekla? "Girl, he's into you" ili "Girl, run"? Ponekad je
-lakše vidjeti iz outside perspective.
+**Što to znači:**
 
-ZAVRŠNA MISAO
+Kad te gleda, njegove zjenice postanu veće.
 
-Tekstualni signali su najlakši za pratiti jer su dokumentirani. Ne moraš
-se oslanjati na memory. Sve je tu - u tvojim porukama. Ako si još uvijek
-nesigurna: Pregledaj poruke za zadnjih 2 tjedna. Broji positive signals
-i red flags. Brojke ne lažu.
+**Zašto je ovo znak:**
 
+Širenje zjenica je automatska reakcija na nešto što mozak percipira kao privlačno ili uzbudljivo. Ne može to kontrolirati.
+
+**Kako primijetiti:**
+
+Teško je vidjeti u normalnom svjetlu, ali ako si blizu (intimni razgovor, restoran sa prigušenim svjetlom) - možeš primijetiti.
+
+**Znanstvena pozadina:**
+
+Studija (Hess, 1965) pokazala je da se zjenice šire automatski kad gledamo nešto što nam se sviđa - bez mogućnosti kontrole.
+
+---
+
+### SIGNAL #3: Produljen Kontakt Očima
+
+**Što to znači:**
+
+Kad razgovarate, on drži kontakt očima duže nego što je normalno.
+
+Ne neugodno zurenje. Nego... angažiran pogled.
+
+**Zašto je ovo znak:**
+
+Kontakt očima = intimnost.
+
+Muškarci **IZBJEGAVAJU** kontakt očima sa ženama do kojih im nije stalo.
+
+Ali sa ženom koju vole? Ne mogu prestati gledati.
+
+**Primjer:**
+
+Una i Gabriel sjede u kafiću. Pričaju o nečem banalnom (posao, vrijeme, bilo što).
+
+Ali Gabriel je gleda cijelo vrijeme.
+
+Čak i kad Una gleda na stranu, osjeća njegov pogled.
+
+Kad se vrati - on još gleda. Smiješi se.
+
+*"Što?"*
+
+Gabriel: *"Ništa. Samo te gledam."*
+
+To je ljubav.
+
+---
+
+### SIGNAL #4: Brzi Pomak Obrva
+
+**Što to znači:**
+
+Kad te vidi prvi put (npr. dolaziš na spoj), njegove obrve brzo idu gore-dolje (u djeliću sekunde).
+
+**Zašto je ovo znak:**
+
+Brzi pomak obrva je **UNIVERZALNI** signal priznanja nečeg pozitivnog. Automatska reakcija kad vidiš nešto što te raduje.
+
+**Kako primijetiti:**
+
+Brzo je - traje oko 1/6 sekunde. Ali ako pažljivo gledaš kad te prvi put vidi... primijetit ćeš.
+
+---
+
+### SIGNAL #5: Gleda Te Čak i Kad Ne Razgovarate
+
+**Što to znači:**
+
+U grupi ljudi, konstantno te provjerava gdje si, što radiš. Njegov pogled gravitira prema tebi.
+
+**Zašto je ovo znak:**
+
+Ne može pomoći. Podsvjesno te traži.
+
+**Primjer:**
+
+Una i Gabriel su bili na tulumu s prijateljima. Pričali su sa različitim ljudima (odvojeni).
+
+Ali Una je primijetila: svaki put kad pogleda prema Gabrielu - on ili gleda nju, ili baš skreće pogled (što znači da je gledao).
+
+Konstantna svjesnost gdje si = interes.
+
+---
+
+## KATEGORIJA 2: BLIZINA & DODIRI
+
+### SIGNAL #6: Ulazi u Tvoj Osobni Prostor (U Dobrom Smislu)
+
+**Što to znači:**
+
+Stoji bliže tebi nego što je "normalno."
+
+Osobni prostor je obično 45-120 cm za poznanike. Ali on stoji na 30 cm ili manje.
+
+**Zašto je ovo znak:**
+
+Ljudi čuvaju osobni prostor od onih do kojih im nije stalo. Samo dozvoljavaju bliskost onima koje vole/žele.
+
+**Test:**
+
+Ako ti odmakneš malo - da li on podsvjesno dolazi opet bliže? Ako da = želi biti blizu tebe.
+
+---
+
+### SIGNAL #7: "Slučajni" Dodiri (Koji Nisu Slučajni)
+
+**Što to znači:**
+
+"Slučajno" dodirne tvoju ruku dok razgovara.
+
+"Slučajno" stavi ruku na tvoja leđa dok prolaziš kroz vrata.
+
+"Slučajno" ti popravi kosu koja ti je pala na lice.
+
+**Spoiler:** Nije slučajno.
+
+**Zašto je ovo znak:**
+
+Muškarci **ŽELE** dodirivati žene koje vole. Ali ne žele biti previše direktni. Pa kreiraju "slučajne" momente dodira.
+
+Ako se to dešava često = jako zainteresiran.
+
+---
+
+### SIGNAL #8: Naginje Se Prema Tebi
+
+**Što to znači:**
+
+Kad sjedite i razgovarate, tijelo mu je nagnuto prema tebi.
+
+Ne nazad (distanciran). Nego naprijed (angažiran).
+
+**Zašto je ovo znak:**
+
+Naginjanje naprijed = "želim biti bliže tebi." Podsvjesni signal interesa.
+
+**Crvena zastava suprotno:**
+
+Ako je tijelo nagnuto NAZAD ili NA STRANU = nije zainteresiran ili mu je neugodno.
+
+---
+
+### SIGNAL #9: Stopala Pokazuju Prema Tebi
+
+**Što to znači:**
+
+Ovo je **NAJZANIMLJIVIJI** signal govora tijela.
+
+Kad stoji ili sjedi, njegova stopala pokazuju **PREMA TEBI**.
+
+**Zašto je ovo znak:**
+
+Stopala su **NAJISKRENIJI** dio tijela. Ne mislimo o njima, pa ne možemo lagati.
+
+Stopala podsvjesno pokazuju prema onome što nas zanima.
+
+**Test:**
+
+Ako razgovarate u grupi ljudi - gledaj čija stopala pokazuju prema tebi. To su ljudi koji su zainteresirani za tebe.
+
+**Primjer:**
+
+Una i Gabriel stoje na tulumu sa još 3 osobe u krugu.
+
+Una je slučajno pogledala dolje.
+
+Sve ostale osobe imaju stopala postavljena nasumično.
+
+Gabrielova oba stopala: direktno prema Uni.
+
+Govor tijela ne laže.
+
+---
+
+### SIGNAL #10: Zrcaljenje
+
+**Što to znači:**
+
+On nesvjesno kopira tvoj govor tijela:
+- Ti se naslanjaš - on se naslanja
+- Ti piješ - on pije
+- Ti prekrižiš noge - on prekriži
+- Ti se smiješ - on se smije
+
+**Zašto je ovo znak:**
+
+Zrcaljenje je **AUTOMATSKI** signal privlačnosti i sklada. Ljudi nesvjesno kopiraju one do kojih im je stalo.
+
+**Kako testirati:**
+
+Namjerno promijeniš poziciju (npr. nasloniš se naprijed). Čekaj 10-30 sekundi. Hoće li on također?
+
+Ako da - to je zrcaljenje = interes.
+
+---
+
+## KATEGORIJA 3: ZAŠTITNI & POSESIVNI SIGNALI
+
+### SIGNAL #11: Ruka na Donjim Leđima
+
+**Što to znači:**
+
+Kad hodate kroz vrata, gomilu, restoran... Njegova ruka automatski ide na tvoja donja leđa - vodi te.
+
+**Zašto je ovo znak:**
+
+Ovo je zaštitni signal. Muški način pokazivanja:
+
+*"Štitim te. Vodim te. Ti si sa mnom."*
+
+Također je posesivan (u dobrom smislu) - pokazuje drugima da si "njegova."
+
+---
+
+### SIGNAL #12: Staje Između Tebe i Stranaca
+
+**Što to znači:**
+
+U gužvi, automatski stane između tebe i stranaca. Kreira zaštitnu zonu.
+
+**Zašto je ovo znak:**
+
+Zaštitni instinkt. Muškarci štite ono što vole.
+
+**Primjer:**
+
+Una i Gabriel hodaju gradom. Užurbana ulica.
+
+Neki lik dolazi brzo prema njima (nije namjerno, samo žuri).
+
+Gabriel automatski stane ispred Une - kreira barijeru između nje i lika.
+
+Nije to razmišljao. Bilo je automatski.
+
+Instinkt = ljubav.
+
+---
+
+### SIGNAL #13: Drži Te u Javnosti
+
+**Što to znači:**
+
+U javnosti, drži te. Ruka oko ramena. Ruka na struku. Drži ruku.
+
+**Zašto je ovo znak:**
+
+Javno pokazivanje naklonosti = nije mu stid pokazati da ste zajedno.
+
+Također: posesivan signal ("ona je sa mnom").
+
+**Crvena zastava suprotno:**
+
+Ako NIKAD ne dodiruje te u javnosti = možda skriva vezu ili nije spreman.
+
+---
+
+### SIGNAL #14: Nudi Jaknu/Duksericu
+
+**Što to znači:**
+
+Hladno ti je (ili nije) - on ti daje svoju jaknu.
+
+**Zašto je ovo znak:**
+
+Klasični zaštitni pokret.
+
+*"Želim da ti je toplo/ugodno - čak i ako to znači da će meni biti hladno."*
+
+**Bonus:** Muškarci VOLE vidjeti svoje žene u njihovoj odjeći. Posesivan + zaštitni = ljubav.
+
+---
+
+### SIGNAL #15: Blokira Te Od "Prijetnji"
+
+**Što to znači:**
+
+Ako neko pristupa na agresivan način (fizički ili verbalno), on stane između. Automatski.
+
+**Zašto je ovo znak:**
+
+Zaštitni instinkt. Spremnost da stavi svoje tijelo između tebe i opasnosti = ljubav.
+
+---
+
+## KATEGORIJA 4: MIKRO-IZRAZI LICA
+
+### SIGNAL #16: Istinski Osmijeh
+
+**Što to znači:**
+
+Kad te vidi, smiješi se - ali ne bilo kakav osmijeh.
+
+Istinski osmijeh uključuje:
+- Usta (naravno)
+- ALI TAKOĐER oči (male bore oko očiju)
+
+**Zašto je ovo znak:**
+
+Lažni osmijeh = samo usta.
+
+Pravi osmijeh = usta + oči.
+
+Ne možeš lažirati pravi osmijeh. Mozak ga automatski proizvodi kad si stvarno sretan.
+
+Ako te gleda i ima "osmijeh očima" = stvarno je sretan što te vidi.
+
+---
+
+### SIGNAL #17: Obrve Gore Kad Te Vidi
+
+**Što to znači:**
+
+Kad te vidi prvi put (dolaziš na spoj, on dođe do tebe), obrve mu automatski idu gore.
+
+Ne brzi pokret (koji je brz). Nego podignute obrve koje traju 1-2 sekunde.
+
+**Zašto je ovo znak:**
+
+Podignute obrve = iznenađen/sretan/uzbuđen.
+
+*"Oh, ona je ovdje! Uzbuđen sam!"*
+
+Automatska reakcija.
+
+---
+
+### SIGNAL #18: Grize/Liže Usne Dok Te Gleda
+
+**Što to znači:**
+
+Dok te gleda, zagrize donju usnu ili podsvjesno liže usne.
+
+**Zašto je ovo znak:**
+
+Ovo je signal seksualne privlačnosti. Podsvjesni način pokazivanja želje.
+
+**NAPOMENA:** Ovo je više "privlačnost" nego "ljubav" - ali ako je prisutno uz ostale znakove = kombinacija ljubavi + želje.
+
+---
+
+### SIGNAL #19: Lice Se Omekša Kad Te Gleda
+
+**Što to znači:**
+
+Kad gleda druge ljude - lice je neutralno ili malo napeto.
+
+Kad gleda tebe - lice se "omekša."
+
+Oči postaju mekše. Čeljust se opusti. Čelo se odvije.
+
+**Zašto je ovo znak:**
+
+Lice odražava emocije. Kad osjeća ljubav/nježnost = lice se automatski omekša.
+
+**Primjer:**
+
+Una je primijetila:
+
+Gabriel priča sa šefom na telefonu - lice mu je ozbiljno, napeto.
+
+Završi poziv. Pogleda nju.
+
+Lice mu se ODMAH promijeni - omekša, smiješi se.
+
+Kao da je pritisnuo "reset gumb."
+
+To je ljubav.
+
+---
+
+### SIGNAL #20: Proširene Nosnice
+
+**Što to znači:**
+
+Kad te vidi/blizu si, nosnice mu se malo prošire.
+
+**Zašto je ovo znak:**
+
+Širenje nosnica je automatska reakcija na nešto uzbudljivo/privlačno. Tijelo automatski uzima više kisika za pripremiti se na akciju (borbu ili flert 😉).
+
+Teško je za primijetiti, ali ako si blizu - možeš vidjeti.
+
+---
+
+## KATEGORIJA 5: ALFA I SAMOPOUZDANJE
+
+### SIGNAL #21: Isprsi Se
+
+**Što to znači:**
+
+Kad te vidi ili kad ste zajedno u javnosti, automatski isprsi grudi. Stoji ravnije. Širi ramena.
+
+**Zašto je ovo znak:**
+
+Muškarci automatski pokušavaju izgledati veći/jači pred ženom koja im se sviđa.
+
+Paradiranje - kao paunovi koji rašire repove.
+
+Podsvjesni način pokazivanja: *"Ja sam mužjak. Ja mogu zaštititi te."*
+
+---
+
+### SIGNAL #22: Ruke na Bokovima (Snažan Stav)
+
+**Što to znači:**
+
+Stoji sa rukama na bokovima, laktovi široko - zauzima prostor.
+
+**Zašto je ovo znak:**
+
+Snažan stav = pokazivanje samopouzdanja. Ali radi to DA IMPRESIONIRA TEBE.
+
+Pokazuje: *"Ja sam samouvjeren. Ja sam alfa. Ja sam dobar izbor."*
+
+---
+
+### SIGNAL #23: Dotjeruje Se Prije Nego Te Vidi
+
+**Što to znači:**
+
+Prije nego dođeš ili prije nego te pristupi - popravi kosu, odjeću, provjeri kako izgleda.
+
+**Zašto je ovo znak:**
+
+Želi izgledati dobro **ZA TEBE**. Brine o tome kako ga percipiraš.
+
+Briga o izgledu = briga o utiskivanju na tebe = interes.
+
+---
+
+### SIGNAL #24: Pokazuje Vještine
+
+**Što to znači:**
+
+Suptilno pokazuje svoje vještine pred tobom:
+- Snaga (otvara tegle, nosi stvari)
+- Inteligencija (pokazuje znanje o nečemu)
+- Humor (pokušava te nasmijati)
+- Vještine (kuhanje, popravak, bilo što)
+
+**Zašto je ovo znak:**
+
+Paradiranje opet. Mužjaci pokazuju svoje najbolje kvalitete da privuku ženke. Biologija 101.
+
+Ako se trudi impresionirati te = zainteresiran je.
+
+---
+
+### SIGNAL #25: Stoji Više u Tvojoj Prisutnosti
+
+**Što to znači:**
+
+Kad si tu, držanje tijela mu je bolje. Stoji ravnije. Širi ramena. Glava gore.
+
+Kad nisi tu, možda je malo slegao.
+
+**Zašto je ovo znak:**
+
+Podsvjesno pokušava izgledati "bolje" u tvojoj prisutnosti.
+
+Tvoja prisutnost ga tjera da bude najbolja verzija sebe.
+
+To je ljubav.
+
+---
+
+## MASTER DEKODER GOVORA TIJELA: Brzi Pregled
+
+Evo brze tablice za trenutnu analizu:
+
+### BODOVANJE
+
+Izbroj koliko od ovih signala pokazuje **REDOVITO:**
+
+| Broj Signala | Razina Interesa |
+|--------------|-----------------|
+| 0-5 signala | Nizak interes |
+| 6-10 signala | Umjeren interes |
+| 11-15 signala | Jak interes |
+| 16-20 signala | Vrlo jaka ljubav |
+| 21-25 signala | OPSJEDNUT 💯 |
+
+---
+
+## Unin Test u Stvarnom Vremenu (Mjesec 4)
+
+Una je odlučila testirati znanje govora tijela na spoju sa Gabrielom.
+
+Otišli su u restoran. Una je bila svjesna svega što ju je Bono naučio.
+
+**Što je primijetila:**
+
+✅ Gabriel je održavao kontakt očima cijelo vrijeme (duže nego normalno)
+
+✅ Pogled trokuta - definitivno gledao u njene usne par puta
+
+✅ Kad je pričao, naginjao se naprijed (angažiran)
+
+✅ Stopala: oba prema njoj (provjerila ispod stola 😄)
+
+✅ Kad je Una uzela gutljaj vode - Gabriel automatski uzeo svoj (zrcaljenje)
+
+✅ Kad su izašli iz restorana, ruka automatski na njena donja leđa
+
+✅ U taksiju, sjeo blizu nje iako je bilo prostora
+
+✅ Kad ju je gledao, lice mu bilo mekano, opušteno
+
+✅ Istinski osmijeh - vidjela male bore oko očiju
+
+**Rezultat:** 9/9 signala koje je mogla testirati tu večer.
+
+Una je znala - govor tijela ne laže.
+
+Gabriel je bio zaljubljen. Čak i ako nije rekao riječima još.
+
+---
+
+## NAPREDNI SAVJET: Osnovna Linija vs Odstupanje
+
+Ovo je PROFESIONALNI nivo čitanja govora tijela.
+
+**Osnovna linija** = kako se on ponaša NORMALNO (sa drugima, u neutralnim situacijama)
+
+**Odstupanje** = kako se ponaša DRUGAČIJE sa tobom
+
+Ključ nije samo "da li pokazuje ove signale."
+
+Ključ je: **"Da li pokazuje ove signale sa MNOM više nego sa drugima?"**
+
+**Primjer:**
+
+Gabriel je generalno osoba koja voli dodirivati. Dodiruje prijatelje na ramu kad priča.
+
+Pa Una ne može uzeti "slučajne dodire" kao SUPER jak znak - jer on to radi sa svima.
+
+**ALI.**
+
+Gabriel nikad ne drži kontakt očima dugo sa drugima. Gleda na stranu dok priča.
+
+Sa Unom? Konstantan kontakt očima.
+
+**To odstupanje** = znak.
+
+---
+
+## Akcijski Korak
+
+**Sljedeći put kad si sa njim:**
+
+1. **Promatraj** - gledaj ovih 25 signala
+2. **Broji** - koliko pokazuje?
+3. **Usporedi** - da li se ponaša drugačije sa tobom nego sa drugima?
+
+**Govor tijela otkriva istinu.**

@@ -1,671 +1,342 @@
-# TIMING - KADA ESKALIRATI
-
-*"Timing is everything. It's not what you say, it's when you say it." - Nepoznato*
-
-## Razlika Između "Perfect Moment" i "Awkward Disaster"
-
-Dobro.
-
-Imaš poruke. Znaš što reći.
-
-Ali evo gdje većina žena zabrlja:
-
-**Kažu pravu stvar u KRIVO vrijeme.**
-
-I rezultat?
-
-**Awkward. Creepy. Desperate.**
-
-Jer evo istine:
-
-**Ista poruka poslana u 19:00 = sexy.**
-
-**Ista poruka poslana u 3 ujutro = red flag.**
-
-**Ista poruka nakon intimnog momenta = passionate.**
-
-**Ista poruka nakon ghosting-a tebe tjedan dana = desperate.**
-
-**Context and timing = 80% uspjeha.**
-
-Zato ovaj video postoji.
-
-Naučit ćeš **TOČNO** kad eskalirati.
-
-I još važnije - kad **NE** eskalirati.
+*"Erotika je u mislima, seksualnost je u tijelu." - Anaïs Nin*
 
 ---
 
-## DIO 1: ZELENE ZONE - Kad Eskalirati (Perfect Timing)
+## 📊 The Arousal Hierarchy: 5 Nivoa Intenziteta
 
-### ZELENA ZONA #1: Odmah Nakon Što Ste Bili Zajedno (Within 12h)
+Seksualne poruke nisu "one size fits all."
 
-**Scenario:**
+Postoje **nivoi intenziteta:**
 
-Bili ste zajedno sinoć (date, intimni moment, whatever).
+### NIVO 1: PLAYFUL TEASE (Playful zadirkivanje)
 
-On je otišao kući/ti si otišla kući.
+- Light, flirty, suptilno
+- Sigurno za bilo koju fazu veze
+- Može se koristiti često
 
-Sljedeće jutro ili taj dan.
+### NIVO 2: SUGGESTIVE HINT (Sugestivni hint)
 
-**Perfect time za:**
+- Malo jače, ali još uvijek prikladno
+- Implicitno, ne eksplicitno
+- Build-a anticipaciju
 
-**NIVO 1-2 poruke.**
+### NIVO 3: MODERATE INTENSITY (Umjereni intenzitet)
 
-**Primjeri:**
+- Jasno seksualno, ali ne vulgarno
+- Izražava želju direktnije
+- Koristi opreznije (proper timing)
 
-"Still thinking about last night. 😊"
+### NIVO 4: HIGH INTENSITY (Visoki intenzitet)
 
-"You left me in a good mood today. 🔥"
+- Vrlo direktno, jako seksualno
+- Samo kad je odnos etabliran
+- Rijetko, za special occasions
 
-"Thanks for an amazing evening. Can't wait to see you again."
+### NIVO 5: EXPLICIT (Eksplicitno)
 
-**Zašto ovo radi:**
+- Najjači nivo - vulgarno/direktno
+- Samo ako ON to voli i vi ste comfortable
+- **Opcionalno - ne nužno**
 
-- Memorija je FRESH u njegovoj glavi
-- Asocijacija s dobrim iskustvom
-- Reinforces pozitivne emocije
-- Shows appreciation
+### ⚠️ VAŽNO:
 
-**Red flag AKO NE KORISTIŠ:**
+**Možeš kreirati MASIVNU seksualnu napetost koristeći samo Nivoe 1-3.**
 
-Ako nikad ne acknowledge-aš nakon intimnih momenata = može misliti da ti nije bilo važno.
-
----
-
-### ZELENA ZONA #2: Kada On Inicira Flirt (He Opens The Door)
-
-**Scenario:**
-
-On pošalje nešto flirty/seksualno first.
-
-**Primjer:**
-
-Gabriel: "Can't stop thinking about you today."
-
-**Perfect time za escalate:**
-
-Una: "Good thoughts, I hope? 😏"
-
-Ili
-
-Una: "Funny, I've been thinking about you too. But my thoughts might be inappropriate. 😊"
-
-**Zašto ovo radi:**
-
-- On je otvorio vrata = zeleno svjetlo
-- Matching his energy
-- Ne izgleda desperate jer ON je inicirao
-
-**Golden Rule:**
-
-**Ako on flirtuje = ti možeš escalate bez rizika.**
+Nivoi 4-5 su opcionalni - zavisi od vas kao para.
 
 ---
 
-### ZELENA ZONA #3: Prije Planiranog Date-a (4-8h prije)
+## 🎮 NIVO 1: PLAYFUL TEASE (10 Primjera)
 
-**Scenario:**
+### #1: "Razmišljam o tebi. I nisam mislila na tvoju osobnost. 😏"
 
-Imate plan vidjeti se večeras.
+**Zašto radi:**
+- Playful
+- Jasno seksualno ali ne vulgarno
+- Emoji daje playful ton
 
-4-8 sati prije.
-
-**Perfect time za:**
-
-**NIVO 1-2 build anticipacije.**
-
-**Primjeri:**
-
-"Counting down hours until tonight. 😊"
-
-"I have plans for you later. Just warning you. 😏"
-
-"Cannot wait to see you. I might not let you leave early. 😉"
-
-**Zašto ovo radi:**
-
-- Build anticipation
-- On provede ostatak dana misliti na tebe
-- Dopamin spike
-
-**Timing:**
-
-✅ 4-8h prije = Perfect  
-⚠️ 1-2h prije = Ok  
-❌ 15 min prije = Too late, no time to build anticipation
+**Kad koristiti:**
+- Random preko dana
+- Kad želiš light tease
 
 ---
 
-### ZELENA ZONA #4: Kada Je U Dobrom Mood-u (Happy/Relaxed State)
+### #2: "Trebam te vidjeti uskoro. Imam... razloge. 😊"
 
-**Scenario:**
-
-On ti kaže da je imao dobar dan / nešto dobro se dogodilo / opušten je.
-
-**Primjer:**
-
-Gabriel: "Finally finished that project! Feeling great."
-
-**Perfect time za flirty poruku:**
-
-Una: "Good! You deserve a reward tonight. 😏"
-
-**Zašto ovo radi:**
-
-- Kad je sretan = više otvoren za positive/fun/flirty komunikaciju
-- Nije distracted sa stresom
-- Receptivan za seksualnu energiju
-
-**Red flag:**
-
-Ako je u BAD mood (stresiran, ljut) = **NE SAD.**
+**Zašto radi:**
+- "Razlozi" = implicitno seksualno
+- Ali ostavlja prostora za imaginaciju
+- Ne kaže ŠTO su razlozi = on mora zamišljati
 
 ---
 
-### ZELENA ZONA #5: Weekend Evenings (Petak/Subota 18:00-22:00)
+### #3: "Nosim onu stvar koju voliš. 😉"
 
-**Scenario:**
-
-Vikend večer. Opušten je. Kod kuće ili free.
-
-**Perfect time za:**
-
-**NIVO 1-3 poruke.**
-
-**Primjeri:**
-
-"What are you doing tonight? I might have ideas. 😊"
-
-"Bored. Come over? I promise I'll make it worth your time. 😏"
-
-**Zašto ovo radi:**
-
-- Nema posla sutra (bar subota)
-- Relaxed mindset
-- More likely može doći / provesti vrijeme
-
-**Najbolji dan & vrijeme:**
-
-🏆 **Subota 19:00-21:00 = BEST TIME EVER**
+**Zašto radi:**
+- Ako ima omiljenu haljinu/outfit = instant vizualizacija
+- Ako ne zna što misliš = imaginacija radi overtime
 
 ---
 
-### ZELENA ZONA #6: Kada Reference-ira Prošli Intimni Moment
+### #4: "Zanimljivo koliko često pomislim na tebe u neprikladnim trenucima."
 
-**Scenario:**
-
-On spomene nešto iz prošlosti (intimni moment).
-
-**Primjer:**
-
-Gabriel: "Remember that night at your place when..."
-
-**Perfect time za escalate:**
-
-Una: "How could I forget? We should recreate that. Soon. 😏"
-
-**Zašto ovo radi:**
-
-- On je otvorio temu = comfortable je
-- Memory activation = želja
-- Easy escalation
+**Zašto radi:**
+- "Neprikladnim" = seksualna implikacija
+- Ali dovoljno vague da nije awkward
 
 ---
 
-### ZELENA ZONA #7: Nakon Što Te Komplimentirao (Appearance)
+### #5: "Btw, spavala sam jako dobro sinoć. Hvala ti. 😊"
 
-**Scenario:**
-
-On komplimentira kako izgledaš.
-
-**Primjer:**
-
-Gabriel: "You looked amazing today."
-
-**Perfect time za playful/sexy response:**
-
-Una: "You haven't seen anything yet. 😉"
-
-Ili
-
-Una: "Wait until you see what I'm wearing next time. 😊"
-
-**Zašto ovo radi:**
-
-- On je već u "attracted" mindset
-- Kompliment = otvorio vrata
-- Easy escalation
+**Zašto radi:**
+- Ako ste bili zajedno sinoć = implicitno reference na seks
+- Ako niste = zbunjuje ga (dobro zbunjivanje)
 
 ---
 
-## DIO 2: ŽUTE ZONE - Proceed With Caution (Možda Da, Možda Ne)
+### #6: "Ne mogu se fokusirati danas. Tvoja krivnja. 😏"
 
-### ŽUTA ZONA #1: Radno Vrijeme (09:00-17:00)
-
-**Scenario:**
-
-Radni dan. On je na poslu.
-
-**Rizik:**
-
-- Možda ne može odgovoriti kako treba
-- Možda je mobitel vidljiv kolegama (awkward)
-- Distracted = ne može uživati u poruci
-
-**Kad može biti OK:**
-
-- Ako ima fleksibilan posao (remote, slobodan schedule)
-- Ako je na pauzi (lunchtime)
-- Ako znaš da može odgovoriti privatno
-
-**Što koristiti:**
-
-Samo NIVO 1 (very light).
-
-"Thinking about you. Hope you're having a good day. 😊"
-
-**NE koristiti:**
-
-Nivo 2-3+ (too risky).
+**Zašto radi:**
+- Kaže da razmišlja o njemu
+- "Tvoja krivnja" = playful blame
+- Ostavlja ga da se pita "zašto?"
 
 ---
 
-### ŽUTA ZONA #2: Sredinom Tjedna (Utorak-Četvrtak) Nakon 22:00
+### #7: "Imam ideju za večeras. Ali ne mogu reći ovako."
 
-**Scenario:**
-
-Radni dan sutra. Kasno je.
-
-**Rizik:**
-
-- Možda je umoran
-- Možda nije u mood za flirt
-- Možda spava
-
-**Kad može biti OK:**
-
-- Ako znaš da je night owl
-- Ako ste texting već
-- Ako je on inicirao konverzaciju
-
-**Što koristiti:**
-
-NIVO 1, možda 2.
-
-"Can't sleep. Thinking about you. 😊"
+**Zašto radi:**
+- Anticipacija
+- "Ne mogu reći ovako" = implicira nešto intimate
+- Mora čekati da sazna = build tension
 
 ---
 
-### ŽUTA ZONA #3: Kada Niste Pričali Par Dana
+### #8: "Sad mi je toplo. I ti si kriv. 🔥"
 
-**Scenario:**
-
-Radio silence 3-5 dana (ne ghosting, samo busy/distance).
-
-Želiš reconnect sa flirty porukom.
-
-**Rizik:**
-
-- Može izgledati random/out of nowhere
-- Možda trebate prvo emotional reconnect
-
-**Kad može biti OK:**
-
-- Ako je silence bila natural (oboje zauzeti)
-- Ako imate good history između vas
-
-**Što koristiti:**
-
-NIVO 1 only.
-
-Start light. Test waters.
-
-"Hey stranger. Been thinking about you. How are you?"
-
-Ako odgovori dobro = možeš escalate dalje.
+**Zašto radi:**
+- "Toplo" = može biti seksualna metafora
+- Playful blame opet
 
 ---
 
-## DIO 3: CRVENE ZONE - NIKAD Ne Eskalirati (Bad Timing)
+### #9: "Imam confession. Ali reci ti meni prvo nešto."
 
-### CRVENA ZONA #1: Kasno Noću / Rano Jutro (23:00-07:00)
-
-**Scenario:**
-
-2 ujutro. Ne možeš spavati. Razmišljaš o njemu.
-
-**NEMOJ poslati seksualnu poruku.**
-
-**Zašto:**
-
-- Izgleda desperate
-- Možda je creepy (probudio ga)
-- Možda si pijana (red flag)
-- "Booty call" vibes
-
-**Iznimka:**
-
-Ako ste OBOJE budni i texting već (rijetko).
-
-**Što napraviti umjesto:**
-
-Sačekaj do jutra.
-
-Zapiši poruku u notes ali NE ŠALJI.
+**Zašto radi:**
+- "Confession" = intriga
+- Ali ga tjera da ON share prvo = power play
+- Moraš isporučiti confession nakon (nešto seksualno-light)
 
 ---
 
-### CRVENA ZONA #2: Nakon Što Je Ghostao Te / Bio Hladan
+### #10: "Znaš onaj san što sam imala? Onaj o tebi? Da, ponovo. 😊"
 
-**Scenario:**
-
-Bio je distant. Ignorirao poruke. Hladan.
-
-**NIKAD ne šalji seksualnu poruku kao "način da ga vratiš."**
-
-**Zašto:**
-
-- Izgleda desperate
-- Rewarding bad behavior
-- Ne rješava pravi problem
-
-**Što napraviti umjesto:**
-
-Address emotional disconnect prvo.
-
-Tek kad se vrati normalno = onda možeš flirtati.
+**Zašto radi:**
+- "San o tebi" = može biti seksualan
+- Ne kaže što se dogodilo = imaginacija
+- "Ponovo" = implicira da često sanja o njemu
 
 ---
 
-### CRVENA ZONA #3: Odmah Nakon Svađe
+## 🔥 NIVO 2: SUGGESTIVE HINT (10 Primjera)
 
-**Scenario:**
+### #11: "Ne mogu čekati da te vidim večeras. Imam planove za tebe."
 
-Posvađali ste se. Tension. Nije resolved.
-
-**NIKAD ne koristi seksualnu poruku kao "make-up strategy."**
-
-**Zašto:**
-
-- Ignorira pravi problem
-- "Sex fixes nothing" mindset
-- Možda je još ljut = backlash
-
-**Što napraviti umjesto:**
-
-Resolve svađu PRVO.
-
-Tek kada ste ok = možeš koristiti seksualne poruke opet.
+**Zašto radi:**
+- "Planove" = seksualna implikacija
+- Anticipacija = dopamin
+- On mora pitati "kakve planove?"
 
 ---
 
-### CRVENA ZONA #4: Kada Je U Lošem Mood-u / Stresiran
+### #12: "Baš sam razmišljala o tvojim rukama. Ne pitaj zašto. 😏"
 
-**Scenario:**
-
-Rekao ti je da je imao užasan dan / stresiran / frustriran.
-
-**Ne sad.**
-
-**Zašto:**
-
-- Ne može uživati
-- Možda ga dodatno frustrira
-- Nije receptivan za flirt
-
-**Što napraviti umjesto:**
-
-Budi supportive first.
-
-"Sorry you had a rough day. Here if you need to talk."
-
-Later (kad se smiri) = možeš flirtati.
+**Zašto radi:**
+- "Tvoje ruke" = seksualno
+- "Ne pitaj zašto" = ali znaš da će pitati = engagement
 
 ---
 
-### CRVENA ZONA #5: Kada Si JAKO Emotivna (Ljuta/Tužna/Frustrirana)
+### #13: "Reminder: ti si moj tonight. Planiraj accordingly."
 
-**Scenario:**
-
-Ti si u jako emocionalnom stanju (bilo pozitivno ili negativno).
-
-**Ne šalji seksualne poruke sad.**
-
-**Zašto:**
-
-- Tvoja energija će se osjetiti kroz poruku
-- Možda kažeš nešto što ne misliš
-- Možda bude awkward
-
-**Golden Rule:**
-
-**Seksualne poruke dolaze iz CONFIDENT, PLAYFUL mjesta.**
-
-**Ne iz desperate, emotional, needy mjesta.**
+**Zašto radi:**
+- Possessive (u dobrom smislu)
+- "Planiraj accordingly" = spremi se = anticipacija
 
 ---
 
-### CRVENA ZONA #6: Prva 2-3 Date-a (Prerano)
+### #14: "Želim te. (Sad ide pitanje: za što? 😉)"
 
-**Scenario:**
-
-Tek ste se upoznali. Bili na 1-2 date-a.
-
-Još niste bili intimni.
-
-**NE šalji seksualne poruke još.**
-
-**Zašto:**
-
-- Too fast
-- Možda ga uplašiš
-- Možda dobiješ "easy" label
-
-**Iznimka:**
-
-Ako je ON eskalirao first = možeš matchati njegovu energiju (ali oprezno).
-
-**Što napraviti umjesto:**
-
-Light flirting je OK.
-
-Ali drži se NIVO 1 only.
+**Zašto radi:**
+- Direktno "Želim te"
+- Ali onda playfully deflects = tease
+- On mora odgovoriti
 
 ---
 
-## DIO 4: ESCALATION LADDER - Step-By-Step Process
+### #15: "Imam problem. Ti si uvijek u mojim mislima. Pogotovo... nevermind. 😊"
 
-Hajde da vidimo **kako gradually escalate** kroz vrijeme.
-
-### TJEDAN 1-2 (Početak veze):
-
-**Goal:** Establish comfort & attraction.
-
-**Što koristiti:**
-
-- Light flirty compliments
-- Playful tease (Nivo 1 only)
-- Test waters
-
-**Primjer:** "You're fun to be around. 😊"
+**Zašto radi:**
+- "Nevermind" = kaže puno
+- Ali ne završava rečenicu = imaginacija
 
 ---
 
-### TJEDAN 3-4 (Building intimacy):
+### #16: "Just so you know - ne mogu biti responsible za ono što će se dogoditi kad te vidim."
 
-**Goal:** Build anticipation & sexual tension.
-
-**Što koristiti:**
-
-- Nivo 1-2 poruke
-- Reference anticipaciju
-- Build desire
-
-**Primjer:** "Can't wait to see you this weekend. 😏"
+**Zašto radi:**
+- Playful "upozorenje"
+- Anticipacija - što će se dogoditi?
 
 ---
 
-### MJESEC 2+ (Established intimacy):
+### #17: "Uspomene od sinoć... yeah. 🔥"
 
-**Goal:** Maintain passion & sexual interest.
-
-**Što koristiti:**
-
-- Nivo 1-3 poruke
-- Reference shared moments
-- Create ongoing tension
-
-**Primjer:** "Still thinking about last night. We need to do that again. 🔥"
+**Zašto radi:**
+- Reference na previous intimacy
+- "Yeah" = slaže se da je bilo dobro
+- Emoji pojačava
 
 ---
 
-### MJESEC 3+ (Long-term):
+### #18: "Sad sam se sjetila da imam tvoju omiljenu [stvar - haljina/donje rublje]. Možda je nosim večeras."
 
-**Goal:** Keep excitement alive.
-
-**Što koristiti:**
-
-- Rotate all nivoe (1-4)
-- Surprise him occasionally
-- Maintain unpredictability
-
-**Primjer:** Mix of light teases, moderate intensity, occasional high intensity (special occasions).
+**Zašto radi:**
+- Vizualizacija
+- "Možda" = neizvjesno = anticipacija
 
 ---
 
-## DIO 5: ČITANJE SIGNALA - Kako Znati Da Li Je Pravo Vrijeme
+### #19: "Znaš kako kažu - absence makes the heart grow fonder. Ali ne samo srce. 😏"
 
-**Evo checklist-e prije nego pošalješ:**
-
-### GREEN LIGHT CHECKLIST (Pošalji):
-
-- [ ] Bili smo zajedno nedavno (within 24-48h)
-- [ ] On je u dobrom mood-u (happy/relaxed)
-- [ ] Vrijeme je ok (18:00-22:00, vikend)
-- [ ] On je flirtovao nedavno
-- [ ] Veza je etablirana (intimni smo)
-- [ ] JA sam u confident, playful stanju
-
-**Ako imaš 4+ checkmarks = GREEN LIGHT.**
+**Zašto radi:**
+- "Ne samo srce" = tijelo također
+- Suptilno ali jasno
 
 ---
 
-### YELLOW LIGHT CHECKLIST (Možda čekaj):
+### #20: "FYI: malo sam nestrpljiva večeras. Just warning you. 😊"
 
-⚠️ Nismo pričali par dana  
-⚠️ On je na poslu  
-⚠️ Kasno je (nakon 22:00)  
-⚠️ Ne znam kakav mu je mood
-
-**Ako imaš 2+ yellow flags = ČEKAJ ili koristi samo Nivo 1.**
+**Zašto radi:**
+- "Nestrpljiva" = željna
+- "Warning" = playful ali jasno
 
 ---
 
-### RED LIGHT CHECKLIST (NEMOJ poslati):
+## 💥 NIVO 3: MODERATE INTENSITY (7 Primjera)
 
-❌ On je bio hladan/distant nedavno  
-❌ Posvađali smo se  
-❌ Vrlo rano u vezi (< 3 date-a)  
-❌ Ja sam jako emotivna (ljuta/tužna)  
-❌ Kasno je noću (23:00+)  
-❌ On je rekao da je stresiran/loš dan
+**⚠️ NAPOMENA:** Ovaj nivo koristi SAMO u etabliranoj vezi gdje ste već intimni.
 
-**Ako imaš BILO KOJI red flag = NE ŠALJI.**
+### #21: "Ne mogu prestati misliti o tome kako me dodirneš."
+
+**Direktno. Seksualno. Ali elegantno.**
 
 ---
 
-## REAL-WORLD PRIMJER: Una's Timing Masterclass
+### #22: "Sinoć je bilo... Trebamo ponoviti. Uskoro."
 
-### LOŠA ODLUKA (Što NE napraviti):
-
-Una želi poslati seksualnu poruku.
-
-Razmišlja: "Pošaljem sad?"
-
-**Situacija:**
-
-- Ponedjeljak je, 10:00 (radno vrijeme)
-- Gabriel je na important meeting danas (znala je)
-- Nisu se vidjeli tjedan dana (bio je busy)
-- Una je malo frustrirana što je bio distant
-
-Una je skoro poslala: "Nedostaješ mi. Trebam te. 🔥"
-
-**Ali stala je.**
-
-Prošla kroz checklist:
-
-❌ Radno vrijeme  
-❌ Important meeting  
-❌ Distant bio = možda emotional disconnect  
-❌ Una frustrirana = ne iz pravog mjesta
-
-**Odluka: NE ŠALJI.**
+**Reference + želja za more.**
 
 ---
 
-### DOBRA ODLUKA (Što napraviti):
+### #23: "Došla sam do zaključka: totally addicted na tebe. Problem?"
 
-Una čeka.
-
-**Četvrtak večer, 20:00.**
-
-Gabriel joj piše first: "Finally free! This week was crazy."
-
-Una: "I can imagine. How are you feeling?"
-
-Gabriel: "Exhausted but good. Miss you."
-
-**Una prepoznaje:**
-
-✅ On je inicirao  
-✅ Rekao "miss you" = otvorio vrata  
-✅ Večer je, vikend close  
-✅ On je relaxed sad  
-✅ Una je u good mood
-
-**Odluka: ŠALJI (Nivo 2).**
-
-Una: "Miss you too. A lot. Come over tomorrow? I have plans for you. 😏"
-
-Gabriel: "What kind of plans? 😊"
-
-Una: "The kind that require you to cancel any other plans you had. 😉"
-
-Gabriel: "Done. What time?"
-
-**PERFECT TIMING = PERFECT RESULT.**
+**"Addicted" = jaka riječ. Pokazuje intenzitet želje.**
 
 ---
 
-## RECAP - VIDEO B3.3
+### #24: "Znaš onaj trik sa [specifična stvar]? Yeah, razmišljam o tome. 😏"
 
-**Naučila si:**
-
-✅ **7 Zelenih Zona** (perfect timing za eskalaciju)  
-✅ **3 Žute Zone** (proceed with caution)  
-✅ **6 Crvenih Zona** (nikad ne eskalirati)  
-✅ **Escalation Ladder** (kako gradually build through vrijeme)  
-✅ **Checklist system** (kako znati je li pravo vrijeme)  
-✅ **Real example** (Una's timing masterclass)
-
-**Golden Rule Za Zapamtiti:**
-
-**"Bolje poslati DOBRU poruku KASNIJE, nego DOBRU poruku U KRIVO VRIJEME."**
-
-**Timing > Content.**
+**Ako imate inside joke ili specific thing - powerful.**
 
 ---
 
-## Action Step:
+### #25: "Možda bi trebala zadržati misli o tebi za sebe. Ali... ne mogu. 🔥"
 
-Sljedeći put prije nego pošalješ flirty/seksualnu poruku:
+**Vulnerability + desire.**
 
-1. **Pause**
-2. **Check context** (gdje je on? kakav mood? što se događa?)
-3. **Run through checklist** (green/yellow/red lights)
-4. **Decide**: Pošalji SAD, Pošalji KASNIJE, ili NE pošalji
+---
 
-**Patience + Timing = Success.**
+### #26: "Jedva čekam večeras. I ne, ne mislim na film. 😊"
 
+**Jasno ali playful.**
+
+---
+
+### #27: "Trebam te. Ne kasnije. Sad."
+
+**Direktno izražavanje želje - simple, powerful.**
+
+---
+
+## 🎯 MASTER GUIDELINE: Kako Odabrati Pravu Poruku
+
+### DECISION TREE:
+
+#### Jesmo li već intimni?
+
+- **NE** → Koristi samo Nivo 1 (Playful Tease)
+- **DA** → Continue...
+
+#### Koliko dugo smo zajedno?
+
+- **< 1 mjesec** → Nivo 1-2
+- **1-3 mjeseca** → Nivo 1-3
+- **3+ mjeseca** → Nivo 1-4 (opcionalno 5 ako oboje comfortable)
+
+#### Kakav je response do sad na flirty poruke?
+
+- **Pozitivan** (flirtuje nazad) → Možeš ići jače
+- **Neutralan** (ok ali ne engaged) → Ostani na lower nivou
+- **Negativan** (ne odgovara dobro) → Pull back, fokus na emocionalnu vezu
+
+#### Koje je vrijeme dana?
+
+- **18:00-22:00** → Perfect time
+- **12:00-17:00** → Ok za light nivoe
+- **23:00+ ili Early morning** → IZBJEGAVAJ (bad timing)
+
+---
+
+## 💬 BONUS: Kako Odgovoriti Na Njegovu Reakciju
+
+### Ako odgovori:
+
+#### "😏" ili "🔥" (emoji only):
+
+- On je engaged ali ne zna što reći
+- **Ti:** "Cat got your tongue? 😊"
+
+#### "Haha 😊":
+
+- Voli ali možda malo uncomfortable
+- **Ti:** Pusti ga da procesira, ne push dalje sad
+
+#### "Što imaš na umu? 😉":
+
+- On je engaged i želi escalate
+- **Ti:** "Dođi večeras i saznaj."
+
+#### "You're trouble 😏":
+
+- Perfect response - voli to
+- **Ti:** "Best kind of trouble."
+
+#### "Missing you too":
+
+- He's matching your energy
+- **Ti:** Continue na istom nivou ili malo jače
+
+---
+
+## Da zaključimo...
+
+✅ Koristi različite nivoe intenziteta ovisno o fazi veze
+
+✅ Timing je kritičan - večer je najbolje vrijeme
+
+✅ Čitaj njegove reakcije i prilagodi se
+
+✅ Manje je više - ne spamaj sa seksualnim porukama
+
+✅ Subtilnost > Eksplicitnost u većini slučajeva

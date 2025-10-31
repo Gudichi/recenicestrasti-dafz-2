@@ -1,5 +1,3 @@
-# Tko je Bono i zašto ga slušati?
-
 Dobar dan.
 
 Moje ime je Bono.

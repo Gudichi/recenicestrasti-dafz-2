@@ -1,5 +1,3 @@
-# Psihologija Dopamina (Što Stvarno Pokreće Privlačnost)
-
 Dobro.
 
 Ovdje dolazimo do dijela gdje neke cure isključe mozak jer misle: "O ne, znanost, dosadno."

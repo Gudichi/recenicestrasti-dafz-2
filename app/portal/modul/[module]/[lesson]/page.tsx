@@ -11,6 +11,7 @@ import { getLesson, getModule } from "@/lib/content";
 import Link from "next/link";
 import { redirect } from "next/navigation";
 import Markdown from "react-markdown";
+import remarkGfm from "remark-gfm";
 
 export default async function LessonPage({
   params,
@@ -58,10 +59,10 @@ export default async function LessonPage({
           </BreadcrumbItem>
         </BreadcrumbList>
       </Breadcrumb>
-      <h1 className="font-serif italic text-4xl lg:text-5xl pb-2 text-[#8B4566]">
+      <h1 className="font-serif italic font-medium text-4xl lg:text-5xl pb-2 text-[#8B4566] leading-snug">
         {l?.title}
       </h1>
-      <Markdown>{l?.content || ""}</Markdown>
+      <Markdown remarkPlugins={[remarkGfm]}>{l?.content || ""}</Markdown>
 
       <div className="flex justify-center items-center">
         <Button asChild size="lg" className="shadow-lg hover:shadow-xl mt-4">

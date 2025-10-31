@@ -1,5 +1,3 @@
-# KATEGORIJA 3: VALIDACIJSKA SJEMENA
-
 *"Ljudi će zaboraviti što si rekao, zaboravit će što si napravio, ali nikada neće zaboraviti kako si ih natjerao da se osjećaju." - Maya Angelou*
 
 ## Psihologija iza Validacijskih Sjemena

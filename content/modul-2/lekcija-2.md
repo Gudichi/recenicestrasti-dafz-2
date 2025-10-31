@@ -1,5 +1,3 @@
-# KATEGORIJA 1: TAJANSTVENA SJEMENA 🔮
-
 ## Psihologija iza Tajanstvenih Sjemena
 
 Zapamti ovo:

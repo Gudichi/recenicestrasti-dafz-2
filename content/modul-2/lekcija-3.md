@@ -1,5 +1,3 @@
-# KATEGORIJA 2: NEDOSTUPNA SJEMENA
-
 *"Ono što je lako dostupno rijetko se cijeni." - Nepoznati autor*
 
 ## Psihologija iza Nedostupnih Sjemena

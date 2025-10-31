@@ -45,12 +45,12 @@ const moduleDefinitions = [
       },
       {
         slug: "lekcija-3",
-        title: "Psihologija Dopamina (Što Stvarno Pokreće Privlačnost)",
+        title: "Psihologija dopamina (što stvarno pokreće privlačnost)",
         module: "modul-1",
       },
       {
         slug: "lekcija-4",
-        title: "Zašto Se Muškarci Udaljavaju (Istina Koju Nitko Ne Govori)",
+        title: "Zašto se muškarci udaljavaju (istina koju nitko ne govori)",
         module: "modul-1",
       },
     ],
@@ -62,14 +62,39 @@ const moduleDefinitions = [
     lessons: [
       {
         slug: "lekcija-1",
-        title: "Osnovni Principi Komunikacije",
+        title: "21 sjemena dopamina",
+        module: "modul-2",
+      },
+      {
+        slug: "lekcija-2",
+        title: "Tajanstvena sjemena",
+        module: "modul-2",
+      },
+      {
+        slug: "lekcija-3",
+        title: "Nedostupna sjemena",
+        module: "modul-2",
+      },
+      {
+        slug: "lekcija-4",
+        title: "Validacijska sjemena",
+        module: "modul-2",
+      },
+      {
+        slug: "lekcija-5",
+        title: "Nostalgična sjemena",
+        module: "modul-2",
+      },
+      {
+        slug: "lekcija-6",
+        title: "Izazovna sjemena",
         module: "modul-2",
       },
     ],
   },
   {
     slug: "modul-3",
-    title: "Timing & Kontekst",
+    title: "Vrijeme & Kontekst",
     description: "Kad reći pravu stvar u pravo vrijeme",
     lessons: [
       {
@@ -84,7 +109,7 @@ const moduleDefinitions = [
       },
       {
         slug: "lekcija-3",
-        title: "Red Flags - Kad apsolutno NE koristiti rečenice",
+        title: "Kad apsolutno NE koristiti rečenice",
         module: "modul-3",
       },
       {
@@ -94,7 +119,7 @@ const moduleDefinitions = [
       },
       {
         slug: "lekcija-5",
-        title: "Master Decision Tree",
+        title: "Master Decision Tree - Koja rečenica u kojoj situaciji",
         module: "modul-3",
       },
     ],
@@ -105,23 +130,23 @@ const moduleDefinitions = [
     description: "Majstorstvo kombinacija & Long-Game strategija",
     lessons: [
       {
-        slug: "lekcija-0",
-        title: "Uvod u Napredne Strategije",
-        module: "modul-4",
-      },
-      {
         slug: "lekcija-1",
-        title: "Kombiniranje rečenica za maksimalni efekt",
+        title: "Uvod u napredne strategije",
         module: "modul-4",
       },
       {
         slug: "lekcija-2",
-        title: "Push-Pull tehnika - Umjetnost emocionalne rollercoastera",
+        title: "Kombiniranje rečenica za maksimalni efekt",
         module: "modul-4",
       },
       {
         slug: "lekcija-3",
-        title: "Održavanje momentum - Long-Game strategija",
+        title: "Povuci-Gurni tehnika - Umjetnost emocionalne rollercoastera",
+        module: "modul-4",
+      },
+      {
+        slug: "lekcija-4",
+        title: "Kako ga zadržati opsjednutim mjesecima, ne danima",
         module: "modul-4",
       },
     ],
@@ -132,56 +157,24 @@ const moduleDefinitions = [
     description: "Kako prepoznati je li stvarno zaljubljen",
     lessons: [
       {
-        slug: "lekcija-0",
-        title: "Uvod u Znakove Strasti",
-        module: "bonus-1",
-      },
-      {
         slug: "lekcija-1",
-        title: "Kako prepoznati je li zaljubljen",
+        title: "Uvod u znakove strasti",
         module: "bonus-1",
       },
       {
         slug: "lekcija-2",
-        title: "Body language signali",
+        title: "Kako prepoznati je li stvarno zaljubljen",
         module: "bonus-1",
       },
       {
         slug: "lekcija-3",
-        title: "Tekstualni signali",
+        title: "Što njegovo tijelo govori (kad usta ne govore)",
         module: "bonus-1",
-      },
-    ],
-  },
-  {
-    slug: "bonus-3",
-    title: "Bonus 3: Seksualna Opsesija",
-    description: "Kako muškarca učiniti seksualno opsjednutim",
-    lessons: [
-      {
-        slug: "lekcija-0",
-        title: "Uvod u Seksualnu Opsesiju",
-        module: "bonus-3",
-      },
-      {
-        slug: "lekcija-1",
-        title: "Psihologija muške seksualnosti",
-        module: "bonus-3",
-      },
-      {
-        slug: "lekcija-2",
-        title: "Seksualne poruke koje ga aktiviraju",
-        module: "bonus-3",
-      },
-      {
-        slug: "lekcija-3",
-        title: "Timing - kada eskalirati",
-        module: "bonus-3",
       },
       {
         slug: "lekcija-4",
-        title: "Održavanje seksualne napetosti (Long-Game)",
-        module: "bonus-3",
+        title: "Kako dekodirati njegove poruke (i pročitati što stvarno misli)",
+        module: "bonus-1",
       },
     ],
   },
@@ -192,18 +185,13 @@ const moduleDefinitions = [
       "Kako razumjeti muškarca, zašto se udaljava, i što on zaista želi",
     lessons: [
       {
-        slug: "lekcija-0",
+        slug: "lekcija-1",
         title: "Uvod: Zašto ova knjiga postoji",
         module: "bonus-2",
       },
       {
-        slug: "lekcija-1",
-        title: "Kako muški mozak radi (i zašto je drugačiji)",
-        module: "bonus-2",
-      },
-      {
         slug: "lekcija-2",
-        title: "Poglavlje trenutno nedostupno",
+        title: "Kako muški mozak radi (i zašto je drugačiji)",
         module: "bonus-2",
       },
       {
@@ -218,8 +206,40 @@ const moduleDefinitions = [
       },
       {
         slug: "lekcija-5",
-        title: "Najvažniji Red/Green Flag Test koji ćeš ikad napraviti",
+        title: "Najvažniji red/green flag test koji ćeš ikad napraviti",
         module: "bonus-2",
+      },
+    ],
+  },
+  {
+    slug: "bonus-3",
+    title: "Bonus 3: Seksualna Opsesija",
+    description: "Kako muškarca učiniti seksualno opsjednutim",
+    lessons: [
+      {
+        slug: "lekcija-1",
+        title: "Kako muškarca učiniti seksualno opsjednutim",
+        module: "bonus-3",
+      },
+      {
+        slug: "lekcija-2",
+        title: "Psihologija muške seksualnosti",
+        module: "bonus-3",
+      },
+      {
+        slug: "lekcija-3",
+        title: "Seksualne poruke koje ga aktiviraju",
+        module: "bonus-3",
+      },
+      {
+        slug: "lekcija-4",
+        title: "Vrijeme - Kada eskalirati",
+        module: "bonus-3",
+      },
+      {
+        slug: "lekcija-5",
+        title: "Održavanje seksualne napetosti (Long-Game)",
+        module: "bonus-3",
       },
     ],
   },
