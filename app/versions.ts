@@ -33,6 +33,7 @@ export type Version = {
 };
 
 export const getVersion = (versionKey: string): Version => {
+  if (versionKey) versionKey = versionKey.toLowerCase();
   const v = versions[versionKey as keyof typeof versions] ?? versions["a"];
   return { ...v, atf: atfList[v.atfIndex] };
 };
