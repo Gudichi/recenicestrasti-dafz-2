@@ -45,7 +45,7 @@ export const versions = {
     checkoutVersion: 1,
   },
   b: {
-    atfIndex: 0,
+    atfIndex: 1,
     videoId: "3tf8mfzu8d",
     checkoutVersion: 2,
   },
