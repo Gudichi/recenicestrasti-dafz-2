@@ -1,4 +1,5 @@
 import { ClientEvent } from "@/components/client-event";
+import { PostHogThankYouTracker } from "@/components/posthog-thank-you-tracker";
 import { clerkClient } from "@clerk/nextjs/server";
 import { AppWindow, CheckCircle, LogIn } from "lucide-react";
 import Stripe from "stripe";
@@ -162,6 +163,7 @@ export default async function CompletionPage({
           options={{ value: paymentIntent.amount / 100, currency: "EUR" }}
         />
       )}
+      <PostHogThankYouTracker />
     </div>
   );
 }

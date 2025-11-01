@@ -2,6 +2,7 @@
 
 import { useEffectOnce } from "@/hooks/use-effect-once";
 import { Check } from "lucide-react";
+import posthog from "posthog-js";
 import React, { useState } from "react";
 import { TimedContent } from "./timed-content";
 import { Version } from "./versions";
@@ -10,19 +11,69 @@ export default function AboveTheFold({ version }: { version: Version }) {
   const { atf, videoId } = version;
 
   const [isUnlocked, setIsUnlocked] = useState(false);
-  const unlockAfter = 8 * 60; // 8 minutes
+  const unlockAfter = 6 * 60; // 6 minutes
 
   useEffectOnce(() => {
+    // Register variant in PostHog
+    try {
+      const params = new URLSearchParams(window.location.search);
+      const v = (params.get("v") || "a").toLowerCase();
+      if ("abcdef".includes(v)) {
+        posthog.register({ variant: v });
+      }
+    } catch {}
+
     // @ts-ignore
     window._wq = window._wq || [];
+
+    // Guard variables for tracking
+    let __unlockSent = false;
+    let __m3 = false,
+      __m6 = false,
+      __m8 = false,
+      __done = false;
+    let __videoPlayed = false;
 
     // @ts-ignore
     window._wq.push({
       id: videoId,
       onReady: (video: any) => {
         video.bind("timechange", (t: number) => {
-          if (t >= unlockAfter && !isUnlocked) {
+          // Video play event
+          if (!__videoPlayed && t > 1) {
+            __videoPlayed = true;
+            posthog.capture("video_play");
+          }
+
+          // Progress milestones
+          if (!__m3 && t >= 180) {
+            __m3 = true;
+            posthog.capture("video_progress", { milestone: "3min" });
+          }
+          if (!__m6 && t >= 360) {
+            __m6 = true;
+            posthog.capture("video_progress", { milestone: "6min" });
+          }
+          if (!__m8 && t >= 480) {
+            __m8 = true;
+            posthog.capture("video_progress", { milestone: "8min" });
+          }
+
+          // Unlock logic at 6 minutes
+          if (!__unlockSent && t >= 360) {
+            __unlockSent = true;
             setIsUnlocked(true);
+            posthog.capture("video_offer_unlocked");
+          }
+
+          // Complete event
+          if (!__done && video && typeof video.duration === "function") {
+            video.duration((dur: number) => {
+              if (dur && t >= dur * 0.95) {
+                __done = true;
+                posthog.capture("video_progress", { milestone: "complete" });
+              }
+            });
           }
         });
       },

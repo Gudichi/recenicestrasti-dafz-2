@@ -1,5 +1,5 @@
 "use client";
-import React, { useCallback, useState } from "react";
+import React, { useCallback, useEffect, useState } from "react";
 
 import scrollDown from "@/app/anim/scroll-down.json";
 import PaymentIcons from "@/components/payment-icons";
@@ -8,6 +8,7 @@ import { useEffectOnce } from "@/hooks/use-effect-once";
 import { event } from "@/lib/pixel";
 import Lottie from "lottie-react";
 import { Check, Lock, Mail, TriangleAlert } from "lucide-react";
+import posthog from "posthog-js";
 import { Checkout, PRICE } from "./checkout";
 import { Checkout2 } from "./checkout2";
 import { FAQList } from "./faq";
@@ -32,6 +33,7 @@ export const TimedContent = ({
   const expandCheckout = () => {
     if (!checkoutExpanded) {
       event("InitiateCheckout", { value: PRICE, currency: "EUR" });
+      posthog.capture("checkout_intent", { value: PRICE, currency: "EUR" });
     }
 
     setCheckoutExpanded(true);
@@ -41,6 +43,49 @@ export const TimedContent = ({
   useEffectOnce(() => {
     event("ViewContent");
   });
+
+  // IntersectionObserver for offer_seen, checkout_seen, view_content
+  useEffect(() => {
+    const observe = (id: string, eventName: string) => {
+      const el = document.getElementById(id);
+      if (!el) return;
+
+      const observer = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((e) => {
+            if (e.isIntersecting && e.intersectionRatio >= 0.5) {
+              if (!sessionStorage.getItem(eventName)) {
+                sessionStorage.setItem(eventName, "1");
+                posthog.capture(eventName);
+              }
+            }
+          });
+        },
+        { threshold: 0.5 }
+      );
+
+      observer.observe(el);
+    };
+
+    observe("offer-section", "offer_seen");
+    observe("checkout-section", "checkout_seen");
+    observe("testimonial-section", "view_content");
+  }, []);
+
+  // Checkout abandon tracking
+  useEffect(() => {
+    const handler = () => {
+      if (
+        checkoutExpanded &&
+        !sessionStorage.getItem("ph_purchased")
+      ) {
+        posthog.capture("checkout_abandon");
+      }
+    };
+
+    window.addEventListener("beforeunload", handler);
+    return () => window.removeEventListener("beforeunload", handler);
+  }, [checkoutExpanded]);
 
   return (
     <React.Fragment>
@@ -404,7 +449,7 @@ export const TimedContent = ({
       </div>
 
       {/* Testimonial Section */}
-      <div className="bg-white py-8 md:py-16">
+      <div id="testimonial-section" className="bg-white py-8 md:py-16">
         <div className="max-w-4xl mx-auto px-4">
           {/* Section Title */}
           <h2 className="font-sans text-2xl md:text-3xl font-bold text-[#64113F] text-center mb-12">
