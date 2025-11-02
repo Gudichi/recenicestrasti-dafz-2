@@ -42,14 +42,25 @@ export const TimedContent = ({
     }
 
     setCheckoutExpanded(true);
-    setTimeout(() => scrollToSection("checkout-section"), 100);
+    setTimeout(() => {
+      scrollToSection("checkout-section");
+      const el = document.getElementById("checkout-section");
+      if (el && !sessionStorage.getItem("checkout_seen")) {
+        const r = el.getBoundingClientRect();
+        const inView = r.top < window.innerHeight * 0.6 && r.bottom > window.innerHeight * 0.4;
+        if (inView) {
+          sessionStorage.setItem("checkout_seen", "1");
+          posthog.capture("checkout_seen");
+        }
+      }
+    }, 150);
   };
 
   useEffectOnce(() => {
     event("ViewContent");
   });
 
-  // IntersectionObserver for offer_seen, checkout_seen, view_content
+  // IntersectionObserver for offer_seen, view_content
   useEffect(() => {
     const observe = (id: string, eventName: string) => {
       const el = document.getElementById(id);
@@ -57,23 +68,20 @@ export const TimedContent = ({
 
       const observer = new IntersectionObserver(
         (entries) => {
-          entries.forEach((e) => {
-            if (e.isIntersecting && e.intersectionRatio >= 0.5) {
-              if (!sessionStorage.getItem(eventName)) {
-                sessionStorage.setItem(eventName, "1");
-                posthog.capture(eventName);
-              }
+          entries.forEach((entry) => {
+            if (entry.isIntersecting && !sessionStorage.getItem(eventName)) {
+              sessionStorage.setItem(eventName, "1");
+              posthog.capture(eventName);
             }
           });
         },
-        { threshold: 0.5 }
+        { threshold: 0.4 }
       );
 
       observer.observe(el);
     };
 
     observe("offer-section", "offer_seen");
-    observe("checkout-section", "checkout_seen");
     observe("testimonial-section", "view_content");
   }, []);
 
@@ -90,6 +98,29 @@ export const TimedContent = ({
 
     window.addEventListener("beforeunload", handler);
     return () => window.removeEventListener("beforeunload", handler);
+  }, [checkoutExpanded]);
+
+  // Checkout seen tracking (only after checkout is expanded)
+  useEffect(() => {
+    if (!checkoutExpanded) return;
+
+    const el = document.getElementById("checkout-section");
+    if (!el) return;
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting && !sessionStorage.getItem("checkout_seen")) {
+            sessionStorage.setItem("checkout_seen", "1");
+            posthog.capture("checkout_seen");
+          }
+        });
+      },
+      { threshold: 0.4 }
+    );
+
+    observer.observe(el);
+    return () => observer.disconnect();
   }, [checkoutExpanded]);
 
   return (
