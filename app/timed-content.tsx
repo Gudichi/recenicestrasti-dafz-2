@@ -42,29 +42,21 @@ export const TimedContent = ({
     }
 
     setCheckoutExpanded(true);
-    setTimeout(() => {
-      scrollToSection("checkout-section");
-      const el = document.getElementById("checkout-section");
-      if (el && !sessionStorage.getItem("checkout_seen")) {
-        const r = el.getBoundingClientRect();
-        const inView = r.top < window.innerHeight * 0.6 && r.bottom > window.innerHeight * 0.4;
-        if (inView) {
-          sessionStorage.setItem("checkout_seen", "1");
-          posthog.capture("checkout_seen");
-        }
-      }
-    }, 150);
+    setTimeout(() => scrollToSection("checkout-section"), 150);
   };
 
   useEffectOnce(() => {
     event("ViewContent");
   });
 
-  // IntersectionObserver for offer_seen, view_content
+  // IntersectionObserver for offer_seen, checkout_seen, view_content
   useEffect(() => {
-    const observe = (id: string, eventName: string) => {
+    const setup = (id: string, eventName: string) => {
       const el = document.getElementById(id);
-      if (!el) return;
+      if (!el) {
+        console.warn(`PostHog: element "${id}" not found, skipping ${eventName}`);
+        return;
+      }
 
       const observer = new IntersectionObserver(
         (entries) => {
@@ -75,14 +67,16 @@ export const TimedContent = ({
             }
           });
         },
-        { threshold: 0.4 }
+        // malo "lakši" uvjeti za mobitel
+        { threshold: 0.3, rootMargin: "0px 0px -120px 0px" }
       );
 
       observer.observe(el);
     };
 
-    observe("offer-section", "offer_seen");
-    observe("testimonial-section", "view_content");
+    setup("offer-section", "offer_seen");
+    setup("checkout-section", "checkout_seen");
+    setup("testimonial-section", "view_content");
   }, []);
 
   // Checkout abandon tracking
@@ -100,28 +94,6 @@ export const TimedContent = ({
     return () => window.removeEventListener("beforeunload", handler);
   }, [checkoutExpanded]);
 
-  // Checkout seen tracking (only after checkout is expanded)
-  useEffect(() => {
-    if (!checkoutExpanded) return;
-
-    const el = document.getElementById("checkout-section");
-    if (!el) return;
-
-    const observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting && !sessionStorage.getItem("checkout_seen")) {
-            sessionStorage.setItem("checkout_seen", "1");
-            posthog.capture("checkout_seen");
-          }
-        });
-      },
-      { threshold: 0.4 }
-    );
-
-    observer.observe(el);
-    return () => observer.disconnect();
-  }, [checkoutExpanded]);
 
   return (
     <React.Fragment>

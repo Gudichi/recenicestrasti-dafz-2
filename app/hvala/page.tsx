@@ -163,7 +163,10 @@ export default async function CompletionPage({
           options={{ value: paymentIntent.amount / 100, currency: "EUR" }}
         />
       )}
-      <PostHogThankYouTracker />
+      <PostHogThankYouTracker
+        amount={paymentIntent?.amount ? paymentIntent.amount / 100 : 47}
+        currency={(paymentIntent?.currency || "eur").toUpperCase()}
+      />
     </div>
   );
 }

@@ -20,6 +20,9 @@ export default function AboveTheFold({ version }: { version: Version }) {
       const v = (params.get("v") || "a").toLowerCase();
       if ("abcdef".includes(v)) {
         posthog.register({ variant: v });
+        try {
+          localStorage.setItem("ph_variant", v);
+        } catch {}
       }
     } catch {}
 
@@ -33,12 +36,20 @@ export default function AboveTheFold({ version }: { version: Version }) {
       __m8 = false,
       __done = false;
     let __videoPlayed = false;
+    let __dur = 0;
 
     // @ts-ignore
     window._wq.push({
       id: videoId,
       onReady: (video: any) => {
         video.bind("timechange", (t: number) => {
+          // Cache duration once
+          if (!__dur && typeof video.duration === "function") {
+            video.duration((d: number) => {
+              __dur = d || 0;
+            });
+          }
+
           // Video play event
           if (!__videoPlayed && t > 1) {
             __videoPlayed = true;
@@ -67,13 +78,9 @@ export default function AboveTheFold({ version }: { version: Version }) {
           }
 
           // Complete event
-          if (!__done && video && typeof video.duration === "function") {
-            video.duration((dur: number) => {
-              if (dur && t >= dur * 0.95) {
-                __done = true;
-                posthog.capture("video_progress", { milestone: "complete" });
-              }
-            });
+          if (!__done && __dur && t >= __dur * 0.95) {
+            __done = true;
+            posthog.capture("video_progress", { milestone: "complete" });
           }
         });
       },
