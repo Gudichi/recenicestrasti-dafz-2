@@ -34,7 +34,7 @@ export default function PaymentForm() {
             email: customerEmail,
           },
         },
-        return_url: `${window.location.origin}/hvala`,
+        return_url: `${window.location.origin}/hvala?redirect_status=succeeded`,
       },
     });
 

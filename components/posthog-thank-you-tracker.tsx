@@ -8,7 +8,7 @@ export const PostHogThankYouTracker = () => {
     try {
       const params = new URLSearchParams(window.location.search);
       const status = params.get("redirect_status");
-      const intent = params.get("payment_intent");
+      const intent = params.get("payment_intent") || params.get("session_id");
 
       if (
         status === "succeeded" &&
