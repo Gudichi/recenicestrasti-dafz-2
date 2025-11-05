@@ -1,4 +1,5 @@
 "use client";
+// Brand landing page for Rečenice Strasti program
 
 import React, { useCallback, useEffect, useState } from "react";
 import PaymentIcons from "@/components/payment-icons";
