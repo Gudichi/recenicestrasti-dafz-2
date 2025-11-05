@@ -569,12 +569,12 @@ export default function BrendPage() {
                 {
                   icon: MessageSquare,
                   title: "Komunikacija koja veže",
-                  desc: "Koristit ćeš "Rečenice Strasti" koje aktiviraju dopamin i stvaraju osjećaj da si mu najposebnija osoba u životu.",
+                  desc: 'Koristit ćeš "Rečenice Strasti" koje aktiviraju dopamin i stvaraju osjećaj da si mu najposebnija osoba u životu.',
                 },
                 {
                   icon: Sparkles,
                   title: "Održavanje kemije",
-                  desc: "Naučit ćeš kako zadržati pažnju i privrženost čak i nakon što se on "vrati" — bez drame, bez borbe, s lakoćom.",
+                  desc: 'Naučit ćeš kako zadržati pažnju i privrženost čak i nakon što se on "vrati" — bez drame, bez borbe, s lakoćom.',
                 },
                 {
                   icon: Award,
