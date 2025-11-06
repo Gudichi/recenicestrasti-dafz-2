@@ -8,6 +8,7 @@
   background-color: #ffffff;
   color: #000000;
   min-height: 100vh;
+  font-family: Arial, sans-serif;
 }
 
 @media (max-width: 968px) {
@@ -26,7 +27,7 @@
 }
 
 .headline {
-  font-family: "Playfair Display", "Cormorant Garamond", serif;
+  font-family: Arial, sans-serif;
   font-size: 2.5rem;
   font-weight: 700;
   line-height: 1.2;
@@ -61,34 +62,27 @@
   color: #000000;
 }
 
-.heroImage {
-  margin: 2rem 0;
-  width: 100%;
+.coverImage {
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  overflow: hidden;
 }
 
-.imagePlaceholder {
+.coverImg {
   width: 100%;
-  aspect-ratio: 16 / 9;
-  background: linear-gradient(135deg, #2c1810 0%, #4a3428 100%);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #ffffff;
-  font-size: 1.25rem;
-  font-weight: 500;
-  border-radius: 4px;
-}
-
-.caption {
-  margin-top: 0.5rem;
-  font-size: 0.875rem;
-  color: #666666;
-  font-style: italic;
-  text-align: center;
+  height: auto;
+  display: block;
+  object-fit: cover;
 }
 
 .content {
-  font-family: "Inter", "Poppins", Arial, sans-serif;
+  font-family: Arial, sans-serif;
   font-size: 1.125rem;
   line-height: 1.8;
   color: #000000;
@@ -109,8 +103,8 @@
 }
 
 .content h2 {
-  font-family: "Playfair Display", "Cormorant Garamond", serif;
-  font-size: 1.75rem;
+  font-family: Arial, sans-serif;
+  font-size: 2rem;
   font-weight: 700;
   margin-top: 2.5rem;
   margin-bottom: 1.5rem;
@@ -119,7 +113,7 @@
 }
 
 .content h3 {
-  font-family: "Playfair Display", "Cormorant Garamond", serif;
+  font-family: Arial, sans-serif;
   font-size: 1.5rem;
   font-weight: 700;
   margin-top: 2rem;
@@ -137,12 +131,14 @@
 .inlineImage {
   margin: 2rem 0;
   width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
-.inlineImage .imagePlaceholder {
-  aspect-ratio: 4 / 3;
-  max-width: 600px;
-  margin: 0 auto;
+.inlineImg {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
 }
 
 .divider {
@@ -166,21 +162,6 @@
   border-radius: 8px;
   padding: 2rem;
   margin: 2.5rem 0;
-  position: relative;
-}
-
-.sponsoredBadge {
-  position: absolute;
-  top: 1rem;
-  right: 1rem;
-  background-color: #2c1810;
-  color: #ffffff;
-  font-size: 0.75rem;
-  font-weight: 600;
-  padding: 0.375rem 0.75rem;
-  border-radius: 4px;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
 }
 
 .sponsoredBlock h3 {
@@ -195,7 +176,7 @@
 
 .ctaButton {
   display: inline-block;
-  background-color: #2c1810;
+  background-color: #22c55e;
   color: #ffffff;
   font-size: 1rem;
   font-weight: 600;
@@ -210,12 +191,12 @@
 }
 
 .ctaButton:hover {
-  background-color: #1a0f0a;
+  background-color: #16a34a;
   transform: translateY(-1px);
 }
 
 .ctaButton:focus {
-  outline: 2px solid #2c1810;
+  outline: 2px solid #22c55e;
   outline-offset: 2px;
 }
 
@@ -240,7 +221,7 @@
 }
 
 .sidebarTitle {
-  font-family: "Playfair Display", "Cormorant Garamond", serif;
+  font-family: Arial, sans-serif;
   font-size: 1.5rem;
   font-weight: 700;
   margin-bottom: 1.5rem;

@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import styles from "./Adv1.module.css";
 
 export const metadata: Metadata = {
@@ -35,26 +36,30 @@ export default function Adv1Page() {
   const publishDate = new Date();
 
   return (
-    <div className={styles.container}>
-      <article className={styles.article}>
-        <header className={styles.header}>
-          <h1 className={styles.headline}>
-            Smijali su se kad sam rekla da mi svakog dana barem jedan dečko priđe na ulici — dok im nisam otkrila TAJNU zbog koje se to događa!
-          </h1>
-          <div className={styles.byline}>
-            <span className={styles.category}>Lifestyle</span>
-            <time dateTime={publishDate.toISOString()}>
-              {formatDate(publishDate)}
-            </time>
-          </div>
-        </header>
-
-        <figure className={styles.heroImage}>
-          <div className={styles.imagePlaceholder}>
-            <span>Ilustracija</span>
-          </div>
-          <figcaption className={styles.caption}>Ilustracija</figcaption>
-        </figure>
+    <>
+      <figure className={styles.coverImage}>
+        <Image
+          src="/adv1-im1.png"
+          alt="Cover slika"
+          width={1920}
+          height={800}
+          className={styles.coverImg}
+          priority
+        />
+      </figure>
+      <div className={styles.container}>
+        <article className={styles.article}>
+          <header className={styles.header}>
+            <h1 className={styles.headline}>
+              Smijali su se kad sam rekla da mi svakog dana barem jedan dečko priđe na ulici — dok im nisam otkrila TAJNU zbog koje se to događa!
+            </h1>
+            <div className={styles.byline}>
+              <span className={styles.category}>Lifestyle</span>
+              <time dateTime={publishDate.toISOString()}>
+                {formatDate(publishDate)}
+              </time>
+            </div>
+          </header>
 
         <div className={styles.content}>
           <p className={styles.lead}>
@@ -76,10 +81,13 @@ export default function Adv1Page() {
           </p>
 
           <figure className={styles.inlineImage}>
-            <div className={styles.imagePlaceholder}>
-              <span>Ilustracija</span>
-            </div>
-            <figcaption className={styles.caption}>Ilustracija</figcaption>
+            <Image
+              src="/adv1-im2.a.png"
+              alt="Ilustracija"
+              width={600}
+              height={400}
+              className={styles.inlineImg}
+            />
           </figure>
 
           <p>
@@ -93,10 +101,13 @@ export default function Adv1Page() {
           <h2>Znaš ono kad se središ... i ništa se ne dogodi?</h2>
 
           <figure className={styles.inlineImage}>
-            <div className={styles.imagePlaceholder}>
-              <span>Ilustracija</span>
-            </div>
-            <figcaption className={styles.caption}>Ilustracija</figcaption>
+            <Image
+              src="/adv1-im3.png"
+              alt="Ilustracija"
+              width={600}
+              height={400}
+              className={styles.inlineImg}
+            />
           </figure>
 
           <p>
@@ -126,10 +137,13 @@ export default function Adv1Page() {
           <h2>Što se dogodilo muškarcima?</h2>
 
           <figure className={styles.inlineImage}>
-            <div className={styles.imagePlaceholder}>
-              <span>Ilustracija</span>
-            </div>
-            <figcaption className={styles.caption}>Ilustracija</figcaption>
+            <Image
+              src="/adv1-im4.png"
+              alt="Ilustracija"
+              width={600}
+              height={400}
+              className={styles.inlineImg}
+            />
           </figure>
 
           <p>
@@ -230,7 +244,7 @@ export default function Adv1Page() {
 
           <hr className={styles.divider} />
 
-          <h2>💡 Kako funkcionira?</h2>
+          <h2>Kako funkcionira?</h2>
 
           <p>
             <em>U aplikaciji svaki dan dobiješ:</em>
@@ -257,7 +271,6 @@ export default function Adv1Page() {
           <hr className={styles.divider} />
 
           <div className={styles.sponsoredBlock}>
-            <div className={styles.sponsoredBadge}>Sponzorirano</div>
             <h3>Najbolji osjećaj? Kad te prvi put pita: <em>"Hej, oprosti... poznajemo li se?"</em></h3>
             <p>
               Ne moraš <em>promijeniti izgled.</em>
@@ -328,7 +341,8 @@ export default function Adv1Page() {
           ))}
         </ul>
       </aside>
-    </div>
+      </div>
+    </>
   );
 }
 
