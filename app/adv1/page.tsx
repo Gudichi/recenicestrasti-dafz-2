@@ -2,6 +2,24 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import styles from "./Adv1.module.css";
 
+// Import Google Fonts
+import { Open_Sans } from "next/font/google";
+import { Merriweather } from "next/font/google";
+
+const openSans = Open_Sans({
+  weight: ["700"],
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-open-sans",
+});
+
+const merriweather = Merriweather({
+  weight: ["300", "400", "700"],
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-merriweather",
+});
+
 export const metadata: Metadata = {
   title: "Smijali su se kad sam rekla da mi svakog dana barem jedan dečko priđe na ulici",
   description:
@@ -34,31 +52,38 @@ const latestNews = [
 
 export default function Adv1Page() {
   const publishDate = new Date();
+  const dayNames = ["nedjelja", "ponedjeljak", "utorak", "srijeda", "četvrtak", "petak", "subota"];
+  const dayName = dayNames[publishDate.getDay()];
+  const timeString = publishDate.toLocaleTimeString("hr-HR", { hour: "2-digit", minute: "2-digit" });
 
   return (
-    <>
-      <figure className={styles.coverImage}>
-        <Image
-          src="/adv1-im1.png"
-          alt="Cover slika"
-          width={1920}
-          height={800}
-          className={styles.coverImg}
-          priority
-        />
-      </figure>
+    <div className={`${openSans.variable} ${merriweather.variable}`}>
+      <header className={styles.siteHeader}>
+        <div className={styles.headerContent}>
+          <h1 className={styles.siteLogo}>Ja Sam Žena</h1>
+        </div>
+      </header>
       <div className={styles.container}>
         <article className={styles.article}>
           <header className={styles.header}>
             <h1 className={styles.headline}>
               Smijali su se kad sam rekla da mi svakog dana barem jedan dečko priđe na ulici — dok im nisam otkrila TAJNU zbog koje se to događa!
             </h1>
+            <div className={styles.categoryTag}>LJUBAVNI ODNOSI</div>
             <div className={styles.byline}>
-              <span className={styles.category}>Lifestyle</span>
-              <time dateTime={publishDate.toISOString()}>
-                {formatDate(publishDate)}
-              </time>
+              Piše Martina Akrapović, {dayName} u {timeString}
             </div>
+            <div className={styles.readingTime}>Čitanje članka: 2 minute</div>
+            <figure className={styles.coverImage}>
+              <Image
+                src="/adv1-im1.png"
+                alt="Cover slika"
+                width={1920}
+                height={800}
+                className={styles.coverImg}
+                priority
+              />
+            </figure>
           </header>
 
         <div className={styles.content}>
@@ -342,7 +367,7 @@ export default function Adv1Page() {
         </ul>
       </aside>
       </div>
-    </>
+    </div>
   );
 }
 
