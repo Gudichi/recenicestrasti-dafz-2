@@ -156,25 +156,27 @@ export default function AdvertorialPage() {
         <header className={styles.hero}>
           <div className={styles.heroImageWrap}>
             <Image
-              src="/Lepa-srecna.png"
-              alt="Fotografija žene koja bilježi svoje doživljaje u dnevnik"
+              src="/Gif-1.gif"
+              alt="Gif prikaz aplikacije koja šalje dnevne zadatke"
               width={1280}
               height={860}
               className={styles.heroImage}
               priority
               sizes="(max-width: 768px) 100vw, 720px"
+              unoptimized
             />
           </div>
           <p className={styles.heroCaption}>
-            Iz osobne bilješke mentorice – kako je program “Rečenice Strasti”
-            promijenio tok jedne veze.
+            Svakog jutra otvorim aplikaciju, dobijem konkretne korake i znam
+            točno što je sljedeće.
           </p>
         </header>
 
         <AsSeenIn />
 
         <h1 className={styles.headline}>
-          Rečenice Strasti: intimna priča o povratku bliskosti
+          I tako sam počela koristiti aplikaciju koja ti svaki dan kaže što da
+          napraviš — i gdje.
         </h1>
         <div
           className={styles.bodyText}
