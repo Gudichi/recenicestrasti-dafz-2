@@ -156,7 +156,7 @@ export default function AdvertorialPage() {
         <header className={styles.hero}>
           <div className={styles.heroImageWrap}>
             <Image
-              src="/Gif-1.gif"
+              src="/gif-1.gif"
               alt="Gif prikaz aplikacije koja šalje dnevne zadatke"
               width={1280}
               height={860}
