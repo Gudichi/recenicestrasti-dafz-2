@@ -1,23 +1,21 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import styles from "./Adv1.module.css";
+import { Lora, Poppins } from "next/font/google";
 
-// Import Google Fonts
-import { Open_Sans } from "next/font/google";
-import { Merriweather } from "next/font/google";
-
-const openSans = Open_Sans({
-  weight: ["700"],
+const poppins = Poppins({
+  weight: ["400", "600", "700"],
   subsets: ["latin"],
   display: "swap",
-  variable: "--font-open-sans",
+  variable: "--font-poppins",
 });
 
-const merriweather = Merriweather({
-  weight: ["300", "400", "700"],
+const lora = Lora({
+  weight: ["400", "600"],
+  style: ["normal", "italic"],
   subsets: ["latin"],
   display: "swap",
-  variable: "--font-merriweather",
+  variable: "--font-lora",
 });
 
 export const metadata: Metadata = {
@@ -33,13 +31,6 @@ export const metadata: Metadata = {
   },
 };
 
-const formatDate = (date: Date) => {
-  return new Intl.DateTimeFormat("hr-HR", {
-    dateStyle: "medium",
-    timeStyle: "short",
-  }).format(date);
-};
-
 const latestNews = [
   { category: "Lifestyle", title: "5 znakova da je vrijeme za promjenu", time: "12 min" },
   { category: "Savjeti", title: "Kako prepoznati pravu priliku", time: "25 min" },
@@ -50,6 +41,182 @@ const latestNews = [
   { category: "Odnosi", title: "Tajna uspješnih veza", time: "1 dan" },
 ];
 
+function normalizeAdvertorialHTML(raw: string): string {
+  let html = raw;
+
+  html = html.replace(/<u>([\s\S]*?)<\/u>/gi, '<span class="u">$1</span>');
+  html = html.replace(/<b>/gi, "<strong>").replace(/<\/b>/gi, "</strong>");
+  html = html.replace(/<i>/gi, "<em>").replace(/<\/i>/gi, "</em>");
+
+  html = html.replace(/<(h[1-3])([^>]*)>([\s\S]*?)<\/\1>/gi, (match, tag, attrs, inner) => {
+    const cleaned = inner.replace(/<\/?strong>/gi, "").replace(/<\/?em>/gi, "");
+    return `<${tag}${attrs}>${cleaned}</${tag}>`;
+  });
+
+  html = html
+    .replace(/<strong>\s*(<em>[\s\S]*?<\/em>)\s*<\/strong>/gi, "$1")
+    .replace(/<em>\s*(<strong>[\s\S]*?<\/strong>)\s*<\/em>/gi, "$1");
+
+  html = applyBlockquoteHeuristics(html);
+  html = wrapBareTextLines(html);
+
+  return html.trim();
+}
+
+function applyBlockquoteHeuristics(html: string): string {
+  return html.replace(/<p\b([^>]*)>([\s\S]*?)<\/p>/gi, (match, attrs, inner) => {
+    const textOnly = inner.replace(/<[^>]+>/g, "").trim();
+    const startsWithQuote = /^(["“„'])/.test(textOnly);
+    const endsWithQuote = /(["”''])$/.test(textOnly);
+    if (textOnly && startsWithQuote && endsWithQuote) {
+      return `<blockquote>${inner}</blockquote>`;
+    }
+    return match;
+  });
+}
+
+function wrapBareTextLines(html: string): string {
+  return html.replace(/(?:^|\n)([^<\n][^\n]+)(?=\n|$)/g, (match, line) => {
+    if (/^\s*(#+|[-*]>?|<\/?\w)/.test(line)) {
+      return match;
+    }
+    const trimmedLine = line.trim();
+    if (!trimmedLine) {
+      return match;
+    }
+    return `\n<p>${trimmedLine}</p>`;
+  });
+}
+
+function enforceEmphasisLimits(html: string): string {
+  const limitTag = (content: string, tag: "strong" | "em") => {
+    let count = 0;
+    const tagRegExp = new RegExp(`<${tag}>([\\s\\S]*?)<\/${tag}>`, "gi");
+    return content.replace(tagRegExp, (fullMatch, inner) => {
+      count += 1;
+      if (count <= 2) {
+        return `<${tag}>${inner}</${tag}>`;
+      }
+      return inner;
+    });
+  };
+
+  return html.replace(/<p\b([^>]*)>([\s\S]*?)<\/p>/gi, (match, attrs, inner) => {
+    const limitedStrong = limitTag(inner, "strong");
+    const limitedEm = limitTag(limitedStrong, "em");
+    return `<p${attrs}>${limitedEm}</p>`;
+  });
+}
+
+function addLeadClasses(html: string, maxLead = 3): string {
+  let seen = 0;
+  return html.replace(/<p\b([^>]*)>/gi, (match, attrs) => {
+    if (seen >= maxLead) {
+      return match;
+    }
+    const attrString = attrs || "";
+    seen += 1;
+    if (/class=/i.test(attrString)) {
+      return `<p${attrString.replace(/class="([^"]*)"/i, (_m, classNames) => ` class="${classNames} lead"`)}>`;
+    }
+    return `<p${attrString} class="lead">`;
+  });
+}
+
+function prepareAdvertorialHtml(raw: string): string {
+  const normalized = normalizeAdvertorialHTML(raw);
+  const limited = enforceEmphasisLimits(normalized);
+  return addLeadClasses(limited);
+}
+
+const rawAdvertorialContent = `
+<p><strong>ALI onda sam im otkrila TAJNU.</strong></p>
+<p>"Ma daj... ne živiš u filmu."<br/>"To ti je sigurno neki čudak."<br/>"U Zagrebu? Da ti priđe normalan muškarac – svaki dan? Daj, budi realna."</p>
+<p>To su mi rekli. Prijateljice. Kolegice. Čak i sestra. Iskreno? Vjerojatno bih i ja isto rekla da nisam prošla kroz... ono što sam prošla.</p>
+<figure><img src="/adv1-im2.a.png" alt="Žena koja razmišlja" loading="lazy"/></figure>
+<p>Jer prije tri mjeseca, osjećala sam se totalno suprotno. Kao da sam postala — <em>prozirna.</em></p>
+<hr />
+<h2>Znaš ono kad se središ... i ništa se ne dogodi?</h2>
+<figure><img src="/adv1-im3.png" alt="Spremna za izlazak" loading="lazy"/></figure>
+<p>Obuješ one čizme koje ti dobro stoje. Osmijeh na licu, držiš se lijepo. Čak se uhvatiš da ga pogledaš...</p>
+<p>...i opet ništa. Nitko ne reagira. Nitko ne prilazi. Osjećaš se kao ukras u pozadini scene.</p>
+<p>Mislila sam: "Možda je do mene." Ali kad sam počela pričati s drugim ženama, shvatila sam — <em>nismo mi problem.</em> Problem je što su muškarci — pogubljeni.</p>
+<hr />
+<h2>Što se dogodilo muškarcima?</h2>
+<figure><img src="/muskarci.png" alt="Zbunjen muškarac" loading="lazy"/></figure>
+<p>Mobiteli. Strah od odbijanja. "Šta ako mi kaže da odem?" #MeToo paranoja. "U redu je biti džentlmen" pretvorilo se u "najbolje da šutim".</p>
+<p>Ali ono što većina žena ne zna... Muškarac ne prilazi zato što <strong>želi</strong>, nego zato što <strong>osjeti da smije</strong>.</p>
+<p>I devedeset devet posto žena tog signala više — <strong>ne šalje.</strong> Ne zato što je glupa ili nezanimljiva. Nego zato što ju je <em>život naučio da se zatvori.</em></p>
+<hr />
+<h2>A ja? Ja sam otkrila kako ponovno "upaliti svjetlo"</h2>
+<figure><img src="/svjetlo.png" alt="Simbolične žarulje" loading="lazy"/></figure>
+<p>Nisam otišla na makeover. Nisam učila nikakve rečenice niti glumila samopouzdanje. Nisam čak ni gledala one cringe videe na TikToku o "feminine energy".</p>
+<p>Umjesto toga, netko mi je pokazao <strong>sedam neverbalnih signala</strong> koje muški mozak prepoznaje kao jasno dopuštenje.</p>
+<p>"Otvorena je. Sigurno je. Smiješ joj prići."</p>
+<p>Bilo je... smiješno jednostavno. I da — prvi put kad sam to pokušala, prišao mi je netko normalan.</p>
+<h2>Drugi dan, opet ista stvar.</h2>
+<figure><img src="/pekara.png" alt="Susret u pekari" loading="lazy"/></figure>
+<p>Bila sam u pekari. Samo sam stajala, držala tijelo kako mi je pokazano — i pogledala na točno određeni način.</p>
+<p>"Iskreno... mislim da sam vas već negdje vidio. Ili mi se samo čini?"</p>
+<p><em>Nisam znala što odgovoriti.</em> Ali nisam ni morala. Jer nije bila poanta u tome da budem brza ili zabavna. Poanta je bila — <em>da se opet osjećam primijećeno.</em></p>
+<hr />
+<h2>I tako sam počela koristiti aplikaciju koja ti svaki dan kaže što da napraviš — i gdje.</h2>
+<figure><img src="/Gif-1.gif" alt="Demonstracija Signala strasti" loading="lazy"/></figure>
+<p>Zove se <strong>Signali strasti.</strong></p>
+<p>Nije aplikacija za dejtanje. Nije trening za flert. I ne uči te kako "uhvatiti frajera".</p>
+<p>Uči te kako ponovno aktivirati svoju stvarnu prisutnost. Ne online, ne kroz izgled, nego kroz mikro-signale koje tvoje tijelo već zna — samo su ti ih izgasili.</p>
+<hr />
+<h2>Kako funkcionira?</h2>
+<figure><img src="/Gif-2.gif" alt="Kako radi aplikacija" loading="lazy"/></figure>
+<p><em>U aplikaciji svaki dan dobiješ:</em></p>
+<p>✅ jedan signal (trajanje: 60 sekundi ili manje)<br/>✅ psihološko objašnjenje zašto djeluje na muški mozak<br/>✅ savjet koji signal odabrati ovisno o lokaciji (kafić, posao, teretana...)<br/>✅ mentorsku podršku ako želiš provjeru ili samo podijeliti što ti se dogodilo</p>
+<p><em>I iskreno?</em> Većina žena ne stigne ni do trećeg dana, a da se nešto ne dogodi. Pogled više. Osmijeh. Prilazak. Ili samo osjećaj da nisi duh u prostoru.</p>
+<hr />
+<div data-sponsor>
+  <h3>Najbolji osjećaj? Kad te prvi put pita: "Hej, oprosti... poznajemo li se?"</h3>
+  <p>Ne moraš promijeniti izgled. Ne moraš mijenjati svoj stil komunikacije. I ne moraš glumiti otvorenost — jer ona već postoji u tebi.</p>
+  <p>Samo je zatrpana pravilima, stresom, sramom i godinama u kojima te nitko nije gledao onako.</p>
+  <a href="/lp1" role="button">Otvori vodič</a>
+</div>
+<hr />
+<h2>I što sam otkrila?</h2>
+<figure><img src="/signli.png" alt="Rezultati Signala strasti" loading="lazy"/></figure>
+<p><strong>Otkrila sam da se vidljivost ne događa slučajno.</strong> Događa se kad pošalješ signal. A sada znam — <strong>koji.</strong></p>
+<p>Zato kad mi kažu:</p>
+<p>"Ma daj, nije moguće da ti svaki dan netko priđe..."</p>
+<hr />
+<p>➡️ Ako i ti želiš osjetiti kako je to — kad netko <em>primijeti baš tebe</em>, probaj prvi signal već danas.</p>
+<p>Bez obveze. Bez glume. Samo ti — kako te muškarci još nisu vidjeli.</p>
+<p><span class="u">Otvori Signale Strasti ovdje</span><br/>(i vidi što se dogodi sljedeći put kad uđeš u kafić.)</p>
+`;
+
+const advertorialHtml = prepareAdvertorialHtml(rawAdvertorialContent);
+
+function AsSeenIn() {
+  const brands = ["24sata.hr", "Jutarnji.hr", "Index Rouge", "Lepa & Srećna"];
+
+  return (
+    <section className={styles.asSeenWrap} aria-label="Viđeno u medijima">
+      <div className={styles.asSeenHeader}>
+        <span className={styles.ruleLeft} aria-hidden="true" />
+        <span className={styles.asSeenLabel}>Viđeno u medijima</span>
+        <span className={styles.ruleRight} aria-hidden="true" />
+      </div>
+      <div className={styles.asSeenBox}>
+        <ul className={styles.brandList}>
+          {brands.map((brand) => (
+            <li key={brand} className={styles.brandItem}>
+              <span className={styles.brandText} aria-label={brand}>
+                {brand}
+              </span>
+            </li>
+          ))}
+        </ul>
+      </div>
+    </section>
+  );
+}
+
 export default function Adv1Page() {
   const publishDate = new Date();
   const dayNames = ["nedjelja", "ponedjeljak", "utorak", "srijeda", "četvrtak", "petak", "subota"];
@@ -57,7 +224,7 @@ export default function Adv1Page() {
   const timeString = publishDate.toLocaleTimeString("hr-HR", { hour: "2-digit", minute: "2-digit" });
 
   return (
-    <div className={`${openSans.variable} ${merriweather.variable}`}>
+    <div className={`${poppins.variable} ${lora.variable}`}>
       <header className={styles.siteHeader}>
         <div className={styles.headerContent}>
           <h1 className={styles.siteLogo}>Ja Sam Žena</h1>
@@ -86,286 +253,27 @@ export default function Adv1Page() {
             </figure>
           </header>
 
-        <div className={styles.content}>
-          <p className={styles.lead}>
-            <strong>ALI onda sam im otkrila TAJNU.</strong>
-          </p>
+          <AsSeenIn />
 
-          <p>
-            "Ma daj... ne živiš u filmu."
-            <br />
-            "To ti je sigurno neki čudak."
-            <br />
-            "U Zagrebu? Da ti priđe normalan muškarac – svaki dan? Daj, budi realna."
-          </p>
-
-          <p>
-            To su mi rekli. Prijateljice. Kolegice. Čak i sestra.
-            <br />
-            Iskreno? Vjerojatno bih i ja isto rekla da nisam prošla kroz... ono što sam prošla.
-          </p>
-
-          <figure className={styles.inlineImage}>
-            <Image
-              src="/adv1-im2.a.png"
-              alt="Ilustracija"
-              width={600}
-              height={400}
-              className={styles.inlineImg}
-            />
-          </figure>
-
-          <p>
-            Jer prije 3 mjeseca, osjećala sam se totalno suprotno.
-            <br />
-            Kao da sam postala — <em>prozirna.</em>
-          </p>
-
-          <hr className={styles.divider} />
-
-          <h2>Znaš ono kad se središ... i ništa se ne dogodi?</h2>
-
-          <figure className={styles.inlineImage}>
-            <Image
-              src="/adv1-im3.png"
-              alt="Ilustracija"
-              width={600}
-              height={400}
-              className={styles.inlineImg}
-            />
-          </figure>
-
-          <p>
-            Obuješ one čizme koje ti dobro stoje.
-            <br />
-            Osmijeh na licu, držiš se lijepo. Čak se uhvatiš da ga pogledaš...
-            <br />
-            ...i opet ništa.
-          </p>
-
-          <p>
-            Nitko ne reagira. Nitko ne prilazi.
-            <br />
-            Osjećaš se kao ukras u pozadini scene.
-          </p>
-
-          <p>
-            Mislila sam: "Možda je do mene."
-            <br />
-            Ali kad sam počela pričati s drugim ženama, shvatila sam — <em>nismo mi problem.</em>
-            <br />
-            Problem je što su muškarci — pogubljeni.
-          </p>
-
-          <hr className={styles.divider} />
-
-          <h2>Što se dogodilo muškarcima?</h2>
-
-          <figure className={styles.inlineImage}>
-            <Image
-              src="/adv1-im4.png"
-              alt="Ilustracija"
-              width={600}
-              height={400}
-              className={styles.inlineImg}
-            />
-          </figure>
-
-          <p>
-            Mobiteli. Strah od odbijanja. "Šta ako mi kaže da od*ebem?"
-            <br />
-            #MeToo paranoja. "Uredu je biti džentlmen" pretvorilo se u "najbolje da šutim".
-          </p>
-
-          <p>
-            Ali ono što većina žena ne zna...
-            <br />
-            Muškarac ne prilazi zato što <strong>želi</strong>, nego zato što <strong>osjeti da smije</strong>.
-          </p>
-
-          <p>
-            I 99% žena tog signala više — <strong>ne šalje.</strong>
-          </p>
-
-          <p>
-            Ne zato što je glupa. Ili nezanimljiva. Ili ne zna flertati.
-            <br />
-            Nego zato što ju je <em>život naučio da se zatvori.</em>
-          </p>
-
-          <hr className={styles.divider} />
-
-          <h2>A ja? Ja sam otkrila kako ponovno "upaliti svjetlo"</h2>
-
-          <p>
-            Nisam otišla na <em>makeover.</em>
-            <br />
-            Nisam <em>učila nikakve rečenice ili glumila samopouzdanje</em>.
-            <br />
-            Nisam <em>čak ni gledala one cringe videe na TikToku o "feminine energy."</em>
-          </p>
-
-          <p>
-            Umjesto toga, netko mi je pokazao <strong><em>7 neverbalnih signala</em></strong> — <em>koje muški mozak prepoznaje kao</em>
-          </p>
-
-          <p className={styles.quote}>
-            <em>"Otvorena je. Sigurno je. Smiješ joj prići."</em>
-          </p>
-
-          <p>
-            Bilo je... smiješno jednostavno.
-            <br />
-            I da — prvi <strong>put kad sam to pokušala</strong>, <em>prišao mi je</em> <strong><em>netko normalan.</em></strong>
-          </p>
-
-          <h2>Drugi dan, opet ista stvar.</h2>
-
-          <p>
-            Bila sam u pekari.
-            <br />
-            Samo sam stajala, <em>držala tijelo kako mi je pokazano</em> — <em>i pogledala na točno određeni način.</em>
-          </p>
-
-          <p>Tip iza mene rekao je:</p>
-
-          <p className={styles.quote}>
-            <em>"Iskreno... mislim da sam vas već negdje vidio. Ili mi se samo čini?"</em>
-          </p>
-
-          <p>
-            <em>Nisam znala što odgovoriti.</em>
-            <br />
-            <strong>Ali nisam ni morala.</strong> <em>Jer nije bila poanta u tome da budem brza, pametna ili zabavna.</em>
-            <br />
-            Poanta je bila — <em>da se opet osjećam... primijećeno.</em>
-          </p>
-
-          <hr className={styles.divider} />
-
-          <h2>I tako sam počela koristiti aplikaciju koja ti <em>svaki dan kaže</em> <em>što</em> <em>da napraviš</em> — i <em>gdje</em>.</h2>
-
-          <p>
-            Zove se <strong>Signali strasti.</strong>
-          </p>
-
-          <p>
-            Nije <strong>aplikacija za dejtanje.</strong>
-            <br />
-            Nije <strong>trening za flert.</strong>
-            <br />
-            I ne uči te <strong>kako "uhvatiti frajera."</strong>
-          </p>
-
-          <p>
-            Uči te <em>kako ponovno aktivirati svoju stvarnu prisutnost.</em>
-          </p>
-
-          <p>
-            Ne online. Ne kroz izgled.
-            <br />
-            Nego kroz mikro-signale koje tvoje tijelo već zna — samo su ti ih izgasili.
-          </p>
-
-          <hr className={styles.divider} />
-
-          <h2>Kako funkcionira?</h2>
-
-          <p>
-            <em>U aplikaciji svaki dan dobiješ:</em>
-          </p>
-
-          <p>
-            ✅ 1 signal (trajanje: 60 sekundi ili manje)
-            <br />
-            ✅ psihološko objašnjenje zašto djeluje na muški mozak
-            <br />
-            ✅ savjet koji signal odabrati ovisno o lokaciji (kafić, posao, teretana...)
-            <br />
-            ✅ mentorsku podršku ako želiš provjeru ili samo podijeliti što ti se dogodilo
-          </p>
-
-          <p>
-            <em>I iskreno?</em>
-            <br />
-            <strong><em>Većina žena ne stigne ni do 3. dana, a da se nešto ne dogodi.</em></strong>
-            <br />
-            <em>Pogled više. Osmijeh. Prilazak. Ili samo...</em> <em>osjećaj da nisi duh u prostoru.</em>
-          </p>
-
-          <hr className={styles.divider} />
-
-          <div className={styles.sponsoredBlock}>
-            <h3>Najbolji osjećaj? Kad te prvi put pita: <em>"Hej, oprosti... poznajemo li se?"</em></h3>
-            <p>
-              Ne moraš <em>promijeniti izgled.</em>
-              <br />
-              Ne moraš <em>mijenjati svoj stil komunikacije.</em>
-              <br />
-              I ne moraš <em>"glumiti otvorenost"</em> — <em>jer ona već postoji u tebi.</em>
-            </p>
-            <p>
-              <em>Samo je zatrpana pravilima, stresom, sramom i godinama u kojima te nitko nije gledao onako.</em>
-            </p>
-            <a href="/lp1" className={styles.ctaButton} role="button" aria-label="Otvori vodič">
-              Otvori vodič
-            </a>
+          <div className={styles.articleBody}>
+            <div className={styles.bodyText} dangerouslySetInnerHTML={{ __html: advertorialHtml }} />
           </div>
+        </article>
 
-          <hr className={styles.divider} />
-
-          <h2>I što sam otkrila?</h2>
-
-          <p>
-            <strong>Otkrila sam da se</strong> <em><strong>vidljivost ne događa slučajno.</strong></em>
-            <br />
-            Događa se kad pošalješ signal.
-            <br />
-            A sada znam — <strong>koji.</strong>
-          </p>
-
-          <p>Zato kad mi kažu:</p>
-
-          <p className={styles.quote}>
-            <strong>"Ma daj, nije moguće da ti svaki dan neko priđe..."</strong>
-          </p>
-
-          <hr className={styles.divider} />
-
-          <p>
-            ➡️ Ako i ti želiš osjetiti kako je to — kad netko <em>primijeti baš tebe</em>,
-            <br />
-            probaj prvi signal već danas.
-          </p>
-
-          <p>
-            Bez obveze. Bez glume.
-            <br />
-            Samo ti — kako te muškarci još nisu vidjeli.
-          </p>
-
-          <p>
-            [Otvori Signale Strasti ovdje]
-            <br />
-            (<em>i vidi što se dogodi sljedeći put kad uđeš u kafić.</em>)
-          </p>
-        </div>
-      </article>
-
-      <aside className={styles.sidebar}>
-        <h3 className={styles.sidebarTitle}>Najnovije</h3>
-        <ul className={styles.latestList}>
-          {latestNews.map((item, index) => (
-            <li key={index} className={styles.latestItem}>
-              <a href="#" className={styles.latestLink}>
-                <span className={styles.latestCategory}>{item.category}</span>
-                <span className={styles.latestTitle}>{item.title}</span>
-                <span className={styles.latestTime}>{item.time}</span>
-              </a>
-            </li>
-          ))}
-        </ul>
-      </aside>
+        <aside className={styles.sidebar}>
+          <h3 className={styles.sidebarTitle}>Najnovije</h3>
+          <ul className={styles.latestList}>
+            {latestNews.map((item, index) => (
+              <li key={index} className={styles.latestItem}>
+                <a href="#" className={styles.latestLink}>
+                  <span className={styles.latestCategory}>{item.category}</span>
+                  <span className={styles.latestTitle}>{item.title}</span>
+                  <span className={styles.latestTime}>{item.time}</span>
+                </a>
+              </li>
+            ))}
+          </ul>
+        </aside>
       </div>
     </div>
   );
