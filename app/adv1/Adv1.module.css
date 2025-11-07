@@ -1,3 +1,9 @@
+.page {
+  min-height: 100vh;
+  background: linear-gradient(180deg, #fdfaf5 0%, #f7efe5 100%);
+  padding-bottom: 4rem;
+}
+
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -422,6 +428,19 @@
   color: #333333;
 }
 
+.brandLogo {
+  max-height: 32px;
+  width: auto;
+  opacity: 0.9;
+  filter: grayscale(100%);
+  transition: opacity 0.2s ease, filter 0.2s ease;
+}
+
+.brandLogo:hover {
+  filter: grayscale(60%);
+  opacity: 1;
+}
+
 .brandItem:nth-child(1) .brandText {
   letter-spacing: 0.25em;
   font-weight: 600;
@@ -439,72 +458,40 @@
   letter-spacing: 0.1em;
 }
 
-@media (prefers-color-scheme: dark) {
-  .siteHeader {
-    background-color: rgba(16, 14, 13, 0.9);
-    border-bottom-color: rgba(240, 231, 201, 0.18);
-  }
 
-  .container {
-    background-color: #100f10;
-    color: #eae5dd;
-  }
+.bodyText .ctaFooter {
+  margin-top: 2.4rem;
+  text-align: center;
+}
 
-  .headline,
-  .bodyText,
-  .bodyText h2,
-  .bodyText h3,
-  .sidebarTitle,
-  .latestTitle {
-    color: #f3eee7;
-  }
+.bodyText .ctaFooterButton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.9rem 2.25rem;
+  border-radius: 999px;
+  font-family: var(--font-poppins, "Poppins"), system-ui, sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  background: linear-gradient(135deg, #ff7f4d 0%, #ff4d6d 100%);
+  text-decoration: none;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
 
-  .categoryTag {
-    background: rgba(255, 231, 208, 0.16);
-    color: #f1c79f;
-  }
+.bodyText .ctaFooterButton:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 24px rgba(255, 102, 102, 0.3);
+}
 
-  .byline,
-  .readingTime,
-  .latestCategory,
-  .latestTime {
-    color: #b8aca1;
-  }
+.bodyText .ctaFooterButton:focus-visible {
+  outline: 3px solid rgba(255, 102, 102, 0.45);
+  outline-offset: 4px;
+}
 
-  .coverImage {
-    box-shadow: 0 24px 48px rgba(0, 0, 0, 0.38);
-  }
-
-  .bodyText hr {
-    border-top-color: rgba(229, 225, 220, 0.18);
-  }
-
-  .bodyText blockquote {
-    border-left-color: rgba(229, 225, 220, 0.28);
-    color: #fff4e7;
-  }
-
-  .bodyText [data-sponsor] {
-    background: rgba(36, 30, 24, 0.75);
-    border-color: rgba(240, 230, 216, 0.18);
-    box-shadow: 0 24px 40px rgba(0, 0, 0, 0.4);
-  }
-
-  .sidebar {
-    background-color: rgba(28, 24, 22, 0.8);
-    border-color: rgba(239, 229, 214, 0.14);
-  }
-
-  .asSeenLabel {
-    color: #9c9c9c;
-  }
-
-  .asSeenBox {
-    background: rgba(18, 17, 17, 0.9);
-    border-color: rgba(240, 231, 201, 0.22);
-  }
-
-  .brandText {
-    color: #bdbdbd;
-  }
+.bodyText .ctaFooterHint {
+  margin-top: 0.75rem;
+  font-size: 0.95rem;
+  color: #6d6259;
 }

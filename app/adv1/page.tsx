@@ -187,13 +187,19 @@ const rawAdvertorialContent = `
 <hr />
 <p>➡️ Ako i ti želiš osjetiti kako je to — kad netko <em>primijeti baš tebe</em>, probaj prvi signal već danas.</p>
 <p>Bez obveze. Bez glume. Samo ti — kako te muškarci još nisu vidjeli.</p>
-<p><span class="u">Otvori Signale Strasti ovdje</span><br/>(i vidi što se dogodi sljedeći put kad uđeš u kafić.)</p>
+<p class="ctaFooter"><a href="/lp1" class="ctaFooterButton">Otvori Signale Strasti ovdje</a></p>
+<p class="ctaFooterHint">(i vidi što se dogodi sljedeći put kad uđeš u kafić.)</p>
 `;
 
 const advertorialHtml = prepareAdvertorialHtml(rawAdvertorialContent);
 
 function AsSeenIn() {
-  const brands = ["24sata.hr", "Jutarnji.hr", "Index Rouge", "Lepa & Srećna"];
+  const brands = [
+    { name: "24sata.hr", logo: "/24h.png", width: 132, height: 36, alt: "24sata.hr" },
+    { name: "Jutarnji.hr", logo: "/jutranji.png", width: 160, height: 36, alt: "Jutarnji.hr" },
+    { name: "Index Rouge", logo: "/Index-rogue.png", width: 156, height: 36, alt: "Index Rouge" },
+    { name: "Lepa & Srećna", logo: "/Lepa-srecna.png", width: 164, height: 36, alt: "Lepa & Srećna" },
+  ];
 
   return (
     <section className={styles.asSeenWrap} aria-label="Viđeno u medijima">
@@ -205,10 +211,20 @@ function AsSeenIn() {
       <div className={styles.asSeenBox}>
         <ul className={styles.brandList}>
           {brands.map((brand) => (
-            <li key={brand} className={styles.brandItem}>
-              <span className={styles.brandText} aria-label={brand}>
-                {brand}
-              </span>
+            <li key={brand.name} className={styles.brandItem}>
+              {brand.logo ? (
+                <Image
+                  src={brand.logo}
+                  alt={brand.alt ?? brand.name}
+                  width={brand.width}
+                  height={brand.height}
+                  className={styles.brandLogo}
+                />
+              ) : (
+                <span className={styles.brandText} aria-label={brand.name}>
+                  {brand.name}
+                </span>
+              )}
             </li>
           ))}
         </ul>
@@ -224,7 +240,7 @@ export default function Adv1Page() {
   const timeString = publishDate.toLocaleTimeString("hr-HR", { hour: "2-digit", minute: "2-digit" });
 
   return (
-    <div className={`${poppins.variable} ${lora.variable}`}>
+    <div className={`${poppins.variable} ${lora.variable} ${styles.page}`}>
       <header className={styles.siteHeader}>
         <div className={styles.headerContent}>
           <h1 className={styles.siteLogo}>Ja Sam Žena</h1>
