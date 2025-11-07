@@ -1,5 +1,32 @@
+import Image from "next/image";
 import styles from "./Adv1.module.css";
 import { rawAdvertorial } from "./content";
+
+function AsSeenIn() {
+  const brands = ["24sata.hr", "Jutarnji.hr", "Index Rouge", "Lepa & Srećna"];
+
+  return (
+    <section className={styles.asSeenWrap} aria-label="Viđeno u medijima">
+      <div className={styles.asSeenHeader}>
+        <span className={styles.ruleLeft} aria-hidden="true" />
+        <span className={styles.asSeenLabel}>Viđeno u medijima</span>
+        <span className={styles.ruleRight} aria-hidden="true" />
+      </div>
+
+      <div className={styles.asSeenBox}>
+        <ul className={styles.brandList}>
+          {brands.map((brand) => (
+            <li key={brand} className={styles.brandItem}>
+              <span className={styles.brandText} aria-label={brand}>
+                {brand}
+              </span>
+            </li>
+          ))}
+        </ul>
+      </div>
+    </section>
+  );
+}
 
 function normalizeAdvertorialHTML(raw: string): string {
   let html = raw.trim();
@@ -126,6 +153,26 @@ export default function AdvertorialPage() {
   return (
     <main className={styles.wrapper}>
       <article className={styles.article}>
+        <header className={styles.hero}>
+          <div className={styles.heroImageWrap}>
+            <Image
+              src="/Lepa-srecna.png"
+              alt="Fotografija žene koja bilježi svoje doživljaje u dnevnik"
+              width={1280}
+              height={860}
+              className={styles.heroImage}
+              priority
+              sizes="(max-width: 768px) 100vw, 720px"
+            />
+          </div>
+          <p className={styles.heroCaption}>
+            Iz osobne bilješke mentorice – kako je program “Rečenice Strasti”
+            promijenio tok jedne veze.
+          </p>
+        </header>
+
+        <AsSeenIn />
+
         <h1 className={styles.headline}>
           Rečenice Strasti: intimna priča o povratku bliskosti
         </h1>

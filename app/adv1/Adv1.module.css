@@ -10,6 +10,33 @@
   width: 100%;
 }
 
+.hero {
+  margin-bottom: 2.5rem;
+}
+
+.heroImageWrap {
+  position: relative;
+  overflow: hidden;
+  border-radius: 22px;
+  box-shadow: 0 18px 38px rgba(34, 24, 18, 0.14);
+}
+
+.heroImage {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+
+.heroCaption {
+  margin-top: 1rem;
+  font-family: "Lora", serif;
+  font-size: 15px;
+  line-height: 1.6;
+  color: #6f6258;
+  text-align: center;
+}
+
 .headline {
   font-family: "Poppins", sans-serif;
   font-weight: 700;
@@ -84,6 +111,95 @@
   font-size: clamp(1.5rem, 2.6vw, 1.85rem);
 }
 
+.asSeenWrap {
+  margin: 20px 0 28px;
+}
+
+.asSeenHeader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+
+.asSeenLabel {
+  font-family: "Poppins", system-ui, sans-serif;
+  font-size: 12px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #6b6b6b;
+}
+
+.ruleLeft,
+.ruleRight {
+  display: block;
+  height: 4px;
+  width: 96px;
+  border-radius: 4px;
+  background: #f0e7c9;
+}
+
+.asSeenBox {
+  border: 2px solid #f0e7c9;
+  border-radius: 10px;
+  padding: 14px 16px;
+  background: #fff;
+}
+
+.brandList {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px 16px;
+  align-items: center;
+  justify-items: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.brandItem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 36px;
+}
+
+.brandText {
+  color: #6f6f6f;
+  filter: grayscale(100%);
+  opacity: 0.9;
+  font-weight: 500;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  font-size: 18px;
+  line-height: 1;
+  transition: opacity 0.2s ease, filter 0.2s ease, color 0.2s ease;
+}
+
+.brandText:hover {
+  filter: grayscale(60%);
+  opacity: 1;
+  color: #333;
+}
+
+.brandItem:nth-child(1) .brandText {
+  letter-spacing: 0.25em;
+  font-weight: 600;
+}
+
+.brandItem:nth-child(2) .brandText {
+  letter-spacing: 0.12em;
+}
+
+.brandItem:nth-child(3) .brandText {
+  letter-spacing: 0.08em;
+}
+
+.brandItem:nth-child(4) .brandText {
+  letter-spacing: 0.1em;
+}
+
 @media (max-width: 640px) {
   .wrapper {
     padding: 3rem 1.25rem 4rem;
@@ -99,5 +215,44 @@
 
   .bodyText .lead {
     font-size: 18px;
+  }
+
+  .heroImageWrap {
+    border-radius: 18px;
+  }
+}
+
+@media (min-width: 768px) {
+  .asSeenWrap {
+    margin: 28px 0 36px;
+  }
+
+  .ruleLeft,
+  .ruleRight {
+    width: 140px;
+  }
+
+  .brandList {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 8px 24px;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .heroCaption {
+    color: #b8ada4;
+  }
+
+  .asSeenLabel {
+    color: #9c9c9c;
+  }
+
+  .asSeenBox {
+    background: #0f0f10;
+    border-color: #3a3326;
+  }
+
+  .brandText {
+    color: #bdbdbd;
   }
 }
